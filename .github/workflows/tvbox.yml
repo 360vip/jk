@@ -84,9 +84,7 @@ jobs:
         
     - name: 运行 dl.py (proxy updater)
       run: |
-        cd proxy
         python dl.py
-        cd ..
         
     - name: 运行 mybox.py
       run: |
