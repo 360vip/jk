@@ -73,6 +73,13 @@ jobs:
           echo "警告: proxy/url.txt 不存在"
         fi
         
+        if [ -f "/tmp/private-repo/data/hmd.txt" ]; then
+          cp /tmp/private-repo/data/hmd.txt ./data/
+          echo "hmd.txt 已复制到 data 目录"
+        else
+          echo "警告: data/hmd.txt 不存在"
+        fi
+
         # 清理临时目录
         rm -rf /tmp/private-repo
         echo "私有仓库文件复制完成"
