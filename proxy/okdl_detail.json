@@ -1,200 +1,194 @@
 [
   {
-    "url": "https://gh.idayer.com",
-    "avg_time": 0.07582318782806396,
+    "url": "https://cdn.akaere.online",
+    "avg_time": 0.07563996315002441,
     "success_rate": 100.0,
     "rank": 1
   },
   {
     "url": "https://ghp.arslantu.xyz",
-    "avg_time": 0.07962262630462646,
+    "avg_time": 0.07793009281158447,
     "success_rate": 100.0,
     "rank": 2
   },
   {
-    "url": "https://ghproxy.imciel.com",
-    "avg_time": 0.09037637710571289,
+    "url": "https://gh.monlor.com",
+    "avg_time": 0.09301018714904785,
     "success_rate": 100.0,
     "rank": 3
   },
   {
-    "url": "https://cdn.akaere.online",
-    "avg_time": 0.09221076965332031,
+    "url": "https://gh.jasonzeng.dev",
+    "avg_time": 0.10767948627471924,
     "success_rate": 100.0,
     "rank": 4
   },
   {
-    "url": "https://gh.monlor.com",
-    "avg_time": 0.11660158634185791,
+    "url": "https://ghproxy.imciel.com",
+    "avg_time": 0.1229405403137207,
     "success_rate": 100.0,
     "rank": 5
   },
   {
-    "url": "https://gh.jasonzeng.dev",
-    "avg_time": 0.12225115299224854,
+    "url": "https://gh-proxy.com",
+    "avg_time": 0.14250504970550537,
     "success_rate": 100.0,
     "rank": 6
   },
   {
-    "url": "https://gh-proxy.com",
-    "avg_time": 0.1622631549835205,
-    "success_rate": 100.0,
+    "url": "https://gitproxy.click",
+    "avg_time": 0.17627978324890137,
+    "success_rate": 50.0,
     "rank": 7
   },
   {
-    "url": "https://github.ednovas.xyz",
-    "avg_time": 0.22914409637451172,
+    "url": "https://gh.idayer.com",
+    "avg_time": 0.18536019325256348,
     "success_rate": 100.0,
     "rank": 8
   },
   {
-    "url": "https://gh.b52m.cn",
-    "avg_time": 0.2608526945114136,
+    "url": "https://gh.ddlc.top",
+    "avg_time": 0.2201390266418457,
     "success_rate": 100.0,
     "rank": 9
   },
   {
     "url": "https://cdn.gh-proxy.com",
-    "avg_time": 0.27786052227020264,
+    "avg_time": 0.22447216510772705,
     "success_rate": 100.0,
     "rank": 10
   },
   {
-    "url": "https://gh.noki.icu",
-    "avg_time": 0.2905017137527466,
+    "url": "https://github.tmby.shop",
+    "avg_time": 0.2534496784210205,
     "success_rate": 100.0,
     "rank": 11
   },
   {
-    "url": "https://gh.sixyin.com",
-    "avg_time": 0.31592369079589844,
+    "url": "https://github.ednovas.xyz",
+    "avg_time": 0.27331864833831787,
     "success_rate": 100.0,
     "rank": 12
   },
   {
-    "url": "https://ghproxy.monkeyray.net",
-    "avg_time": 0.3333057165145874,
+    "url": "https://gh-proxy.net",
+    "avg_time": 0.28635072708129883,
     "success_rate": 100.0,
     "rank": 13
   },
   {
-    "url": "https://github.tbedu.top",
-    "avg_time": 0.34078896045684814,
+    "url": "https://gh.noki.icu",
+    "avg_time": 0.35694122314453125,
     "success_rate": 100.0,
     "rank": 14
   },
   {
     "url": "https://gitproxy.127731.xyz",
-    "avg_time": 0.34560155868530273,
+    "avg_time": 0.36582183837890625,
     "success_rate": 100.0,
     "rank": 15
   },
   {
-    "url": "https://gh.ddlc.top",
-    "avg_time": 0.3559291362762451,
+    "url": "https://ghproxy.net",
+    "avg_time": 0.37236618995666504,
     "success_rate": 100.0,
     "rank": 16
   },
   {
     "url": "https://github.dpik.top",
-    "avg_time": 0.35649561882019043,
+    "avg_time": 0.3723973035812378,
     "success_rate": 100.0,
     "rank": 17
   },
   {
-    "url": "https://ghproxy.net",
-    "avg_time": 0.3589470386505127,
+    "url": "https://git.yylx.win",
+    "avg_time": 0.3880734443664551,
     "success_rate": 100.0,
     "rank": 18
   },
   {
-    "url": "https://gh-proxy.net",
-    "avg_time": 0.36935949325561523,
-    "success_rate": 50.0,
+    "url": "https://ghproxy.monkeyray.net",
+    "avg_time": 0.4008983373641968,
+    "success_rate": 100.0,
     "rank": 19
   },
   {
-    "url": "https://git.yylx.win",
-    "avg_time": 0.43473970890045166,
+    "url": "https://ghfast.top",
+    "avg_time": 0.42085540294647217,
     "success_rate": 100.0,
     "rank": 20
   },
   {
-    "url": "https://ghfast.top",
-    "avg_time": 0.44251585006713867,
+    "url": "https://gh.dpik.top",
+    "avg_time": 0.43272173404693604,
     "success_rate": 100.0,
     "rank": 21
   },
   {
-    "url": "https://github.tmby.shop",
-    "avg_time": 0.4745720624923706,
+    "url": "https://github.tbedu.top",
+    "avg_time": 0.45057833194732666,
     "success_rate": 100.0,
     "rank": 22
   },
   {
     "url": "https://gh.bugdey.us.kg",
-    "avg_time": 0.4885733127593994,
+    "avg_time": 0.4754384756088257,
     "success_rate": 100.0,
     "rank": 23
   },
   {
-    "url": "https://ghfile.geekertao.top",
-    "avg_time": 0.5259419679641724,
+    "url": "https://gh.nxnow.top",
+    "avg_time": 0.5321649312973022,
     "success_rate": 100.0,
     "rank": 24
   },
   {
-    "url": "https://gh.nxnow.top",
-    "avg_time": 0.5826601982116699,
+    "url": "https://gh.tryxd.cn",
+    "avg_time": 0.5983676910400391,
     "success_rate": 100.0,
     "rank": 25
   },
   {
-    "url": "https://gitproxy.click",
-    "avg_time": 0.5958411693572998,
-    "success_rate": 50.0,
+    "url": "https://gh.sixyin.com",
+    "avg_time": 0.6026650667190552,
+    "success_rate": 100.0,
     "rank": 26
   },
   {
-    "url": "https://github.chenc.dev",
-    "avg_time": 0.6580229997634888,
+    "url": "https://gh.felicity.ac.cn",
+    "avg_time": 0.696805477142334,
     "success_rate": 100.0,
     "rank": 27
   },
   {
-    "url": "https://gh.dpik.top",
-    "avg_time": 0.672071099281311,
+    "url": "https://github.chenc.dev",
+    "avg_time": 0.7087618112564087,
     "success_rate": 100.0,
     "rank": 28
   },
   {
-    "url": "https://gh.felicity.ac.cn",
-    "avg_time": 0.7369801998138428,
+    "url": "https://github.starrlzy.cn",
+    "avg_time": 0.8951387405395508,
     "success_rate": 100.0,
     "rank": 29
   },
   {
-    "url": "https://github.starrlzy.cn",
-    "avg_time": 1.0522953271865845,
+    "url": "https://g.blfrp.cn",
+    "avg_time": 1.018309235572815,
     "success_rate": 100.0,
     "rank": 30
   },
   {
-    "url": "https://gh.tryxd.cn",
-    "avg_time": 1.110762596130371,
+    "url": "https://ghfile.geekertao.top",
+    "avg_time": 1.1969647407531738,
     "success_rate": 100.0,
     "rank": 31
   },
   {
-    "url": "https://g.blfrp.cn",
-    "avg_time": 1.2136212587356567,
+    "url": "https://github.xxlab.tech",
+    "avg_time": 2.133142113685608,
     "success_rate": 100.0,
     "rank": 32
-  },
-  {
-    "url": "https://github.xxlab.tech",
-    "avg_time": 1.7947540283203125,
-    "success_rate": 100.0,
-    "rank": 33
   }
 ]
