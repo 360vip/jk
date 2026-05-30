@@ -138,13 +138,13 @@ jobs:
         echo "开始推送xl 目录到私有仓库..."
         
         # 克隆私有仓库
-        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-jk
+        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo
         
         # 确保目标目录存在
-        mkdir -p /tmp/push-repo-jk/xl
+        mkdir -p /tmp/push-repo/xl
         
-        # 复制 jk 目录内容
-        cp -r xl/* /tmp/push-repo-jk/xl/ 2>/dev/null || echo "xl 目录为空"
+        # 复制 xl 目录内容
+        cp -r xl/* /tmp/push-repo/xl/ 2>/dev/null || echo "xl 目录为空"
         
         cd /tmp/push-repo-xl
         
@@ -159,7 +159,7 @@ jobs:
         if git diff --cached --quiet; then
           echo "xl 目录没有变更需要提交"
         else
-          git commit -m "自动更新 jk 目录 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "自动更新 xl 目录 - $(date '+%Y-%m-%d %H:%M:%S')"
           git push origin main
           echo "xl 目录已成功推送到私有仓库"
         fi
