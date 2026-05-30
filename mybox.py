@@ -4,7 +4,7 @@
 将 xl 目录下的所有 txt 文件（JSON格式）转换为与 tt.json 相同的格式
 从每个文件中读取数据，并从hmd.txt读取黑名单过滤站点
 【修改】不限制站点数量，添加新的直播源配置（排在第一位），保留原有直播源
-【增强】支持更宽松的JSON格式，处理特殊字符和注释
+【增强】支持更多JSON变体格式（##注释、格式错误的字段、嵌套空数组等）
 """
 
 import json
@@ -15,7 +15,6 @@ import sys
 import time
 import os
 import glob
-import chardet
 
 class BbtvConverter:
     def __init__(self, source_url=None, source_file_path=None):
@@ -63,16 +62,6 @@ class BbtvConverter:
             print("  将使用默认空黑名单")
             self.name_blacklist = []
         
-    def detect_encoding(self, content):
-        """检测文件编码"""
-        try:
-            result = chardet.detect(content)
-            if result and result['encoding']:
-                return result['encoding']
-        except:
-            pass
-        return 'utf-8'
-        
     def fetch_bbtv_data(self):
         """从 URL 或本地文件获取 JSON 数据，支持带注释的JSON"""
         if self.source_url:
@@ -80,19 +69,15 @@ class BbtvConverter:
             try:
                 response = requests.get(self.source_url, timeout=30)
                 response.raise_for_status()
-                # 检测编码
-                encoding = self.detect_encoding(response.content)
-                content = response.content.decode(encoding, errors='ignore')
+                content = response.text
             except requests.exceptions.RequestException as e:
                 print(f"❌ 获取数据失败: {e}")
                 return False
         elif self.source_file_path:
             print(f"📁 正在从本地文件 {self.source_file_path} 读取数据...")
             try:
-                with open(self.source_file_path, 'rb') as f:
-                    raw_content = f.read()
-                encoding = self.detect_encoding(raw_content)
-                content = raw_content.decode(encoding, errors='ignore')
+                with open(self.source_file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                    content = f.read()
             except Exception as e:
                 print(f"❌ 读取文件失败: {e}")
                 return False
@@ -100,10 +85,12 @@ class BbtvConverter:
             print(f"❌ 没有指定数据源")
             return False
         
-        # 移除JavaScript风格的注释（// 和 /* */）
-        cleaned_content = self._remove_json_comments(content)
+        # 移除各种类型的注释
+        cleaned_content = self._remove_all_comments(content)
         
-        # 尝试解析JSON
+        # 修复常见的JSON格式问题
+        cleaned_content = self._fix_json_format(cleaned_content)
+        
         try:
             self.source_data = json.loads(cleaned_content)
             if self.source_url:
@@ -115,10 +102,10 @@ class BbtvConverter:
             return True
         except json.JSONDecodeError as e:
             print(f"⚠️ JSON解析失败: {e}")
-            print("🔄 尝试更激进的JSON修复...")
+            print("🔄 尝试激进的JSON修复...")
             
             # 尝试多种修复策略
-            repaired_content = self._repair_json(cleaned_content)
+            repaired_content = self._aggressive_json_fix(cleaned_content)
             try:
                 self.source_data = json.loads(repaired_content)
                 print(f"✅ JSON修复成功")
@@ -131,166 +118,220 @@ class BbtvConverter:
                 # 尝试提取sites数组
                 print("🔄 尝试提取sites数组...")
                 extracted_data = self._extract_sites_array(content)
-                if extracted_data:
+                if extracted_data and extracted_data.get('sites'):
                     self.source_data = extracted_data
                     print(f"✅ 成功提取sites数组，包含 {len(self.source_data.get('sites', []))} 个站点")
                     return True
                     
                 return False
     
-    def _extract_sites_array(self, content):
-        """从混乱的JSON中提取sites数组"""
-        try:
-            # 查找sites数组
-            sites_match = re.search(r'"sites"\s*:\s*\[(.*?)\](?=\s*[,}])', content, re.DOTALL)
-            if sites_match:
-                sites_content = sites_match.group(1)
-                # 尝试解析sites数组
-                # 需要修复数组中的对象
-                sites_content = self._repair_json('[' + sites_content + ']')
-                sites = json.loads(sites_content)
-                
-                # 构建基本的数据结构
-                result = {
-                    "sites": sites,
-                    "lives": [],
-                    "parses": [],
-                    "rules": [],
-                    "flags": [],
-                    "ijk": [],
-                    "ads": []
-                }
-                
-                # 尝试提取其他字段
-                for field in ['lives', 'parses', 'rules', 'flags', 'ijk', 'ads', 'spider', 'wallpaper']:
-                    field_match = re.search(r'"' + field + r'"\s*:\s*(\[[^\]]*\]|\{[^\}]*\}|"[^"]*")', content, re.DOTALL)
-                    if field_match:
-                        try:
-                            field_content = field_match.group(1)
-                            if field_content.startswith('[') or field_content.startswith('{'):
-                                field_content = self._repair_json(field_content)
-                                result[field] = json.loads(field_content)
-                            else:
-                                result[field] = field_content.strip('"')
-                        except:
-                            pass
-                
-                return result
-        except Exception as e:
-            print(f"  提取sites数组失败: {e}")
-        
-        return None
-    
-    def _remove_json_comments(self, json_str):
-        """移除JSON中的JavaScript风格注释，并处理特殊字符"""
+    def _remove_all_comments(self, json_str):
+        """移除所有类型的注释：//、/* */、##、#"""
         if not json_str:
             return json_str
-            
-        # 先处理块注释
-        # 使用正则移除 /* */ 注释
-        json_str = re.sub(r'/\*.*?\*/', '', json_str, flags=re.DOTALL)
         
-        # 处理行注释 // 
-        # 需要小心处理字符串内的 //
+        # 移除 ## 注释（某些文件使用）
         lines = json_str.split('\n')
         cleaned_lines = []
         
         for line in lines:
-            in_string = False
-            string_char = None
-            comment_pos = -1
-            i = 0
-            line_len = len(line)
-            
-            while i < line_len:
-                char = line[i]
-                
-                # 处理转义字符
-                if char == '\\' and i + 1 < line_len:
-                    i += 2
-                    continue
-                
-                # 字符串开始/结束
-                if char in ['"', "'"]:
-                    if not in_string:
-                        in_string = True
-                        string_char = char
-                    elif char == string_char:
-                        in_string = False
-                        string_char = None
-                
-                # 查找不在字符串中的 //
-                elif char == '/' and i + 1 < line_len and line[i + 1] == '/' and not in_string:
-                    comment_pos = i
-                    break
-                
-                i += 1
-            
-            if comment_pos != -1:
-                line = line[:comment_pos]
-            
-            # 移除行首尾空白
-            line = line.rstrip()
-            if line:
-                cleaned_lines.append(line)
+            # 处理行内的 ## 注释
+            line = self._remove_inline_comment(line, '##')
+            # 处理行内的 # 注释
+            line = self._remove_inline_comment(line, '#')
+            # 处理行内的 // 注释
+            line = self._remove_inline_comment(line, '//')
+            cleaned_lines.append(line)
         
         result = '\n'.join(cleaned_lines)
         
-        # 移除BOM标记
-        result = result.lstrip('\ufeff')
-        
-        # 修复常见的JSON格式问题
-        # 移除尾随逗号
-        result = re.sub(r',\s*}', '}', result)
-        result = re.sub(r',\s*]', ']', result)
-        
-        # 修复缺少引号的键（仅处理简单的键名）
-        result = re.sub(r'([{,])\s*([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', result)
+        # 移除 /* */ 块注释
+        result = re.sub(r'/\*.*?\*/', '', result, flags=re.DOTALL)
         
         return result
     
-    def _repair_json(self, json_str):
-        """激进的JSON修复"""
-        # 移除所有注释
-        json_str = re.sub(r'//.*?$', '', json_str, flags=re.MULTILINE)
-        json_str = re.sub(r'/\*.*?\*/', '', json_str, flags=re.DOTALL)
+    def _remove_inline_comment(self, line, comment_marker):
+        """移除行内注释，但保留字符串内的"""
+        if not line:
+            return line
         
-        # 修复最后一个对象后面的逗号
-        json_str = re.sub(r',\s*}', '}', json_str)
-        json_str = re.sub(r',\s*]', ']', json_str)
+        in_string = False
+        string_char = None
+        i = 0
+        line_len = len(line)
+        comment_pos = -1
         
-        # 修复空数组问题：[] 变成 []（已经是正确的）
-        # 但需要修复 [[], ...] 这种嵌套空数组
-        json_str = re.sub(r'\[\s*\]', '[]', json_str)
+        while i < line_len:
+            char = line[i]
+            
+            # 处理转义字符
+            if char == '\\' and i + 1 < line_len:
+                i += 2
+                continue
+            
+            # 字符串开始/结束
+            if char in ['"', "'"]:
+                if not in_string:
+                    in_string = True
+                    string_char = char
+                elif char == string_char:
+                    in_string = False
+                    string_char = None
+            
+            # 查找不在字符串中的注释标记
+            elif not in_string and line.startswith(comment_marker, i):
+                comment_pos = i
+                break
+            
+            i += 1
         
-        # 修复lives字段的嵌套空数组问题
-        # 将 "lives": [[]] 转换为 "lives": []
-        json_str = re.sub(r'"lives"\s*:\s*\[\s*\[\s*\]\s*\]', '"lives": []', json_str)
+        if comment_pos != -1:
+            line = line[:comment_pos]
         
-        # 移除多余的逗号
-        json_str = re.sub(r',\s*,', ',', json_str)
+        return line.rstrip()
+    
+    def _fix_json_format(self, content):
+        """修复常见的JSON格式问题"""
+        # 修复缺失引号的键（简单键名）
+        content = re.sub(r'([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', content)
         
-        # 修复开头和结尾的多余逗号
-        json_str = re.sub(r'^\s*,', '', json_str)
-        json_str = re.sub(r',\s*$', '', json_str)
+        # 修复尾随逗号
+        content = re.sub(r',\s*}', '}', content)
+        content = re.sub(r',\s*]', ']', content)
         
-        # 修复字符串中的未转义引号（简单处理）
-        def fix_unescaped_quotes(match):
+        # 修复空数组问题
+        content = re.sub(r'\[\s*\]', '[]', content)
+        
+        # 修复嵌套空数组 lives: [[]] -> lives: []
+        content = re.sub(r'"lives"\s*:\s*\[\s*\[\s*\]\s*\]', '"lives": []', content)
+        
+        # 修复换行符导致的字段问题（如 "key": "\nconfig"）
+        content = re.sub(r'"key":\s*"\\n\s*([^"]+)"', r'"key": "\1"', content)
+        
+        # 移除BOM
+        content = content.lstrip('\ufeff')
+        
+        return content
+    
+    def _aggressive_json_fix(self, content):
+        """激进的JSON修复，处理各种格式问题"""
+        # 先移除所有注释
+        content = self._remove_all_comments(content)
+        
+        # 修复缺失的引号
+        content = re.sub(r'([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', content)
+        
+        # 修复单引号为双引号
+        content = re.sub(r"'([^']*)'", r'"\1"', content)
+        
+        # 修复尾随逗号
+        content = re.sub(r',\s*}', '}', content)
+        content = re.sub(r',\s*]', ']', content)
+        content = re.sub(r',\s*,', ',', content)
+        
+        # 修复空数组
+        content = re.sub(r'\[\s*\]', '[]', content)
+        
+        # 修复 lives: [[]] 问题
+        content = re.sub(r'"lives"\s*:\s*\[\s*\[\s*\]\s*\]', '"lives": []', content)
+        
+        # 修复换行导致的字段问题
+        content = re.sub(r'"key":\s*"\\n\s*([^"]+)"', r'"key": "\1"', content)
+        content = re.sub(r'"key":\s*"([^"]*\\n[^"]*)"', r'"key": "\1"', content)
+        
+        # 移除未闭合的字符串中的换行符
+        def fix_multiline_strings(match):
             s = match.group(0)
-            # 简单处理：将内部的 " 替换为 \"
-            # 这不是完美的，但可以处理大多数情况
-            parts = s.split('"')
-            if len(parts) > 2:
-                for i in range(1, len(parts) - 1):
-                    if i % 2 == 1:  # 内部引号
-                        parts[i] = parts[i].replace('"', '\\"')
-                return '"' + '"'.join(parts[1:-1]) + '"'
+            s = s.replace('\n', '\\n').replace('\r', '\\r')
             return s
         
-        # 查找并修复字符串内的未转义引号
-        json_str = re.sub(r'"[^"]*"', fix_unescaped_quotes, json_str)
+        # 查找并修复多行字符串（简单处理）
+        content = re.sub(r'"([^"\\]*(?:\\.[^"\\]*)*)"', fix_multiline_strings, content)
         
-        return json_str
+        return content
+    
+    def _extract_sites_array(self, content):
+        """从混乱的JSON中提取sites数组"""
+        try:
+            # 查找sites数组
+            sites_match = re.search(r'"sites"\s*:\s*\[(.*?)(?=\]\s*[,}])', content, re.DOTALL)
+            if not sites_match:
+                return None
+            
+            sites_content = sites_match.group(1)
+            
+            # 修复sites内容中的换行和特殊字符
+            # 分割成独立的site对象
+            sites = []
+            brace_count = 0
+            current_site = ""
+            in_string = False
+            
+            for char in sites_content:
+                if char == '"' and not in_string:
+                    in_string = True
+                elif char == '"' and in_string:
+                    in_string = False
+                
+                if not in_string:
+                    if char == '{':
+                        if brace_count == 0:
+                            current_site = ""
+                        brace_count += 1
+                    elif char == '}':
+                        brace_count -= 1
+                        if brace_count == 0:
+                            current_site += char
+                            # 尝试解析这个site对象
+                            try:
+                                # 修复site对象中的问题
+                                fixed_site = self._fix_json_format(current_site)
+                                site_obj = json.loads(fixed_site)
+                                sites.append(site_obj)
+                            except:
+                                # 如果解析失败，尝试更激进的修复
+                                try:
+                                    # 替换换行符
+                                    fixed_site = current_site.replace('\n', '\\n')
+                                    fixed_site = self._fix_json_format(fixed_site)
+                                    site_obj = json.loads(fixed_site)
+                                    sites.append(site_obj)
+                                except:
+                                    pass
+                            current_site = ""
+                            continue
+                
+                if brace_count > 0:
+                    current_site += char
+            
+            if sites:
+                # 构建完整的数据结构
+                result = {"sites": sites}
+                
+                # 尝试提取其他字段
+                for field in ['lives', 'parses', 'rules', 'flags', 'ijk', 'ads', 'spider', 'wallpaper', 'doh']:
+                    field_match = re.search(r'"' + field + r'"\s*:\s*(\[[^\]]*\]|\{[^\}]*\}|"[^"]*")', content, re.DOTALL)
+                    if field_match:
+                        try:
+                            field_content = field_match.group(1)
+                            # 修复 lives: [[]] 问题
+                            if field == 'lives' and field_content.strip() == '[[]]':
+                                result[field] = []
+                            else:
+                                field_content = self._fix_json_format(field_content)
+                                result[field] = json.loads(field_content)
+                        except:
+                            if field == 'lives':
+                                result[field] = []
+                            else:
+                                result[field] = []
+                
+                return result
+                
+        except Exception as e:
+            print(f"  提取sites数组失败: {e}")
+        
+        return None
     
     def _is_blacklisted(self, site_name, site_key):
         """检查站点是否在黑名单中"""
@@ -304,10 +345,8 @@ class BbtvConverter:
             if not keyword:
                 continue
             keyword_lower = keyword.lower()
-            # 检查站点名称
             if keyword_lower in site_name_lower:
                 return True
-            # 也检查站点key
             if keyword_lower in site_key_lower:
                 return True
                 
@@ -332,7 +371,7 @@ class BbtvConverter:
                     "text": f"自动更新于 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
                 }
             ],
-            "lives": [],  # 稍后会处理，添加原有lives并插入新的到第一位
+            "lives": [],
             "parses": [
                 {
                     "name": "解析聚合",
@@ -364,13 +403,13 @@ class BbtvConverter:
             "spider": ""
         }
         
-        # 1. 处理所有站点（不限制数量，但过滤黑名单）
+        # 1. 处理所有站点
         self._process_sites()
         
         # 2. 处理版本信息
         self._process_version()
         
-        # 3. 处理直播源（保留原有，并添加新的到第一位）
+        # 3. 处理直播源
         self._process_lives()
         
         # 4. 处理解析线路
@@ -389,7 +428,7 @@ class BbtvConverter:
         self._process_other_fields()
         
         print(f"✅ 格式转换完成，总计 {len(self.converted_data['sites'])} 个站点（过滤掉 {self.filtered_count} 个黑名单站点）")
-        print(f"✅ 直播源配置: 原有 {max(0, len(self.converted_data['lives']) - 1)} 个 + 新增1个（排在第一位）")
+        print(f"✅ 直播源配置: {len(self.converted_data['lives'])} 个（新增1个到第一位）")
         return True
     
     def _process_version(self):
@@ -422,25 +461,17 @@ class BbtvConverter:
         if "lives" in self.source_data and self.source_data["lives"]:
             original_lives = self.source_data["lives"]
             
-            # 处理不同的lives格式
             if isinstance(original_lives, list):
                 for live in original_lives:
-                    # 跳过空值
                     if not live:
                         continue
-                    # 如果live是数组且为空，跳过
+                    # 跳过空数组
                     if isinstance(live, list) and not live:
                         continue
                     # 如果是有效的直播源配置
                     if isinstance(live, dict) and "name" in live:
                         lives_list.append(live)
-                        print(f"  ✓ 保留原直播源: {live.get('name', 'unknown')}")
-                    # 如果直播源配置有url字段但没有name，创建name
-                    elif isinstance(live, dict) and "url" in live:
-                        if "name" not in live:
-                            live["name"] = "直播源"
-                        lives_list.append(live)
-                        print(f"  ✓ 保留原直播源: {live.get('name', '直播源')}")
+                        print(f"  ✓ 保留原直播源: {live.get('name', 'unknown')[:30]}")
             else:
                 print(f"  ℹ️ 原有lives格式不是列表，跳过")
         else:
@@ -455,32 +486,28 @@ class BbtvConverter:
             return
             
         site_count = 0
-        filtered_sites = []  # 记录被过滤的站点
-        error_sites = []  # 记录解析失败的站点
+        filtered_sites = []
+        error_sites = []
         total_sites = len(self.source_data["sites"])
         
         print(f"\n🔍 开始过滤站点（共{total_sites}个，黑名单关键词{len(self.name_blacklist)}个）...")
         print(f"ℹ️ 站点数量不限制，将保留所有非黑名单站点")
         
-        # 遍历所有站点
         for idx, site in enumerate(self.source_data["sites"]):
             if not site:
                 continue
                 
-            # 跳过非字典类型的站点
             if not isinstance(site, dict):
-                # 尝试将简单对象转换为字典
-                if hasattr(site, '__dict__'):
-                    site = site.__dict__
-                else:
-                    error_sites.append(f"索引{idx}: {type(site)}")
-                    continue
+                error_sites.append(f"索引{idx}")
+                continue
             
-            self.site_key_for_error = site.get("key", f"site_{idx}")
-            
-            # 检查站点是否在黑名单中
-            site_name = site.get("name", "")
             site_key = site.get("key", "")
+            site_name = site.get("name", "")
+            
+            # 跳过无效的站点
+            if not site_key and not site_name:
+                error_sites.append(f"索引{idx}: 缺少key和name")
+                continue
             
             if self._is_blacklisted(site_name, site_key):
                 self.filtered_count += 1
@@ -491,11 +518,9 @@ class BbtvConverter:
             if cleaned_site:
                 self.converted_data["sites"].append(cleaned_site)
                 site_count += 1
-                # 只在每20个站点显示一次进度，避免输出过多
                 if site_count % 20 == 0:
                     print(f"  ✓ 已处理 {site_count} 个站点...")
         
-        # 显示最后添加的站点（显示最后5个）
         if self.converted_data["sites"]:
             print(f"\n  ✅ 成功添加 {site_count} 个站点")
             if site_count > 0:
@@ -505,30 +530,23 @@ class BbtvConverter:
                     name = site.get('name', site.get('key', 'unknown'))
                     print(f"    {i}. {name}")
         
-        # 显示被过滤的站点
         if filtered_sites:
             print(f"\n  🚫 已过滤黑名单站点 ({len(filtered_sites)}个):")
-            display_count = min(len(filtered_sites), 20)
-            for i, site in enumerate(filtered_sites[:display_count], 1):
+            for i, site in enumerate(filtered_sites[:10], 1):
                 print(f"     {i}. {site}")
-            if len(filtered_sites) > display_count:
+            if len(filtered_sites) > 10:
                 print(f"     ... 等共 {len(filtered_sites)} 个")
         
-        # 显示错误的站点
         if error_sites and len(error_sites) <= 10:
-            print(f"\n  ⚠️ 跳过错误站点 ({len(error_sites)}个):")
-            for error in error_sites[:5]:
-                print(f"     - {error}")
+            print(f"\n  ⚠️ 跳过错误站点 ({len(error_sites)}个)")
                 
         print(f"✅ 站点处理完成: 添加{site_count}个，过滤{self.filtered_count}个，跳过{len(error_sites)}个")
     
     def _clean_site_config(self, site):
-        """清理站点配置，移除与 tt.json 格式不同的字段"""
-        # 必须有 key 字段
+        """清理站点配置"""
         if "key" not in site:
             return None
             
-        # 获取站点名称，提供默认值
         site_name = site.get("name")
         if not site_name or not isinstance(site_name, str):
             site_name = site["key"]
@@ -542,7 +560,7 @@ class BbtvConverter:
         # 保留核心字段
         core_fields = ["api", "jar", "searchable", "quickSearch", 
                       "changeable", "filterable", "timeout", "playerType",
-                      "genre", "gridview", "indexs"]  # 添加更多可能出现的字段
+                      "genre", "gridview", "indexs", "style"]
         
         for field in core_fields:
             if field in site and site[field] is not None:
@@ -554,31 +572,8 @@ class BbtvConverter:
             if cleaned_ext:
                 cleaned["ext"] = cleaned_ext
         
-        # 处理 style 字段
-        if "style" in site and site["style"]:
-            cleaned["style"] = site["style"]
-        
-        # 处理 cookies 或 header 字段
-        if "cookies" in site and site["cookies"]:
-            cleaned["cookies"] = site["cookies"]
-        if "header" in site and site["header"]:
-            cleaned["header"] = site["header"]
-        
-        # 对于 type=1 的站点，保留 categories
-        if cleaned["type"] == 1 and "categories" in site:
-            cleaned["categories"] = site["categories"]
-        
-        # 保留 playurl 字段
         if "playurl" in site:
             cleaned["playurl"] = site["playurl"]
-            
-        # 保留 boot 字段（某些直播源配置需要）
-        if "boot" in site:
-            cleaned["boot"] = site["boot"]
-            
-        # 保留 core 字段
-        if "core" in site:
-            cleaned["core"] = site["core"]
             
         return cleaned
     
@@ -587,10 +582,8 @@ class BbtvConverter:
         if not isinstance(name, str):
             return site_key
             
-        # 移除常见表情符号和装饰字符
+        # 扩展的表情符号移除模式
         patterns = [
-            # 移除常见装饰字符和表情
-            r'[☀⚽🎬🎭📺🍋🦌🚀🐧🐼🎃📚🅱📖🎤🦸‍♂️💿🔹💿📺🎬⚽📚🎤🦸‍♂️☀🐧🐼🎃🍋🦌🚀🐲❤🛸🥷🧸💥🎇🎎🅱️]',
             r'[🐮🐷🐸🐙🐨🐒🐑🐘🐪🦒🦘🦙🦚🦜🦢🦩🦔🐿️🦫🦡]',
             r'[🐡🐠🐟🐬🐳🐋🦈🦭🐊🐅🐆🦓🦍🦧🦣🐘🦛🦏🐫]',
             r'[🌈🔥⭐✨🌟💫💥💢💤💦💧💨💩]',
@@ -598,40 +591,28 @@ class BbtvConverter:
             r'[📱📲📺📻📷📸📹🎥]',
             r'[🔫🔪💣🧨🪓]',
             r'[🚗🚕🚙🚌🚎🏎️🚓🚑🚒🚐🚚🚛🚜]',
-            r'[🏍️🛵🛺🚲]',
-            r'[✈️🚀🛸🚁🛶⛵🚤🛥️🛳️]',
-            r'[⚓🔱]',
-            r'[💝💖💗💓💞💕💟❣️💔]',
-            r'[💯💢💬👁️‍🗨️🗣️💤]',
-            r'┃',  # 移除分隔线
-            r'【.*?】',  # 移除【】及其内容
-            r'\|.*?\|',  # 移除|内容|
-            r'\-.*?\-',   # 移除-内容-
-            r'公众号.*?',  # 移除公众号相关
-            r'限自用测试勿传播贩卖',  # 移除特定文本
-            r'公众号【.*?】',  # 移除公众号
-            r'🚀┃',  # 移除特定前缀
-            r'🐼┃',
-            r'🐷┃',
-            r'🍄┃',
-            r'🐧┃',
-            r'👽┃',
-            r'🌉┃',
-            r'🐶┃',
-            r'┃$',  # 移除末尾的┃
-            r'^国内-',  # 移除前缀
-            r'^海外-',  # 移除前缀
+            r'[🏍️🛵🛺🚲✈️🚀🛸🚁🛶⛵🚤🛥️🛳️⚓🔱]',
+            r'[💝💖💗💓💞💕💟❣️💔💯💢💬👁️‍🗨️🗣️💤]',
+            r'[🐲❤🛸🥷🧸💥🎇🎎🅱️🦸🧸🐼🐧🎃🍋🦌🚀☀⚽🎬🎭📺🍋🦌]',
+            r'┃',
+            r'【.*?】',
+            r'\|.*?\|',
+            r'\-.*?\-',
+            r'公众号.*?',
+            r'限自用测试勿传播贩卖',
+            r'公众号【.*?】',
+            r'🚀┃|🐼┃|🐷┃|🍄┃|🐧┃|👽┃|🌉┃|🐶┃',
+            r'┃$',
+            r'^国内-|^海外-',
+            r'[⬇️🆙🔝💪👈👉👆👇]',
         ]
         
         for pattern in patterns:
             name = re.sub(pattern, '', name)
             
-        # 移除多余空白
         name = re.sub(r'\s+', ' ', name).strip()
         
-        # 如果清理后为空，使用站点key作为名称
         if not name:
-            # 从key中提取可读名称
             if site_key.startswith('csp_'):
                 name = site_key[4:]
             elif site_key.endswith('zy'):
@@ -642,25 +623,23 @@ class BbtvConverter:
         return name
     
     def _clean_ext_config(self, ext):
-        """清理 ext 配置，只保留必要的字段"""
+        """清理 ext 配置"""
         if not ext:
             return None
             
-        # 如果 ext 是字符串，保持原样
         if isinstance(ext, str):
             return ext
             
-        # 如果是字典，清理字段
         if isinstance(ext, dict):
             cleaned_ext = {}
             
-            # 保留这些核心字段
             allowed_fields = ["danmu", "sp", "url", "host", "site", "filters", 
                             "sites", "catesSet", "tabsSet", "classes", "ver",
                             "site_urls", "url_key", "threadinfo", "appName",
                             "publicKey", "dataKey", "dataIv", "pkg", "version",
                             "decrypt", "cookie", "json", "appkey", "LoginPath",
-                            "versionName", "package", "buildNumber", "buildSignature"]
+                            "versionName", "package", "buildNumber", "buildSignature",
+                            "siteKey", "listKey", "parsesKey"]
             
             for field in allowed_fields:
                 if field in ext and ext[field] is not None:
@@ -675,11 +654,8 @@ class BbtvConverter:
         if "parses" not in self.source_data:
             return
             
-        # 添加源数据中的解析线路（精简配置）
         for parse in self.source_data["parses"]:
-            if not parse:
-                continue
-            if not isinstance(parse, dict):
+            if not parse or not isinstance(parse, dict):
                 continue
             if "name" not in parse:
                 continue
@@ -690,7 +666,6 @@ class BbtvConverter:
                 "url": parse.get("url", "")
             }
             
-            # 添加必要的扩展配置
             if "ext" in parse and parse["ext"]:
                 ext_config = {}
                 if isinstance(parse["ext"], dict):
@@ -704,17 +679,14 @@ class BbtvConverter:
             self.converted_data["parses"].append(cleaned_parse)
     
     def _process_rules(self):
-        """处理规则，统一格式"""
+        """处理规则"""
         if "rules" not in self.source_data:
             return
             
         for rule in self.source_data["rules"]:
-            if not rule:
-                continue
-            if not isinstance(rule, dict):
+            if not rule or not isinstance(rule, dict):
                 continue
                 
-            # 转换格式：从原格式转换为 tt.json 格式
             if "hosts" in rule and "regex" in rule:
                 for host in rule.get("hosts", []):
                     if host:
@@ -724,10 +696,8 @@ class BbtvConverter:
                         }
                         self.converted_data["rules"].append(cleaned_rule)
             elif "host" in rule and "rule" in rule:
-                # 已经是 tt.json 格式
                 self.converted_data["rules"].append(rule)
             elif "name" in rule and "hosts" in rule and "script" in rule:
-                # 处理原bbtv格式的script规则
                 for host in rule.get("hosts", []):
                     if host:
                         cleaned_rule = {
@@ -749,7 +719,7 @@ class BbtvConverter:
                 self.converted_data["ijk"] = self.source_data["ijk"]
                 return
                 
-        # 如果没有ijk配置，提供默认值
+        # 默认配置
         self.converted_data["ijk"] = [
             {
                 "group": "软解码",
@@ -797,22 +767,18 @@ class BbtvConverter:
     
     def _process_other_fields(self):
         """处理其他字段"""
-        # ads
         if "ads" in self.source_data:
             if isinstance(self.source_data["ads"], list):
                 self.converted_data["ads"] = self.source_data["ads"]
             elif isinstance(self.source_data["ads"], str):
                 self.converted_data["ads"] = [self.source_data["ads"]]
         
-        # wallpaper
         if "wallpaper" in self.source_data:
             self.converted_data["wallpaper"] = self.source_data["wallpaper"]
         
-        # warningText
         if "warningText" in self.source_data:
             self.converted_data["warningText"] = self.source_data["warningText"]
         
-        # spider
         if "spider" in self.source_data:
             self.converted_data["spider"] = self.source_data["spider"]
     
@@ -823,7 +789,6 @@ class BbtvConverter:
             return False
             
         try:
-            # 确保输出目录存在
             output_dir = os.path.dirname(output_file)
             if output_dir and not os.path.exists(output_dir):
                 os.makedirs(output_dir, exist_ok=True)
@@ -841,14 +806,12 @@ class BbtvConverter:
         if not self.converted_data:
             return False
             
-        # 检查必需字段
         required_fields = ["sites", "version", "lives", "parses", "rules", "flags", "ijk"]
         for field in required_fields:
             if field not in self.converted_data:
                 print(f"❌ 缺少必需字段: {field}")
                 return False
         
-        # 检查直播源配置是否已添加新源
         if not self.converted_data["lives"]:
             print(f"⚠️ 警告: lives配置为空")
         else:
@@ -863,42 +826,32 @@ def process_single_file(input_file, output_dir):
     print(f"📄 处理文件: {input_file}")
     print("=" * 60)
     
-    # 获取文件名（不含扩展名）
     base_name = os.path.basename(input_file)
-    name_without_ext = os.path.splitext(base_name)[0]
     
-    # 创建转换器（使用本地文件）
     converter = BbtvConverter(source_file_path=input_file)
     
-    # 加载黑名单
     converter.load_blacklist()
     
-    # 获取数据
     if not converter.fetch_bbtv_data():
         print(f"❌ 无法解析文件: {input_file}")
         return False
     
-    # 转换格式
     if not converter.convert_to_tt_format():
         print(f"❌ 格式转换失败: {input_file}")
         return False
     
-    # 验证转换
     if not converter.validate_conversion():
         print(f"⚠️ 转换验证有问题，但继续保存...")
     
-    # 生成输出文件名（保持原文件名）
     output_file = os.path.join(output_dir, base_name)
     
-    # 保存结果
     if not converter.save_converted_data(output_file):
         return False
     
-    # 输出文件统计信息
     print(f"\n📊 文件统计:")
     print(f"   站点数量: {len(converter.converted_data['sites'])}")
     print(f"   过滤黑名单: {converter.filtered_count} 个站点")
-    print(f"   直播源数量: {len(converter.converted_data['lives'])} (新增1个到第一位)")
+    print(f"   直播源数量: {len(converter.converted_data['lives'])}")
     print(f"   解析线路: {len(converter.converted_data['parses'])}")
     print(f"   规则数量: {len(converter.converted_data['rules'])}")
     
@@ -906,34 +859,27 @@ def process_single_file(input_file, output_dir):
 
 def batch_convert():
     """批量转换 xl 目录下的所有 txt 文件"""
-    # 配置
     input_dir = "xl"
     output_dir = "mybox"
     
     print("=" * 60)
-    print("🎬 批量JSON格式转换工具 (站点不限制 + 黑名单过滤 + 添加直播源)")
+    print("🎬 批量JSON格式转换工具 (增强版)")
     print("=" * 60)
     print(f"📁 输入目录: {input_dir}/")
     print(f"📁 输出目录: {output_dir}/")
     print("📺 直播源配置: 添加新源（排在第一位），保留原直播源")
     print("   新增源URL: https://zb.hao123.qzz.io/lv/migutv.txt")
-    print("   新增源EPG: http://diyp.112114.xyz/?ch={name}&date={date}")
-    print("   新增源LOGO: https://epg.112114.xyz/logo/{name}.png")
-    print("ℹ️  站点数量: 不限制，保留所有非黑名单站点")
+    print("ℹ️  支持格式: JSON、带注释JSON、##注释、格式错误的JSON")
     print("=" * 60)
     
-    # 检查输入目录是否存在
     if not os.path.exists(input_dir):
         print(f"❌ 输入目录不存在: {input_dir}/")
-        print("请确保 xl 目录存在并包含需要转换的 txt 文件")
         sys.exit(1)
     
-    # 创建输出目录
     if not os.path.exists(output_dir):
         os.makedirs(output_dir, exist_ok=True)
         print(f"✅ 创建输出目录: {output_dir}/")
     
-    # 获取所有 txt 文件
     pattern = os.path.join(input_dir, "*.txt")
     txt_files = glob.glob(pattern)
     
@@ -946,25 +892,21 @@ def batch_convert():
         print(f"   - {os.path.basename(f)}")
     print()
     
-    # 统计信息
     success_count = 0
     fail_count = 0
     failed_files = []
     total_sites = 0
     total_filtered = 0
     
-    # 逐个处理文件
     for i, input_file in enumerate(txt_files, 1):
         print(f"\n{'=' * 60}")
         print(f"[{i}/{len(txt_files)}] 处理文件")
         
-        # 创建临时转换器用于获取统计信息
         temp_converter = BbtvConverter(source_file_path=input_file)
         temp_converter.load_blacklist()
         
         if process_single_file(input_file, output_dir):
             success_count += 1
-            # 读取输出文件获取统计信息
             output_file = os.path.join(output_dir, os.path.basename(input_file))
             try:
                 with open(output_file, 'r', encoding='utf-8') as f:
@@ -972,14 +914,12 @@ def batch_convert():
                     total_sites += len(data.get('sites', []))
             except:
                 pass
-            # 获取过滤数量
             if temp_converter.filtered_count:
                 total_filtered += temp_converter.filtered_count
         else:
             fail_count += 1
             failed_files.append(os.path.basename(input_file))
     
-    # 输出总结
     print("\n" + "=" * 60)
     print("📊 批量转换完成!")
     print("=" * 60)
@@ -992,39 +932,6 @@ def batch_convert():
         print("\n失败的文件列表:")
         for f in failed_files:
             print(f"   - {f}")
-    
-    # 生成总体报告
-    generate_batch_report(success_count, fail_count, failed_files, input_dir, output_dir, total_sites, total_filtered)
-
-def generate_batch_report(success_count, fail_count, failed_files, input_dir, output_dir, total_sites, total_filtered):
-    """生成批量转换报告"""
-    report = {
-        "conversion_time": datetime.now().isoformat(),
-        "description": "批量转换 xl 目录下的所有 JSON/txt 文件到 mybox 目录（站点不限制）",
-        "input_directory": input_dir,
-        "output_directory": output_dir,
-        "statistics": {
-            "total_files": success_count + fail_count,
-            "success_count": success_count,
-            "fail_count": fail_count,
-            "failed_files": failed_files,
-            "total_sites_retained": total_sites,
-            "total_sites_filtered": total_filtered
-        },
-        "config": {
-            "sites_limit": "无限制",
-            "blacklist_file": "data/hmd.txt",
-            "lives_mode": "添加新源到第一位，保留原有源",
-            "additional_live_url": "https://zb.hao123.qzz.io/lv/migutv.txt"
-        }
-    }
-    
-    try:
-        with open("batch_conversion_report.json", 'w', encoding='utf-8') as f:
-            json.dump(report, f, ensure_ascii=False, indent=2)
-        print("\n📋 批量转换报告已保存到 batch_conversion_report.json")
-    except Exception as e:
-        print(f"⚠️ 保存批量转换报告失败: {e}")
 
 def main():
     """主函数"""
