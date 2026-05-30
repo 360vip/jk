@@ -53,8 +53,8 @@ jobs:
         fi
         
         if [ -f "/tmp/private-repo/proxy/dl.py" ]; then
-          cp /tmp/private-repo/proxy/dl.py ./proxy/
-          echo "dl.py 已复制到 proxy 目录"
+          cp /tmp/private-repo/proxy/dl.py .
+          echo "dl.py 已复制"
         else
           echo "警告: dl.py 不存在"
         fi
