@@ -135,16 +135,16 @@ jobs:
           exit 0
         fi
         
-        echo "开始推送xl 目录到私有仓库..."
+        echo "开始推送 xl 目录到私有仓库..."
         
         # 克隆私有仓库
-        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo
+        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-xl
         
         # 确保目标目录存在
-        mkdir -p /tmp/push-repo/xl
+        mkdir -p /tmp/push-repo-xl/xl
         
         # 复制 xl 目录内容
-        cp -r xl/* /tmp/push-repo/xl/ 2>/dev/null || echo "xl 目录为空"
+        cp -r xl/* /tmp/push-repo-xl/xl/ 2>/dev/null || echo "xl 目录为空"
         
         cd /tmp/push-repo-xl
         
