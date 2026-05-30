@@ -1,7 +1,7 @@
 //     当前接口：http://mytv6688.xyz/aowu/config.webp
 {
-    "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/嗷呜.jar",
-    "logo": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/logo.gif",
+    "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/嗷呜.jar",
+    "logo": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/logo.gif",
     "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
     "sites": [
         {
@@ -14,7 +14,7 @@
             "filterable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/douban.json"
+            "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/douban.json"
         },
         {
             "name": "⚙️配置|中心",
@@ -45,7 +45,7 @@
                     "https://www.wogg.one",
                     "https://www.wogg.live"
                 ],
-                "filters": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/wogg.json"
+                "filters": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/wogg.json"
             }
         },
         {
@@ -62,7 +62,7 @@
                     "http://123.666291.xyz",
                     "https://666.666291.xyz"
                 ],
-                "filters": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/womo.json"
+                "filters": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/womo.json"
             }
         },
         {
@@ -82,7 +82,7 @@
                     "https://www.2xiaozhan.top",
                     "https://wexwp.cc"
                 ],
-                "filters": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/woex.json"
+                "filters": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/woex.json"
             }
         },
         {
@@ -98,7 +98,7 @@
                 "sites": [
                     "http://103.45.162.207:20720"
                 ],
-                "filters": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/wohb.json"
+                "filters": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/wohb.json"
             }
         },
         {
@@ -121,7 +121,7 @@
                     "https://zhizhen8.click",
                     "https://www.zhizhen8.click"
                 ],
-                "filters": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/wozz.json"
+                "filters": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/wozz.json"
             }
         },
         {
@@ -139,7 +139,7 @@
                     "https://tv.yydsys.cc",
                     "https://tv.214521.xyz"
                 ],
-                "filters": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/wodd.json"
+                "filters": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/wodd.json"
             }
         },
         {
@@ -164,7 +164,7 @@
             "changeable": 0,
             "ext": {
                 "sites": "",
-                "filters": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/guazi.json"
+                "filters": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/guazi.json"
             }
         },
         {
@@ -313,7 +313,7 @@
             "name": "🧩橘汁|快速",
             "key": "Woshinidie",
             "type": 3,
-            "jar": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/Juzhi_spider.jar;md5;76d835a5c630383e9fd851399579220c",
+            "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/Juzhi_spider.jar;md5;76d835a5c630383e9fd851399579220c",
             "api": "csp_Woshinidie",
             "searchable": 1,
             "filterable": 1,
@@ -338,7 +338,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/jpian.json"
+            "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/jpian.json"
         },
         {
             "name": "🧩热播|快速",
@@ -380,7 +380,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/dubk.json"
+            "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/dubk.json"
         },
         {
             "name": "🔗哔嘀|2K",
@@ -610,7 +610,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/kuaishou.json",
+            "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/kuaishou.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
@@ -626,7 +626,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "json": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/bili.json",
+                "json": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/bili.json",
                 "cookie": ""
             },
             "style": {
@@ -664,7 +664,7 @@
             "filterable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/github.json"
+            "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/github.json"
         },
         {
             "name": "🔍fish|盘搜",
