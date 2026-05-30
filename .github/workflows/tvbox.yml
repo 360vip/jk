@@ -24,25 +24,173 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests gitpython beautifulsoup4 html5lib 
-        pip install chardet requests
+        pip install requests gitpython beautifulsoup4 html5lib chardet
         
-    - name: Run TVBox Config Updater
+    - name: 创建必要目录
+      run: |
+        mkdir -p data
+        mkdir -p proxy
+        mkdir -p tvbox/jar
+        mkdir -p jk
+        echo "目录创建完成"
+        
+    - name: 从私有仓库克隆并复制文件
+      run: |
+        # 克隆私有仓库
+        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/private-repo
+        
+        # 复制 Python 脚本文件
+        if [ -f "/tmp/private-repo/toolspy/tvbox_tools.py" ]; then
+          cp /tmp/private-repo/toolspy/tvbox_tools.py .
+          echo "tvbox_tools.py 已复制"
+        else
+          echo "警告: tvbox_tools.py 不存在"
+        fi
+        
+        if [ -f "/tmp/private-repo/toolspy/mybox.py" ]; then
+          cp /tmp/private-repo/toolspy/mybox.py .
+          echo "mybox.py 已复制"
+        else
+          echo "警告: mybox.py 不存在"
+        fi
+        
+        if [ -f "/tmp/private-repo/proxy/dl.py" ]; then
+          cp /tmp/private-repo/proxy/dl.py ./proxy/
+          echo "dl.py 已复制到 proxy 目录"
+        else
+          echo "警告: dl.py 不存在"
+        fi
+        
+        # 复制数据文件
+        if [ -f "/tmp/private-repo/data/url.txt" ]; then
+          cp /tmp/private-repo/data/url.txt ./data/
+          echo "url.txt 已复制到 data 目录"
+        else
+          echo "警告: data/url.txt 不存在"
+        fi
+        
+        if [ -f "/tmp/private-repo/proxy/url.txt" ]; then
+          cp /tmp/private-repo/proxy/url.txt ./proxy/
+          echo "url.txt 已复制到 proxy 目录"
+        else
+          echo "警告: proxy/url.txt 不存在"
+        fi
+        
+        # 清理临时目录
+        rm -rf /tmp/private-repo
+        echo "私有仓库文件复制完成"
+        
+    - name: 运行 tvbox_tools.py
       run: |
         python tvbox_tools.py
-
-    - name: Run proxy Updater
+        
+    - name: 运行 dl.py (proxy updater)
       run: |
-        python proxy/dl.py
-
-    - name: Run mybox Updater
+        cd proxy
+        python dl.py
+        cd ..
+        
+    - name: 运行 mybox.py
       run: |
         python mybox.py
-           
-    - name: Commit and Push changes
+        
+    - name: 推送 mybox 目录到私有仓库
       run: |
+        if [ ! -d "mybox" ]; then
+          echo "警告: mybox 目录不存在，跳过推送"
+          exit 0
+        fi
+        
+        echo "开始推送 mybox 目录到私有仓库..."
+        
+        # 克隆私有仓库
+        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo
+        
+        # 确保目标目录存在
+        mkdir -p /tmp/push-repo/mybox
+        
+        # 复制 mybox 目录内容
+        cp -r mybox/* /tmp/push-repo/mybox/ 2>/dev/null || echo "mybox 目录为空"
+        
+        cd /tmp/push-repo
+        
+        # 配置 git 用户信息
+        git config user.name "github-actions"
+        git config user.email "github-actions@users.noreply.github.com"
+        
+        # 添加文件
+        git add mybox/
+        
+        # 检查变更并提交
+        if git diff --cached --quiet; then
+          echo "mybox 目录没有变更需要提交"
+        else
+          git commit -m "自动更新 mybox 目录 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin main
+          echo "mybox 目录已成功推送到私有仓库"
+        fi
+        
+        cd /
+        rm -rf /tmp/push-repo
+        
+    - name: 推送 jk 目录到私有仓库
+      run: |
+        if [ ! -d "jk" ]; then
+          echo "警告: jk 目录不存在，跳过推送"
+          exit 0
+        fi
+        
+        echo "开始推送 jk 目录到私有仓库..."
+        
+        # 克隆私有仓库
+        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-jk
+        
+        # 确保目标目录存在
+        mkdir -p /tmp/push-repo-jk/jk
+        
+        # 复制 jk 目录内容
+        cp -r jk/* /tmp/push-repo-jk/jk/ 2>/dev/null || echo "jk 目录为空"
+        
+        cd /tmp/push-repo-jk
+        
+        # 配置 git 用户信息
+        git config user.name "github-actions"
+        git config user.email "github-actions@users.noreply.github.com"
+        
+        # 添加文件
+        git add jk/
+        
+        # 检查变更并提交
+        if git diff --cached --quiet; then
+          echo "jk 目录没有变更需要提交"
+        else
+          git commit -m "自动更新 jk 目录 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin main
+          echo "jk 目录已成功推送到私有仓库"
+        fi
+        
+        cd /
+        rm -rf /tmp/push-repo-jk
+        
+    - name: 本地推送 tvbox/jar 目录
+      run: |
+        if [ ! -d "tvbox/jar" ]; then
+          echo "警告: tvbox/jar 目录不存在，跳过推送"
+          exit 0
+        fi
+        
+        # 配置 git
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Update TVBox configs - $(date)" || exit 0
-        git push
+        
+        # 只添加 tvbox/jar 目录
+        git add tvbox/jar/
+        
+        # 检查是否有变更
+        if git diff --cached --quiet; then
+          echo "tvbox/jar 目录没有变更需要提交"
+        else
+          git commit -m "更新 tvbox/jar 目录 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin main
+          echo "tvbox/jar 目录已成功推送到本地仓库"
+        fi
