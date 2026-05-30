@@ -5,7 +5,7 @@
       "name": "📢公告",
       "type": 3,
       "api": "csp_Notice",
-      "jar": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/notice.jar"
+      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/notice.jar"
     },
     {
       "key": "公告1",
@@ -21,7 +21,7 @@
       "name": "雷蒙影视 | 🏪应用商店",
       "type": 3,
       "api": "csp_Market",
-      "jar": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/market.jar",
+      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/market.jar",
       "searchable": 0,
       "changeable": 0
     },
@@ -52,7 +52,7 @@
       "key": "drjs_豆瓣推荐",
       "name": "雷蒙影视 | 📡豆瓣推荐(DRPY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -87,7 +87,7 @@
       "key": "drjs_荐片",
       "name": "雷蒙影视 | 🏆荐片(DRPY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "csp_Gz360_FM",
@@ -100,7 +100,7 @@
       "key": "drjs_瓜子",
       "name": "雷蒙影视 | 🍉瓜子(DRPY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "csp_IkanBot",
@@ -115,7 +115,7 @@
       "key": "drjs_爱看机器人",
       "name": "雷蒙影视 | 🤖爱看机器人(DRPY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "csp_T4Guard_光影",
@@ -919,32 +919,32 @@
       "key": "drjs_优酷[官]",
       "name": "雷蒙影视 | 🔻优酷(DRPY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "drjs_百忙无果[官]",
       "name": "雷蒙影视 | 🥭芒果TV(DRPY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "drjs_奇珍异兽[官]",
       "name": "雷蒙影视 | 🥝爱奇艺(DRPY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "drjs_腾云驾雾[官]",
       "name": "雷蒙影视 | 腾讯视频(DRPY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "push_agent",
       "name": "雷蒙影视 | ⬆推送",
       "type": 3,
       "api": "csp_PushGuard",
-      "jar": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/pg.jar",
+      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/pg.jar",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -960,7 +960,7 @@
       "key": "py_火花_APP",
       "name": "雷蒙影视 | 🧿火花(FOX)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -973,7 +973,7 @@
       "key": "py_花柳_APP",
       "name": "雷蒙影视 | 🧿花柳(FOX)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -986,7 +986,7 @@
       "key": "py_恋鱼_APP",
       "name": "雷蒙影视 | 🧿恋鱼(FOX)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -999,7 +999,7 @@
       "key": "py_云播_APP",
       "name": "雷蒙影视 | 🧿云播(FOX)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1012,7 +1012,7 @@
       "key": "py_叶子_APP",
       "name": "雷蒙影视 | 🧿叶子(FOX)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1025,7 +1025,7 @@
       "key": "py_火猫_APP",
       "name": "雷蒙影视 | 🧿火猫(FOX)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1038,7 +1038,7 @@
       "key": "py_首发_APP",
       "name": "雷蒙影视 | 🧿首发(QIJI)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1050,7 +1050,7 @@
       "key": "py_爱影_APP",
       "name": "雷蒙影视 | 🧿爱影(QIJI)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1062,7 +1062,7 @@
       "key": "py_老鹰_APP",
       "name": "雷蒙影视 | 🧿老鹰(QIJI)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1074,7 +1074,7 @@
       "key": "py_橘子_APP",
       "name": "雷蒙影视 | 🧿橘子(QIJI)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1086,7 +1086,7 @@
       "key": "py_蓝鹰_APP",
       "name": "雷蒙影视 | 🧿蓝鹰(QIJI)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1098,7 +1098,7 @@
       "key": "py_金都_APP",
       "name": "雷蒙影视 | 🧿金都(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1110,7 +1110,7 @@
       "key": "py_猎豹_APP",
       "name": "雷蒙影视 | 🧿猎豹(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1122,7 +1122,7 @@
       "key": "py_映画_APP",
       "name": "雷蒙影视 | 🧿映画(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1134,7 +1134,7 @@
       "key": "py_云朵_APP",
       "name": "雷蒙影视 | 🧿云朵(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1146,7 +1146,7 @@
       "key": "py_坚果_APP",
       "name": "雷蒙影视 | 🧿坚果(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1158,7 +1158,7 @@
       "key": "py_王子_APP",
       "name": "雷蒙影视 | 🧿王子(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1170,7 +1170,7 @@
       "key": "py_秒看_APP",
       "name": "雷蒙影视 | 🧿秒看(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1182,7 +1182,7 @@
       "key": "py_茉莉_APP",
       "name": "雷蒙影视 | 🧿茉莉(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1194,7 +1194,7 @@
       "key": "py_灵虎_APP",
       "name": "雷蒙影视 | 🧿灵虎(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1206,7 +1206,7 @@
       "key": "py_驿站_APP",
       "name": "雷蒙影视 | 🧿驿站(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1218,7 +1218,7 @@
       "key": "py_方源_APP",
       "name": "雷蒙影视 | 🧿方源(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1230,7 +1230,7 @@
       "key": "py_七月_APP",
       "name": "雷蒙影视 | 🧿七月(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1242,7 +1242,7 @@
       "key": "py_芬奇_APP",
       "name": "雷蒙影视 | 🧿芬奇(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1254,7 +1254,7 @@
       "key": "py_小白_APP",
       "name": "雷蒙影视 | 🧿小白(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1266,7 +1266,7 @@
       "key": "py_数字_APP",
       "name": "雷蒙影视 | 🧿数字(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1278,7 +1278,7 @@
       "key": "py_紫金_APP",
       "name": "雷蒙影视 | 🧿紫金(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1290,7 +1290,7 @@
       "key": "py_丫丫_APP",
       "name": "雷蒙影视 | 🧿丫丫(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1302,7 +1302,7 @@
       "key": "py_漫屋_APP",
       "name": "雷蒙影视 | 🧿漫屋(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1314,7 +1314,7 @@
       "key": "py_方舟_APP",
       "name": "雷蒙影视 | 🧿方舟(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1326,7 +1326,7 @@
       "key": "py_番薯_APP",
       "name": "雷蒙影视 | 🧿番薯(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1338,7 +1338,7 @@
       "key": "py_曼波_APP",
       "name": "雷蒙影视 | 🧿曼波(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1350,7 +1350,7 @@
       "key": "py_咕咕_APP",
       "name": "雷蒙影视 | 🧿咕咕(GET)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1362,355 +1362,355 @@
       "key": "py_CliCli",
       "name": "雷蒙影视 | 🧿CliCli(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/CliCli动漫APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/CliCli动漫APP.py"
     },
     {
       "key": "py_HiTV",
       "name": "雷蒙影视 | 🧿HiTV(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/hitvAPP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/hitvAPP.py"
     },
     {
       "key": "py_MiFun",
       "name": "雷蒙影视 | 🧿MiFun(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/MiFunAPP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/MiFunAPP.py"
     },
     {
       "key": "py_热播",
       "name": "雷蒙影视 | 🧿热播(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/热播APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/热播APP.py"
     },
     {
       "key": "py_海马",
       "name": "雷蒙影视 | 🧿海马(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/海马影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/海马影视APP.py"
     },
     {
       "key": "py_奇迹",
       "name": "雷蒙影视 | 🧿奇迹(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/奇迹APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/奇迹APP.py"
     },
     {
       "key": "py_零度",
       "name": "雷蒙影视 | 🧿零度(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/零度影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/零度影视APP.py"
     },
     {
       "key": "py_外剧",
       "name": "雷蒙影视 | 🧿外剧(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/国外剧APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/国外剧APP.py"
     },
     {
       "key": "py_爱瓜",
       "name": "雷蒙影视 | 🧿爱瓜(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/爱瓜TVAPP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/爱瓜TVAPP.py"
     },
     {
       "key": "py_边缘",
       "name": "雷蒙影视 | 🧿边缘(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/边缘影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/边缘影视APP.py"
     },
     {
       "key": "py_光速",
       "name": "雷蒙影视 | 🧿光速(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/光速APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/光速APP.py"
     },
     {
       "key": "py_火车",
       "name": "雷蒙影视 | 🧿火车(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/火车太顺APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/火车太顺APP.py"
     },
     {
       "key": "py_剧多",
       "name": "雷蒙影视 | 🧿剧多(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/剧多短剧APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/剧多短剧APP.py"
     },
     {
       "key": "py_恋鱼",
       "name": "雷蒙影视 | 🧿恋鱼(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/恋鱼影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/恋鱼影视APP.py"
     },
     {
       "key": "py_美帕",
       "name": "雷蒙影视 | 🧿美帕(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/美帕APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/美帕APP.py"
     },
     {
       "key": "py_魔方",
       "name": "雷蒙影视 | 🧿魔方(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/魔方影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/魔方影视APP.py"
     },
     {
       "key": "py_胖虎",
       "name": "雷蒙影视 | 🧿胖虎(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/胖虎APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/胖虎APP.py"
     },
     {
       "key": "py_皮虾",
       "name": "雷蒙影视 | 🧿皮虾(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/皮皮虾APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/皮皮虾APP.py"
     },
     {
       "key": "py_若惜",
       "name": "雷蒙影视 | 🧿若惜(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/若惜追剧APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/若惜追剧APP.py"
     },
     {
       "key": "py_三号",
       "name": "雷蒙影视 | 🧿三号(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/三号动漫APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/三号动漫APP.py"
     },
     {
       "key": "py_视觉",
       "name": "雷蒙影视 | 🧿视觉(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/视觉APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/视觉APP.py"
     },
     {
       "key": "py_哇哇",
       "name": "雷蒙影视 | 🧿哇哇(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/哇哇APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/哇哇APP.py"
     },
     {
       "key": "py_苹果",
       "name": "雷蒙影视 | 🧿苹果(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/小苹果APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/小苹果APP.py"
     },
     {
       "key": "py_悠悠",
       "name": "雷蒙影视 | 🧿悠悠(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/悠悠APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/悠悠APP.py"
     },
     {
       "key": "py_云端",
       "name": "雷蒙影视 | 🧿云端(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云端APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云端APP.py"
     },
     {
       "key": "py_云速",
       "name": "雷蒙影视 | 🧿云速(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云速影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云速影视APP.py"
     },
     {
       "key": "py_爱听音乐",
       "name": "雷蒙影视 | 🧿爱听(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱听音乐.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱听音乐.py"
     },
     {
       "key": "py_飞快TV",
       "name": "雷蒙影视 | 🧿飞快(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/飞快TV.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/飞快TV.py"
     },
     {
       "key": "py_redflix",
       "name": "雷蒙影视 | 🧿REDFLIX(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/redflix.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/redflix.py"
     },
     {
       "key": "py_456movie",
       "name": "雷蒙影视 | 🧿456Movie(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/456movie.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/456movie.py"
     },
     {
       "key": "py_LREEOK",
       "name": "雷蒙影视 | 🧿LREEOK(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LREEOK.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LREEOK.py"
     },
     {
       "key": "py_4KAV",
       "name": "雷蒙影视 | 🧿4KAV(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/4KAV.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/4KAV.py"
     },
     {
       "key": "py_NUNFLIX",
       "name": "雷蒙影视 | 🧿Nunflix(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/NUNFLIX.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/NUNFLIX.py"
     },
     {
       "key": "py_荐片",
       "name": "雷蒙影视 | 🧿荐片(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/荐片.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/荐片.py"
     },
     {
       "key": "py_厂长",
       "name": "雷蒙影视 | 🧿厂长(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/厂长资源.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/厂长资源.py"
     },
     {
       "key": "py_明月",
       "name": "雷蒙影视 | 🧿明月(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/明月影院.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/明月影院.py"
     },
     {
       "key": "py_壹帆",
       "name": "雷蒙影视 | 🧿壹帆(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱壹帆.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱壹帆.py"
     },
     {
       "key": "py_泥视",
       "name": "雷蒙影视 | 🧿泥视(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/泥视频.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/泥视频.py"
     },
     {
       "key": "py_想看",
       "name": "雷蒙影视 | 🧿想看(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/想看影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/想看影视.py"
     },
     {
       "key": "py_追星",
       "name": "雷蒙影视 | 🧿追星(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/追星影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/追星影视.py"
     },
     {
       "key": "py_猎手",
       "name": "雷蒙影视 | 🧿猎手(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/电影猎手.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/电影猎手.py"
     },
     {
       "key": "py_柯南",
       "name": "雷蒙影视 | 🧿柯南(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/柯南影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/柯南影视.py"
     },
     {
       "key": "py_骚火",
       "name": "雷蒙影视 | 🧿骚火(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/骚火电影.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/骚火电影.py"
     },
     {
       "key": "py_剧粑",
       "name": "雷蒙影视 | 🧿剧粑(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧粑粑.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧粑粑.py"
     },
     {
       "key": "py_小红",
       "name": "雷蒙影视 | 🧿小红(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/小红影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/小红影视.py"
     },
     {
       "key": "py_旺旺",
       "name": "雷蒙影视 | 🧿旺旺(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/旺旺.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/旺旺.py"
     },
     {
       "key": "py_绝对",
       "name": "雷蒙影视 | 🧿绝对(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/绝对影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/绝对影视.py"
     },
     {
       "key": "py_星芽",
       "name": "雷蒙影视 | 🧿星芽(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/星芽短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/星芽短剧.py"
     },
     {
       "key": "py_剧王",
       "name": "雷蒙影视 | 🧿剧王(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧王短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧王短剧.py"
     },
     {
       "key": "py_爱看",
       "name": "雷蒙影视 | 🧿爱看(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱看短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱看短剧.py"
     },
     {
       "key": "py_锦鲤",
       "name": "雷蒙影视 | 🧿锦鲤(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/锦鲤短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/锦鲤短剧.py"
     },
     {
       "key": "py_河马",
       "name": "雷蒙影视 | 🧿河马(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/河马短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/河马短剧.py"
     },
     {
       "key": "py_偷乐",
       "name": "雷蒙影视 | 🧿偷乐(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/偷乐短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/偷乐短剧.py"
     },
     {
       "key": "py_好帅",
       "name": "雷蒙影视 | 🧿好帅(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/好帅短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/好帅短剧.py"
     },
     {
       "key": "py_红果",
       "name": "雷蒙影视 | 🧿红果(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/红果网页.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/红果网页.py"
     },
     {
       "key": "py_甜圈",
       "name": "雷蒙影视 | 🧿甜圈(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/甜圈短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/甜圈短剧.py"
     },
     {
       "key": "py_嗷呜",
       "name": "雷蒙影视 | 🧿嗷呜(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/嗷呜动漫.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/嗷呜动漫.py"
     },
     {
       "key": "py_柠檬",
       "name": "雷蒙影视 | 🧿柠檬(PY)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LIVES.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LIVES.py"
     },
     {
       "key": "js_火猫",
       "name": "雷蒙影视 | 🍥火猫(NOX)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
       "ext": {
         "host": "https://jp5.ggtvb.cc"
       }
@@ -1719,7 +1719,7 @@
       "key": "js_星影",
       "name": "雷蒙影视 | 🍥星影(NOX)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
       "ext": {
         "host": "http://110.81.153.7:8081"
       }
@@ -1728,7 +1728,7 @@
       "key": "js_回响",
       "name": "雷蒙影视 | 🍥回响(NOX)",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
       "ext": {
         "host": "http://110.42.37.69:8080"
       }
@@ -2293,7 +2293,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-29 04:01:20"
+      "text": "自动更新于 2026-05-30 03:02:44"
     }
   ],
   "lives": [
@@ -2309,20 +2309,20 @@
     {
       "name": "雷蒙影视宣传片",
       "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt",
       "ua": "okhttp/3.15",
-      "logo": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png"
+      "logo": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png"
     },
     {
       "name": "直播",
       "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 2
     },
     {
       "name": "咪咕",
       "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2337,7 +2337,7 @@
     {
       "name": "雷蒙影视电视直播",
       "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2345,7 +2345,7 @@
     {
       "name": "雷蒙影视轻量直播",
       "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2353,7 +2353,7 @@
     {
       "name": "WEB直播",
       "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/LIVE/web.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/LIVE/web.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2393,7 +2393,7 @@
     {
       "name": "YOUTUBE直播",
       "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTTV.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTTV.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -3143,5 +3143,5 @@
   ],
   "wallpaper": "https://pic.850930.xyz/",
   "warningText": "",
-  "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/168xx/xianlu/main/tvbox/jar/雷蒙影视.jar"
+  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/雷蒙影视.jar"
 }

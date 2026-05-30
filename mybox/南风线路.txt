@@ -431,7 +431,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-29 04:01:21"
+      "text": "自动更新于 2026-05-30 03:02:44"
     }
   ],
   "lives": [
@@ -872,5 +872,5 @@
   ],
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "warningText": "",
-  "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/168xx/xianlu/main/tvbox/jar/南风线路.jar"
+  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/南风线路.jar"
 }

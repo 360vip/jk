@@ -30,7 +30,7 @@
       "changeable": 0,
       "filterable": 1,
       "ext": {
-        "filters": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/guazi.json",
+        "filters": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/guazi.json",
         "sites": ""
       }
     },
@@ -169,7 +169,7 @@
       "name": "🧩橘汁|快速",
       "type": 3,
       "api": "csp_Woshinidie",
-      "jar": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/Juzhi_spider.jar;md5;76d835a5c630383e9fd851399579220c",
+      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/Juzhi_spider.jar;md5;76d835a5c630383e9fd851399579220c",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -416,7 +416,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-29 04:01:21"
+      "text": "自动更新于 2026-05-30 03:02:44"
     }
   ],
   "lives": [
@@ -767,5 +767,5 @@
   ],
   "wallpaper": "",
   "warningText": "",
-  "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/168xx/xianlu/main/tvbox/jar/嗷呜.jar"
+  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/嗷呜.jar"
 }

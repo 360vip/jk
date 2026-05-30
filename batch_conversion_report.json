@@ -1,0 +1,23 @@
+{
+  "conversion_time": "2026-05-30T03:02:44.799269",
+  "description": "批量转换 xl 目录下的所有 JSON/txt 文件到 mybox 目录（站点不限制）",
+  "input_directory": "xl",
+  "output_directory": "mybox",
+  "statistics": {
+    "total_files": 9,
+    "success_count": 7,
+    "fail_count": 2,
+    "failed_files": [
+      "潇洒改版.txt",
+      "alantang.txt"
+    ],
+    "total_sites_retained": 479,
+    "total_sites_filtered": 0
+  },
+  "config": {
+    "sites_limit": "无限制",
+    "blacklist_file": "data/hmd.txt",
+    "lives_mode": "添加新源到第一位，保留原有源",
+    "additional_live_url": "https://zb.hao123.qzz.io/lv/migutv.txt"
+  }
+}

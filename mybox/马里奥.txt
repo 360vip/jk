@@ -137,7 +137,7 @@
       "key": "猎手影视",
       "name": "🍄猎手ଉ影院",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/maliao0517/-/main/猎手影视.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/maliao0517/-/main/猎手影视.py",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -207,7 +207,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-29 04:01:20"
+      "text": "自动更新于 2026-05-30 03:02:44"
     }
   ],
   "lives": [
@@ -223,7 +223,7 @@
     {
       "name": "音乐MTV",
       "type": 0,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
       "playerType": 2,
       "ua": "okhttp/5.0.0-alpha.14",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
@@ -604,5 +604,5 @@
   ],
   "wallpaper": "https://wp.upx8.com/api.php",
   "warningText": "资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
-  "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/168xx/xianlu/main/tvbox/jar/马里奥.jar"
+  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/马里奥.jar"
 }

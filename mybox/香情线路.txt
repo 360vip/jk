@@ -13,31 +13,31 @@
       "key": "drpy_js_豆瓣",
       "name": "豆瓣[js]",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "drpy_js_奇珍异兽",
       "name": "奇珍异兽[js]",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "drpy_js_优酷",
       "name": "优酷[js]",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "drpy_js_腾云驾雾",
       "name": "腾云驾雾[js]",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "drpy_js_百忙无果",
       "name": "百忙无果[js]",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js"
     },
     {
       "key": "push_agent",
@@ -325,7 +325,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-29 04:01:21"
+      "text": "自动更新于 2026-05-30 03:02:44"
     }
   ],
   "lives": [
@@ -358,7 +358,7 @@
       "name": "Tianmu",
       "type": "0",
       "pass": true,
-      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt",
       "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
       "logo": "https://epg.v1.mk/logo/{name}.png"
     }
@@ -1026,5 +1026,5 @@
   ],
   "wallpaper": "https://wp.upx8.com/api.php",
   "warningText": "",
-  "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/168xx/xianlu/main/tvbox/jar/香情线路.jar"
+  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/香情线路.jar"
 }
