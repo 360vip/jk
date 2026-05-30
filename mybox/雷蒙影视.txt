@@ -1,0 +1,3147 @@
+{
+  "sites": [
+    {
+      "key": "csp_Notice",
+      "name": "📢公告",
+      "type": 3,
+      "api": "csp_Notice",
+      "jar": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/notice.jar"
+    },
+    {
+      "key": "公告1",
+      "name": "📢勿传播本线路",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "csp_Market",
+      "name": "雷蒙影视 | 🏪应用商店",
+      "type": 3,
+      "api": "csp_Market",
+      "jar": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/market.jar",
+      "searchable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "csp_FirstAidGuard",
+      "name": "雷蒙影视 | 🚑急救教学(SP)",
+      "type": 3,
+      "api": "csp_FirstAidGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "csp_Douban",
+      "name": "雷蒙影视 | 📡我的豆瓣(SP)",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
+      "key": "csp_DouDouGuard",
+      "name": "雷蒙影视 | 📡豆瓣片单(SP)",
+      "type": 3,
+      "api": "csp_DouDouGuard",
+      "searchable": 0
+    },
+    {
+      "key": "drjs_豆瓣推荐",
+      "name": "雷蒙影视 | 📡豆瓣推荐(DRPY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "csp_YGPGuard",
+      "name": "雷蒙影视 | 🎞预告片(SP)",
+      "type": 3,
+      "api": "csp_YGPGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "csp_MusicGuard",
+      "name": "雷蒙影视 | 🎙易听音乐(SP)",
+      "type": 3,
+      "api": "csp_MusicGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "playerType": 2
+    },
+    {
+      "key": "csp_Jianpian_FM",
+      "name": "雷蒙影视 | 🏆荐片(SP)",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "playerType": "2"
+    },
+    {
+      "key": "drjs_荐片",
+      "name": "雷蒙影视 | 🏆荐片(DRPY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+    },
+    {
+      "key": "csp_Gz360_FM",
+      "name": "雷蒙影视 | 🍉瓜子(SP)",
+      "type": 3,
+      "api": "csp_Gz360",
+      "playerType": 2
+    },
+    {
+      "key": "drjs_瓜子",
+      "name": "雷蒙影视 | 🍉瓜子(DRPY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+    },
+    {
+      "key": "csp_IkanBot",
+      "name": "雷蒙影视 | 🤖爱看机器人(SP)",
+      "type": 3,
+      "api": "csp_IkanBot",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "drjs_爱看机器人",
+      "name": "雷蒙影视 | 🤖爱看机器人(DRPY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+    },
+    {
+      "key": "csp_T4Guard_光影",
+      "name": "雷蒙影视 | 🌞光影(SP)",
+      "type": 3,
+      "api": "csp_T4Guard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "csp_LibvioGuard",
+      "name": "雷蒙影视 | 🌟Libvio(SP)",
+      "type": 3,
+      "api": "csp_LibvioGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_JpysGuard",
+      "name": "雷蒙影视 | 💮文才(SP)",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10,
+      "playerType": 2
+    },
+    {
+      "key": "csp_YCyzGuard",
+      "name": "雷蒙影视 | 原创(SP)",
+      "type": 3,
+      "api": "csp_YCyzGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 15,
+      "playerType": 1
+    },
+    {
+      "key": "csp_BttooGuard",
+      "name": "雷蒙影视 | 🍄两个BT(SP)",
+      "type": 3,
+      "api": "csp_BttwooGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_NmyswvGuard",
+      "name": "雷蒙影视 | 🍓糯米(SP)",
+      "type": 3,
+      "api": "csp_NmyswvGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 15
+    },
+    {
+      "key": "csp_T4Guard_奶酪",
+      "name": "雷蒙影视 | 🧀奶酪(SP)",
+      "type": 3,
+      "api": "csp_T4Guard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "csp_AppTTGuard_热播",
+      "name": "雷蒙影视 | 热播(SP)",
+      "type": 3,
+      "api": "csp_AppTTGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10,
+      "playerType": 2
+    },
+    {
+      "key": "csp_AppSxGuard_剧圈",
+      "name": "雷蒙影视 | 🐻剧圈(SP)",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_AppSxGuard_视界",
+      "name": "雷蒙影视 | 🍙视界(SP)",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_AppSxGuard_花花",
+      "name": "雷蒙影视 | 🥝花花(SP)",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_AppSxGuard_播客",
+      "name": "雷蒙影视 | 🦊播客(SP)",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_AppSxGuard_爱影",
+      "name": "雷蒙影视 | 👀爱影(SP)",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_AppSxGuard_猫猫",
+      "name": "雷蒙影视 | 🐟猫猫(SP)",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_AueteGuard",
+      "name": "雷蒙影视 | 🏝奥特(SP)",
+      "type": 3,
+      "api": "csp_AueteGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_JPJGuard",
+      "name": "雷蒙影视 | 🐭荐片(SP)",
+      "type": 3,
+      "api": "csp_JPJGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "timeout": 10,
+      "playerType": 2
+    },
+    {
+      "key": "csp_SixVGuard",
+      "name": "雷蒙影视 | 🧲6V电影网(SP)",
+      "type": 3,
+      "api": "csp_SixVGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_AppSxGuard_咕咕",
+      "name": "雷蒙影视 | 🦉咕咕(SP)",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_Uvod",
+      "name": "雷蒙影视 | 💎优视频(SP)",
+      "type": 3,
+      "api": "csp_Uvod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_PTT",
+      "name": "雷蒙影视 | 🎈PTT(SP)",
+      "type": 3,
+      "api": "csp_PTT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_NCat",
+      "name": "雷蒙影视 | 😻网飞猫(SP)",
+      "type": 3,
+      "api": "csp_NCat",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_TvDy",
+      "name": "雷蒙影视 | 👼电影天堂(SP)",
+      "type": 3,
+      "api": "csp_TvDy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_W55Movie",
+      "name": "雷蒙影视 | 5⃣555电影(SP)",
+      "type": 3,
+      "api": "csp_W55Movie",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_DaGongRen",
+      "name": "雷蒙影视 | 👤打工人电影(SP)",
+      "type": 3,
+      "api": "csp_DaGongRen",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_HkTv",
+      "name": "雷蒙影视 | 🌥TVB云播(SP)",
+      "type": 3,
+      "api": "csp_HkTv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_XuanFeng",
+      "name": "雷蒙影视 | 🌀旋风影视(SP)",
+      "type": 3,
+      "api": "csp_XuanFeng",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Dm84Guard",
+      "name": "雷蒙影视 | 🐾动漫巴士(SP)",
+      "type": 3,
+      "api": "csp_Dm84Guard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 10,
+      "playerType": 2
+    },
+    {
+      "key": "csp_Anime1Guard",
+      "name": "雷蒙影视 | 🐾Anime1动画线上看(SP)",
+      "type": 3,
+      "api": "csp_Anime1Guard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_YHDM",
+      "name": "雷蒙影视 | 🐾樱花动漫(SP)",
+      "type": 3,
+      "api": "csp_YHDM",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 15
+    },
+    {
+      "key": "csp_SP360",
+      "name": "雷蒙影视 | 3⃣360(SP)",
+      "type": 3,
+      "api": "csp_SP360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_LiveGzGuard",
+      "name": "雷蒙影视 | 吃瓜看球(SP)",
+      "type": 3,
+      "api": "csp_LiveGzGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "csp_MusicGuard",
+      "name": "雷蒙影视 | 🎙易听(SP)",
+      "type": 3,
+      "api": "csp_MusicGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "csp_Tingshu275Guard",
+      "name": "雷蒙影视 | 🎧听书(SP)",
+      "type": 3,
+      "api": "csp_Tingshu275Guard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "csp_TTian_天天_QJ",
+      "name": "雷蒙影视 | ⛅天天(SP)",
+      "type": 3,
+      "api": "csp_TTian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "csp_AppV6_追剧_QJ",
+      "name": "雷蒙影视 | 🏃➡追剧(SP)",
+      "type": 3,
+      "api": "csp_AppV6",
+      "playerType": 2
+    },
+    {
+      "key": "csp_AppV6_特狗_QJ",
+      "name": "雷蒙影视 | 🐶特狗(SP)",
+      "type": 3,
+      "api": "csp_AppV6",
+      "playerType": 2
+    },
+    {
+      "key": "csp_AppV6_柚子_QJ",
+      "name": "雷蒙影视 | 🍊柚子(SP)",
+      "type": 3,
+      "api": "csp_AppV6",
+      "playerType": 2
+    },
+    {
+      "key": "csp_AppV6_师兄_QJ",
+      "name": "雷蒙影视 | 🐵师兄(SP)",
+      "type": 3,
+      "api": "csp_AppV6",
+      "playerType": 2
+    },
+    {
+      "key": "csp_AppV6_天空_QJ",
+      "name": "雷蒙影视 | 🌈天空(SP)",
+      "type": 3,
+      "api": "csp_AppV6",
+      "playerType": 2
+    },
+    {
+      "key": "csp_AppV6_小黄_QJ",
+      "name": "雷蒙影视 | 😀小黄(SP)",
+      "type": 3,
+      "api": "csp_AppV6",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Hmys_QJ",
+      "name": "雷蒙影视 | 🎐拾光(SP)",
+      "type": 3,
+      "api": "csp_Hmys",
+      "playerType": 1
+    },
+    {
+      "key": "csp_Bdys01_QJ",
+      "name": "雷蒙影视 | 🔊修罗(SP)",
+      "type": 3,
+      "api": "csp_Bdys01",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "csp_JpysQJ",
+      "name": "雷蒙影视 | 🥇剧评(SP)",
+      "type": 3,
+      "api": "csp_JpysQJ",
+      "playerType": 1
+    },
+    {
+      "key": "csp_qiao2_QJ1",
+      "name": "雷蒙影视 | 🎄巧技一(SP)",
+      "type": 3,
+      "api": "csp_qiao2",
+      "playerType": 2
+    },
+    {
+      "key": "csp_qiao2_QJ2",
+      "name": "雷蒙影视 | 🎄巧技二(SP)",
+      "type": 3,
+      "api": "csp_qiao2",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Xdai_狂风_QJ",
+      "name": "雷蒙影视 | 🌪狂风(SP)",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Xdai_主角_QJ",
+      "name": "雷蒙影视 | 👓主角(SP)",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Muou_柚子_QJ",
+      "name": "雷蒙影视 | 🍈柚子(SP)",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Xdai_永夜_QJ",
+      "name": "雷蒙影视 | 🌙永夜(SP)",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Muou_趣看_QJ",
+      "name": "雷蒙影视 | 🥽趣看(SP)",
+      "type": 3,
+      "api": "csp_Qiji",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Xdai_星河_QJ",
+      "name": "雷蒙影视 | 💫星河(SP)",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Qiji_优质_QJ",
+      "name": "雷蒙影视 | 🌈优质(SP)",
+      "type": 3,
+      "api": "csp_Qiji",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Qiji_客星_QJ",
+      "name": "雷蒙影视 | 🍃客星(SP)",
+      "type": 3,
+      "api": "csp_Qiji",
+      "playerType": 2
+    },
+    {
+      "key": "csp_Nmvod_QJ",
+      "name": "雷蒙影视 | 柠檬(SP)",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2
+    },
+    {
+      "key": "csp_AI_QJ",
+      "name": "雷蒙影视 | 💻AI(SP)",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2
+    },
+    {
+      "key": "csp_Dygang_QJ",
+      "name": "雷蒙影视 | 🚢电影港(SP)",
+      "type": 3,
+      "api": "csp_Dygang",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Lib_QJ",
+      "name": "雷蒙影视 | 🌂Libvio(SP)",
+      "type": 3,
+      "api": "csp_Lib",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Zxzj_QJ",
+      "name": "雷蒙影视 |🏠在线(SP)",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "csp_CzsappQJ_厂长",
+      "name": "雷蒙影视 | 👔厂长(SP)",
+      "type": 3,
+      "api": "csp_CzsappQJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "csp_CzsappQJ_布布",
+      "name": "雷蒙影视 | 🥼布布(SP)",
+      "type": 3,
+      "api": "csp_CzsappQJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1
+    },
+    {
+      "key": "csp_Auete_QJ",
+      "name": "雷蒙影视 | 🛰Auete(SP)",
+      "type": 3,
+      "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "csp_AppRJ_潮流_FM",
+      "name": "雷蒙影视 | 🏜潮流(SP)",
+      "type": 3,
+      "api": "csp_AppRJ"
+    },
+    {
+      "key": "csp_AppGet_肥猫_FM",
+      "name": "雷蒙影视 | 肥猫(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_干饭_FM",
+      "name": "雷蒙影视 | 🍚干饭(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_光盘_FM",
+      "name": "雷蒙影视 | 📀光盘(SP)",
+      "type": 3,
+      "api": "csp_AppQi"
+    },
+    {
+      "key": "csp_AppGet_行动_FM",
+      "name": "雷蒙影视 | 😌行动(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_再来_FM",
+      "name": "雷蒙影视 | ✌再来(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_一碗_FM",
+      "name": "雷蒙影视 | 🥣一碗(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_猫抓_FM",
+      "name": "雷蒙影视 | 🐱猫抓(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_耗子_FM",
+      "name": "雷蒙影视 | 🐹耗子(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_蔬菜_FM",
+      "name": "雷蒙影视 | 🥦蔬菜(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_黑猫_FM",
+      "name": "雷蒙影视 | 黑猫(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_兔子_FM",
+      "name": "雷蒙影视 | 🐇兔子(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppGet_永永_FM",
+      "name": "雷蒙影视 | ♾永永(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_AppSymx_FM",
+      "name": "雷蒙影视 | 🏔木兮(SP)",
+      "type": 3,
+      "api": "csp_Symx"
+    },
+    {
+      "key": "csp_AppJg_FM",
+      "name": "雷蒙影视 | 🍧坚果(SP)",
+      "type": 3,
+      "api": "csp_AppJg"
+    },
+    {
+      "key": "csp_App3Q_FM",
+      "name": "雷蒙影视 | 3⃣3Q(SP)",
+      "type": 3,
+      "api": "csp_App3Q"
+    },
+    {
+      "key": "csp_Wwys_FM",
+      "name": "雷蒙影视 | 🌾农民(SP)",
+      "type": 3,
+      "api": "csp_Wwys"
+    },
+    {
+      "key": "csp_SaoHuo_FM",
+      "name": "雷蒙影视 | 🔥骚火(SP)",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "playerType": 2
+    },
+    {
+      "key": "csp_LiteApple_FM",
+      "name": "雷蒙影视 | 🍎苹果(SP)",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Czsapp_FM",
+      "name": "雷蒙影视 | 🏭厂长(SP)",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "csp_AppGet_丫丫_FM",
+      "name": "雷蒙影视 | 🐷丫丫(SP)",
+      "type": 3,
+      "api": "csp_AppGet"
+    },
+    {
+      "key": "csp_Kugou_FM",
+      "name": "雷蒙影视 | 🐾酷狗(SP)",
+      "type": 3,
+      "api": "csp_Kugou",
+      "playerType": 2,
+      "ext": {
+        "classes": [
+          {
+            "type_name": "酷狗",
+            "type_id": "kugou"
+          }
+        ]
+      }
+    },
+    {
+      "key": "csp_Kanqiu_FM",
+      "name": "雷蒙影视 | ⚾看球(SP)",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "csp_CandyMuj_freeok",
+      "name": "雷蒙影视 | 🆗FreeOK(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_freeok",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_hjtv",
+      "name": "雷蒙影视 | 🍺韩剧TV(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_hjtv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_netflixgc",
+      "name": "雷蒙影视 | 💖奈飞工厂(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_netflixgc",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_dyls",
+      "name": "雷蒙影视 | 🚅极速影视(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_dyls",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_haokongbu",
+      "name": "雷蒙影视 | 🧛好恐怖(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_haokongbu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_taoju",
+      "name": "雷蒙影视 | 🌊淘剧影院(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_taoju",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_lm5",
+      "name": "雷蒙影视 | 🌃星辰影院(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_lm5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_cokemv",
+      "name": "雷蒙影视 | 🥤Cokemv(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_cokemv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_qiqiyy",
+      "name": "雷蒙影视 | 👩琪琪影院(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_qiqiyy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_nkvod",
+      "name": "雷蒙影视 | 🔱耐看点播(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_nkvod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_CandyMuj_yinfans",
+      "name": "雷蒙影视 | 🧲音范丝(SP)",
+      "type": 3,
+      "api": "csp_CandyMuj_yinfans",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "drjs_优酷[官]",
+      "name": "雷蒙影视 | 🔻优酷(DRPY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+    },
+    {
+      "key": "drjs_百忙无果[官]",
+      "name": "雷蒙影视 | 🥭芒果TV(DRPY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+    },
+    {
+      "key": "drjs_奇珍异兽[官]",
+      "name": "雷蒙影视 | 🥝爱奇艺(DRPY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+    },
+    {
+      "key": "drjs_腾云驾雾[官]",
+      "name": "雷蒙影视 | 腾讯视频(DRPY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js"
+    },
+    {
+      "key": "push_agent",
+      "name": "雷蒙影视 | ⬆推送",
+      "type": 3,
+      "api": "csp_PushGuard",
+      "jar": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/pg.jar",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "csp_AList",
+      "name": "雷蒙影视 | 📜AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1
+    },
+    {
+      "key": "py_火花_APP",
+      "name": "雷蒙影视 | 🧿火花(FOX)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://huohua.itcxo.cn",
+        "ver": "2"
+      }
+    },
+    {
+      "key": "py_花柳_APP",
+      "name": "雷蒙影视 | 🧿花柳(FOX)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://nico.oiio.fun",
+        "ver": "2"
+      }
+    },
+    {
+      "key": "py_恋鱼_APP",
+      "name": "雷蒙影视 | 🧿恋鱼(FOX)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://103.117.137.33:2443",
+        "ver": "2"
+      }
+    },
+    {
+      "key": "py_云播_APP",
+      "name": "雷蒙影视 | 🧿云播(FOX)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://app.hktvyb.cc",
+        "ver": "2"
+      }
+    },
+    {
+      "key": "py_叶子_APP",
+      "name": "雷蒙影视 | 🧿叶子(FOX)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/yzysapp.json",
+        "ver": "2"
+      }
+    },
+    {
+      "key": "py_火猫_APP",
+      "name": "雷蒙影视 | 🧿火猫(FOX)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/fox.json",
+        "ver": "2"
+      }
+    },
+    {
+      "key": "py_首发_APP",
+      "name": "雷蒙影视 | 🧿首发(QIJI)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/600.txt"
+      }
+    },
+    {
+      "key": "py_爱影_APP",
+      "name": "雷蒙影视 | 🧿爱影(QIJI)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q18.txt"
+      }
+    },
+    {
+      "key": "py_老鹰_APP",
+      "name": "雷蒙影视 | 🧿老鹰(QIJI)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt"
+      }
+    },
+    {
+      "key": "py_橘子_APP",
+      "name": "雷蒙影视 | 🧿橘子(QIJI)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt"
+      }
+    },
+    {
+      "key": "py_蓝鹰_APP",
+      "name": "雷蒙影视 | 🧿蓝鹰(QIJI)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt"
+      }
+    },
+    {
+      "key": "py_金都_APP",
+      "name": "雷蒙影视 | 🧿金都(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://cmm.jindou11.top"
+      }
+    },
+    {
+      "key": "py_猎豹_APP",
+      "name": "雷蒙影视 | 🧿猎豹(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://444421.xyz"
+      }
+    },
+    {
+      "key": "py_映画_APP",
+      "name": "雷蒙影视 | 🧿映画(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://cms140.yhg.one/"
+      }
+    },
+    {
+      "key": "py_云朵_APP",
+      "name": "雷蒙影视 | 🧿云朵(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://yd4kcms.yd4k.top"
+      }
+    },
+    {
+      "key": "py_坚果_APP",
+      "name": "雷蒙影视 | 🧿坚果(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt"
+      }
+    },
+    {
+      "key": "py_王子_APP",
+      "name": "雷蒙影视 | 🧿王子(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://app.95112475.xyz"
+      }
+    },
+    {
+      "key": "py_秒看_APP",
+      "name": "雷蒙影视 | 🧿秒看(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://mk1080.top/get.txt"
+      }
+    },
+    {
+      "key": "py_茉莉_APP",
+      "name": "雷蒙影视 | 🧿茉莉(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt"
+      }
+    },
+    {
+      "key": "py_灵虎_APP",
+      "name": "雷蒙影视 | 🧿灵虎(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://bind.315999.xyz/89.txt"
+      }
+    },
+    {
+      "key": "py_驿站_APP",
+      "name": "雷蒙影视 | 🧿驿站(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt"
+      }
+    },
+    {
+      "key": "py_方源_APP",
+      "name": "雷蒙影视 | 🧿方源(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://fyys9.fytd.top/1.txt"
+      }
+    },
+    {
+      "key": "py_七月_APP",
+      "name": "雷蒙影视 | 🧿七月(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://99.jl8.top/1.txt"
+      }
+    },
+    {
+      "key": "py_芬奇_APP",
+      "name": "雷蒙影视 | 🧿芬奇(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://wsapi.dafenqi.mom/yuming.txt"
+      }
+    },
+    {
+      "key": "py_小白_APP",
+      "name": "雷蒙影视 | 🧿小白(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://uutu.efjhl.cn"
+      }
+    },
+    {
+      "key": "py_数字_APP",
+      "name": "雷蒙影视 | 🧿数字(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://app1-0-0.87333.cc"
+      }
+    },
+    {
+      "key": "py_紫金_APP",
+      "name": "雷蒙影视 | 🧿紫金(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://www.zjcvod.com"
+      }
+    },
+    {
+      "key": "py_丫丫_APP",
+      "name": "雷蒙影视 | 🧿丫丫(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://tv.yy-fun.cc"
+      }
+    },
+    {
+      "key": "py_漫屋_APP",
+      "name": "雷蒙影视 | 🧿漫屋(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://www.yunwuee.icu"
+      }
+    },
+    {
+      "key": "py_方舟_APP",
+      "name": "雷蒙影视 | 🧿方舟(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://www.cyfz.vip"
+      }
+    },
+    {
+      "key": "py_番薯_APP",
+      "name": "雷蒙影视 | 🧿番薯(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://new.app.bytegooty.com"
+      }
+    },
+    {
+      "key": "py_曼波_APP",
+      "name": "雷蒙影视 | 🧿曼波(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://app.omofun1.top"
+      }
+    },
+    {
+      "key": "py_咕咕_APP",
+      "name": "雷蒙影视 | 🧿咕咕(GET)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://www.gugu3.com"
+      }
+    },
+    {
+      "key": "py_CliCli",
+      "name": "雷蒙影视 | 🧿CliCli(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/CliCli动漫APP.py"
+    },
+    {
+      "key": "py_HiTV",
+      "name": "雷蒙影视 | 🧿HiTV(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/hitvAPP.py"
+    },
+    {
+      "key": "py_MiFun",
+      "name": "雷蒙影视 | 🧿MiFun(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/MiFunAPP.py"
+    },
+    {
+      "key": "py_热播",
+      "name": "雷蒙影视 | 🧿热播(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/热播APP.py"
+    },
+    {
+      "key": "py_海马",
+      "name": "雷蒙影视 | 🧿海马(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/海马影视APP.py"
+    },
+    {
+      "key": "py_奇迹",
+      "name": "雷蒙影视 | 🧿奇迹(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/奇迹APP.py"
+    },
+    {
+      "key": "py_零度",
+      "name": "雷蒙影视 | 🧿零度(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/零度影视APP.py"
+    },
+    {
+      "key": "py_外剧",
+      "name": "雷蒙影视 | 🧿外剧(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/国外剧APP.py"
+    },
+    {
+      "key": "py_爱瓜",
+      "name": "雷蒙影视 | 🧿爱瓜(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/爱瓜TVAPP.py"
+    },
+    {
+      "key": "py_边缘",
+      "name": "雷蒙影视 | 🧿边缘(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/边缘影视APP.py"
+    },
+    {
+      "key": "py_光速",
+      "name": "雷蒙影视 | 🧿光速(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/光速APP.py"
+    },
+    {
+      "key": "py_火车",
+      "name": "雷蒙影视 | 🧿火车(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/火车太顺APP.py"
+    },
+    {
+      "key": "py_剧多",
+      "name": "雷蒙影视 | 🧿剧多(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/剧多短剧APP.py"
+    },
+    {
+      "key": "py_恋鱼",
+      "name": "雷蒙影视 | 🧿恋鱼(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/恋鱼影视APP.py"
+    },
+    {
+      "key": "py_美帕",
+      "name": "雷蒙影视 | 🧿美帕(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/美帕APP.py"
+    },
+    {
+      "key": "py_魔方",
+      "name": "雷蒙影视 | 🧿魔方(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/魔方影视APP.py"
+    },
+    {
+      "key": "py_胖虎",
+      "name": "雷蒙影视 | 🧿胖虎(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/胖虎APP.py"
+    },
+    {
+      "key": "py_皮虾",
+      "name": "雷蒙影视 | 🧿皮虾(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/皮皮虾APP.py"
+    },
+    {
+      "key": "py_若惜",
+      "name": "雷蒙影视 | 🧿若惜(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/若惜追剧APP.py"
+    },
+    {
+      "key": "py_三号",
+      "name": "雷蒙影视 | 🧿三号(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/三号动漫APP.py"
+    },
+    {
+      "key": "py_视觉",
+      "name": "雷蒙影视 | 🧿视觉(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/视觉APP.py"
+    },
+    {
+      "key": "py_哇哇",
+      "name": "雷蒙影视 | 🧿哇哇(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/哇哇APP.py"
+    },
+    {
+      "key": "py_苹果",
+      "name": "雷蒙影视 | 🧿苹果(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/小苹果APP.py"
+    },
+    {
+      "key": "py_悠悠",
+      "name": "雷蒙影视 | 🧿悠悠(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/悠悠APP.py"
+    },
+    {
+      "key": "py_云端",
+      "name": "雷蒙影视 | 🧿云端(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云端APP.py"
+    },
+    {
+      "key": "py_云速",
+      "name": "雷蒙影视 | 🧿云速(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云速影视APP.py"
+    },
+    {
+      "key": "py_爱听音乐",
+      "name": "雷蒙影视 | 🧿爱听(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱听音乐.py"
+    },
+    {
+      "key": "py_飞快TV",
+      "name": "雷蒙影视 | 🧿飞快(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/飞快TV.py"
+    },
+    {
+      "key": "py_redflix",
+      "name": "雷蒙影视 | 🧿REDFLIX(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/redflix.py"
+    },
+    {
+      "key": "py_456movie",
+      "name": "雷蒙影视 | 🧿456Movie(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/456movie.py"
+    },
+    {
+      "key": "py_LREEOK",
+      "name": "雷蒙影视 | 🧿LREEOK(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LREEOK.py"
+    },
+    {
+      "key": "py_4KAV",
+      "name": "雷蒙影视 | 🧿4KAV(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/4KAV.py"
+    },
+    {
+      "key": "py_NUNFLIX",
+      "name": "雷蒙影视 | 🧿Nunflix(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/NUNFLIX.py"
+    },
+    {
+      "key": "py_荐片",
+      "name": "雷蒙影视 | 🧿荐片(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/荐片.py"
+    },
+    {
+      "key": "py_厂长",
+      "name": "雷蒙影视 | 🧿厂长(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/厂长资源.py"
+    },
+    {
+      "key": "py_明月",
+      "name": "雷蒙影视 | 🧿明月(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/明月影院.py"
+    },
+    {
+      "key": "py_壹帆",
+      "name": "雷蒙影视 | 🧿壹帆(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱壹帆.py"
+    },
+    {
+      "key": "py_泥视",
+      "name": "雷蒙影视 | 🧿泥视(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/泥视频.py"
+    },
+    {
+      "key": "py_想看",
+      "name": "雷蒙影视 | 🧿想看(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/想看影视.py"
+    },
+    {
+      "key": "py_追星",
+      "name": "雷蒙影视 | 🧿追星(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/追星影视.py"
+    },
+    {
+      "key": "py_猎手",
+      "name": "雷蒙影视 | 🧿猎手(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/电影猎手.py"
+    },
+    {
+      "key": "py_柯南",
+      "name": "雷蒙影视 | 🧿柯南(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/柯南影视.py"
+    },
+    {
+      "key": "py_骚火",
+      "name": "雷蒙影视 | 🧿骚火(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/骚火电影.py"
+    },
+    {
+      "key": "py_剧粑",
+      "name": "雷蒙影视 | 🧿剧粑(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧粑粑.py"
+    },
+    {
+      "key": "py_小红",
+      "name": "雷蒙影视 | 🧿小红(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/小红影视.py"
+    },
+    {
+      "key": "py_旺旺",
+      "name": "雷蒙影视 | 🧿旺旺(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/旺旺.py"
+    },
+    {
+      "key": "py_绝对",
+      "name": "雷蒙影视 | 🧿绝对(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/绝对影视.py"
+    },
+    {
+      "key": "py_星芽",
+      "name": "雷蒙影视 | 🧿星芽(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/星芽短剧.py"
+    },
+    {
+      "key": "py_剧王",
+      "name": "雷蒙影视 | 🧿剧王(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧王短剧.py"
+    },
+    {
+      "key": "py_爱看",
+      "name": "雷蒙影视 | 🧿爱看(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱看短剧.py"
+    },
+    {
+      "key": "py_锦鲤",
+      "name": "雷蒙影视 | 🧿锦鲤(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/锦鲤短剧.py"
+    },
+    {
+      "key": "py_河马",
+      "name": "雷蒙影视 | 🧿河马(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/河马短剧.py"
+    },
+    {
+      "key": "py_偷乐",
+      "name": "雷蒙影视 | 🧿偷乐(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/偷乐短剧.py"
+    },
+    {
+      "key": "py_好帅",
+      "name": "雷蒙影视 | 🧿好帅(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/好帅短剧.py"
+    },
+    {
+      "key": "py_红果",
+      "name": "雷蒙影视 | 🧿红果(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/红果网页.py"
+    },
+    {
+      "key": "py_甜圈",
+      "name": "雷蒙影视 | 🧿甜圈(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/甜圈短剧.py"
+    },
+    {
+      "key": "py_嗷呜",
+      "name": "雷蒙影视 | 🧿嗷呜(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/嗷呜动漫.py"
+    },
+    {
+      "key": "py_柠檬",
+      "name": "雷蒙影视 | 🧿柠檬(PY)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LIVES.py"
+    },
+    {
+      "key": "js_火猫",
+      "name": "雷蒙影视 | 🍥火猫(NOX)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
+      "ext": {
+        "host": "https://jp5.ggtvb.cc"
+      }
+    },
+    {
+      "key": "js_星影",
+      "name": "雷蒙影视 | 🍥星影(NOX)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
+      "ext": {
+        "host": "http://110.81.153.7:8081"
+      }
+    },
+    {
+      "key": "js_回响",
+      "name": "雷蒙影视 | 🍥回响(NOX)",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
+      "ext": {
+        "host": "http://110.42.37.69:8080"
+      }
+    },
+    {
+      "key": "T4_央视",
+      "name": "雷蒙影视 | 4⃣央视(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/cntv.php"
+    },
+    {
+      "key": "T4_豆瓣",
+      "name": "雷蒙影视 | 4⃣豆瓣(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/douban.php"
+    },
+    {
+      "key": "T4_预告",
+      "name": "雷蒙影视 | 4⃣预告(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/yugaopian.php"
+    },
+    {
+      "key": "T4_糖豆",
+      "name": "雷蒙影视 | 4⃣糖豆(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/tangdou.php"
+    },
+    {
+      "key": "T4_蜻蜓",
+      "name": "雷蒙影视 | 4⃣蜻蜓(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/qingting.php"
+    },
+    {
+      "key": "T4_博看",
+      "name": "雷蒙影视 | 4⃣博看(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bookan.php"
+    },
+    {
+      "key": "T4_企鹅体育",
+      "name": "雷蒙影视 | 4⃣企鹅体育(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/qietiyu.php"
+    },
+    {
+      "key": "vod_量子",
+      "name": "雷蒙影视 | 量子",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_非凡",
+      "name": "雷蒙影视 | 非凡",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
+    },
+    {
+      "key": "vod_暴风",
+      "name": "雷蒙影视 | 暴风",
+      "type": 1,
+      "api": "https://app.bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "动作片",
+        "科幻片",
+        "剧情片",
+        "喜剧片",
+        "爱情片",
+        "恐怖片",
+        "战争片",
+        "香港剧",
+        "台湾剧",
+        "日本剧",
+        "欧美剧",
+        "泰国剧",
+        "日本动漫",
+        "综艺频道",
+        "大陆综艺",
+        "港台综艺",
+        "日本综艺",
+        "新马泰综艺",
+        "纪录片"
+      ]
+    },
+    {
+      "key": "vod_360",
+      "name": "雷蒙影视 | 360",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "categories": [
+        "国产剧",
+        "短片",
+        "动画片",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "NBA",
+        "惊悚片",
+        "家庭篇",
+        "古装片",
+        "历史片",
+        "悬疑片",
+        "犯罪片",
+        "纪录片",
+        "台湾剧",
+        "大陆综艺",
+        "国产动漫",
+        "日韩动漫",
+        "西部片"
+      ]
+    },
+    {
+      "key": "vod_海外",
+      "name": "雷蒙影视 | 海外",
+      "type": 1,
+      "api": "https://hw8.live/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "vod_华为",
+      "name": "雷蒙影视 | 华为",
+      "type": 1,
+      "api": "http://nikanba.live/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "vod_优质",
+      "name": "雷蒙影视 | 优质",
+      "type": 1,
+      "api": "https://api.1080zyku.com/inc/api_mac10.php",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "vod_飞速",
+      "name": "雷蒙影视 | 飞速",
+      "type": 1,
+      "api": "https://www.feisuzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "vod_光速",
+      "name": "雷蒙影视 | 光速",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "战争片",
+        "剧情片",
+        "恐怖片",
+        "喜剧片",
+        "大陆剧",
+        "港澳剧",
+        "台湾剧",
+        "欧美剧",
+        "动漫电影",
+        "韩剧",
+        "日剧",
+        "泰剧"
+      ]
+    },
+    {
+      "key": "vod_豪华",
+      "name": "雷蒙影视 | 豪华",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "悬疑片",
+        "犯罪片",
+        "奇幻片",
+        "记录片",
+        "动画片",
+        "伦理片",
+        "内地剧",
+        "香港剧",
+        "台湾剧",
+        "日剧",
+        "韩剧",
+        "欧美剧",
+        "马泰剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫"
+      ]
+    },
+    {
+      "key": "vod_快看",
+      "name": "雷蒙影视 | 快看",
+      "type": 1,
+      "api": "https://kuaikan-api.com/api.php/provide/vod",
+      "categories": [
+        "网络电影",
+        "动画电影",
+        "动作片",
+        "冒险片",
+        "喜剧片",
+        "爱情片",
+        "奇幻片",
+        "灾难片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产动漫",
+        "日本动漫",
+        "国产剧",
+        "韩国剧",
+        "港台剧",
+        "欧美剧",
+        "国产综艺",
+        "港台综艺"
+      ]
+    },
+    {
+      "key": "vod_极速",
+      "name": "雷蒙影视 | 极速",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "内地剧",
+        "欧美剧",
+        "日剧",
+        "韩剧",
+        "台湾剧",
+        "香港剧",
+        "马泰剧",
+        "悬疑片",
+        "喜剧片",
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "犯罪片",
+        "记录片",
+        "动画片",
+        "日本动漫",
+        "欧美动漫",
+        "中国动漫",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "体育赛事"
+      ]
+    },
+    {
+      "key": "vod_虎牙",
+      "name": "雷蒙影视 | 虎牙",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_最大",
+      "name": "雷蒙影视 | 最大",
+      "type": 1,
+      "api": "http://zuidazy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_淘片",
+      "name": "雷蒙影视 | 淘片",
+      "type": 1,
+      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_爱坤",
+      "name": "雷蒙影视 | 爱坤",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_新浪",
+      "name": "雷蒙影视 | 新浪",
+      "type": 1,
+      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "动漫",
+        "动漫电影",
+        "战争片",
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "日剧",
+        "电视剧",
+        "大陆剧",
+        "港澳剧",
+        "台湾剧",
+        "韩剧",
+        "欧美剧"
+      ]
+    },
+    {
+      "key": "vod_百度",
+      "name": "雷蒙影视 | 百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": []
+    },
+    {
+      "key": "vod_无尽",
+      "name": "雷蒙影视 | 无尽",
+      "type": 1,
+      "api": "https://api.wujinapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "vod_天空",
+      "name": "雷蒙影视 | 天空",
+      "type": 1,
+      "api": "http://api.tiankongapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "categories": []
+    },
+    {
+      "key": "vod_红牛",
+      "name": "雷蒙影视 | 红牛",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_索尼",
+      "name": "雷蒙影视 | 索尼",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "悬疑片",
+        "犯罪片",
+        "冒险片",
+        "动画片",
+        "惊悚片",
+        "奇幻片",
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "港剧",
+        "台剧",
+        "泰剧",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "动画片",
+        "港台动漫",
+        "海外动漫",
+        "伦理片"
+      ]
+    },
+    {
+      "key": "vod_魔都",
+      "name": "雷蒙影视 | 魔都",
+      "type": 1,
+      "api": "https://www.moduzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_速播",
+      "name": "雷蒙影视 | 速播",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_优酷",
+      "name": "雷蒙影视 | 优酷",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_卧龙",
+      "name": "雷蒙影视 | 卧龙",
+      "type": 1,
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_天堂",
+      "name": "雷蒙影视 | 天堂",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_茅台",
+      "name": "雷蒙影视 | 茅台",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_无线",
+      "name": "雷蒙影视 | 无线",
+      "type": 1,
+      "api": "https://api.wuxianzy.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_魔爪",
+      "name": "雷蒙影视 | 魔爪",
+      "type": 1,
+      "api": "https://mozhuazy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_如意",
+      "name": "雷蒙影视 | 如意",
+      "type": 1,
+      "api": "https://cj.rycjapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "vod_蜂巢",
+      "name": "雷蒙影视 | 蜂巢",
+      "type": 1,
+      "api": "https://api.fczy888.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xml_金鹰",
+      "name": "雷蒙影视 | 金鹰",
+      "type": 0,
+      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1
+    }
+  ],
+  "version": [
+    {
+      "number": "1.0.0",
+      "url": "",
+      "type": 0,
+      "text": "自动更新于 2026-05-29 04:01:20"
+    }
+  ],
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://zb.hao123.qzz.io/lv/migutv.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "雷蒙影视宣传片",
+      "type": 0,
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt",
+      "ua": "okhttp/3.15",
+      "logo": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png"
+    },
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "playerType": 2
+    },
+    {
+      "name": "咪咕",
+      "type": 0,
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "playerType": 2,
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "IPTV",
+      "type": 0,
+      "playerType": 2,
+      "url": "https://live.ottiptv.cc/iptv.m3u?userid=5803665715&sign=65177c4b80fc8438071a048ac5aec7980991f960675556c5c93cdb3c5a6f7082e86f69204a098d26a1bc196b6c880d567ed4a2e65c270ce37ca71e387de6289dbf6a784a3c5e9c&auth_token=b6823db883fc12f91cf1127973951993",
+      "ua": "okHttp/Mod-1.5.0.0"
+    },
+    {
+      "name": "雷蒙影视电视直播",
+      "type": 0,
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "雷蒙影视轻量直播",
+      "type": 0,
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "WEB直播",
+      "type": 0,
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/LIVE/web.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "搜集",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "MyTV",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/MyTV",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "主播",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "港台直播",
+      "type": 0,
+      "url": "http://aktv.top/live.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "YOUTUBE直播",
+      "type": 0,
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTTV.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "YOUTUBE音乐",
+      "type": 0,
+      "url": "http://yt.850930.xyz",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "http://5b0988e595225.cdn.sohucs.com/images/20190313/ad9ebfafbec640b7b41b9250156dff39.png"
+    },
+    {
+      "name": "YOUTUBE榜单",
+      "type": 0,
+      "url": "http://yt.850930.xyz/playlist.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "http://5b0988e595225.cdn.sohucs.com/images/20190313/ad9ebfafbec640b7b41b9250156dff39.png"
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "Web解析聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "巧技",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/neibu.php?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        },
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili"
+        ]
+      }
+    },
+    {
+      "name": "巧技二",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/gouzi.php?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        },
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905",
+          "NetFilx"
+        ]
+      }
+    },
+    {
+      "name": "巧技三",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/xiafan.php?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        },
+        "flag": [
+          "QD4K",
+          "iyf",
+          "duanju",
+          "gzcj",
+          "GTV",
+          "GZYS",
+          "weggz",
+          "Ace"
+        ]
+      }
+    },
+    {
+      "name": "qiyi[官源]",
+      "type": 1,
+      "url": "http://39.104.230.177:1122/lxjx/myyk.php?url="
+    },
+    {
+      "name": "肥猫最可爱",
+      "type": 1,
+      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    },
+    {
+      "name": "聚合1",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "聚合0",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "ikun",
+      "type": 0,
+      "url": "https://jx.hls.one/?url="
+    },
+    {
+      "name": "77",
+      "type": 0,
+      "url": "https://jx.77flv.cc/?url="
+    },
+    {
+      "name": "A6",
+      "type": 0,
+      "url": "https://pl.a6club.com/player/analysis.php?v="
+    },
+    {
+      "name": "8090",
+      "type": 0,
+      "url": "https://www.8090g.cn/?url="
+    },
+    {
+      "name": "M3u8TV",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "CK",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    },
+    {
+      "name": "冰豆",
+      "type": 0,
+      "url": "https://bd.jx.cn/?url="
+    },
+    {
+      "name": "XY",
+      "type": 0,
+      "url": "https://jx.xymp4.cc/?url="
+    },
+    {
+      "name": "推荐",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/gouzi.php?url=94b07e0b2c0e8244&url="
+    },
+    {
+      "name": "臻享",
+      "type": 1,
+      "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="
+    },
+    {
+      "name": "优选",
+      "type": 1,
+      "url": "http://1.94.221.189:88/algorithm.php?url="
+    },
+    {
+      "name": "王",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
+    },
+    {
+      "name": "二",
+      "type": 1,
+      "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url="
+    },
+    {
+      "name": "小",
+      "type": 1,
+      "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url="
+    },
+    {
+      "name": "帅",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
+    },
+    {
+      "name": "云",
+      "type": 0,
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        },
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "HLS",
+      "type": 0,
+      "url": "https://jx.hls.one/?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        },
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "m3u8TV",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
+      "ext": {
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        },
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "77",
+      "type": 0,
+      "url": "https://jx.77flv.cc/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    },
+    {
+      "name": "咸鱼",
+      "type": 0,
+      "url": "https://jx.xymp4.cc/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ]
+      }
+    }
+  ],
+  "rules": [
+    {
+      "host": "cdn.ryplay",
+      "rule": [
+        "5.480000",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+      ]
+    },
+    {
+      "host": "yeslivetv.com",
+      "rule": [
+        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+      ]
+    },
+    {
+      "host": "www.maolvys.com",
+      "rule": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    },
+    {
+      "host": "huoshan.com",
+      "rule": [
+        "item_id="
+      ]
+    },
+    {
+      "host": "douyin.com",
+      "rule": [
+        "is_play_url="
+      ]
+    },
+    {
+      "host": "toutiaovod.com",
+      "rule": [
+        "toutiaovod.com"
+      ]
+    },
+    {
+      "host": "mcloud.139.com",
+      "rule": [
+        "mcloud.139.com"
+      ]
+    },
+    {
+      "host": "aliyundrive.net",
+      "rule": [
+        "aliyundrive.net"
+      ]
+    },
+    {
+      "host": "api.52wyb.com",
+      "rule": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "host": "magnet",
+      "rule": [
+        "更多",
+        "社區",
+        "xuu",
+        "最新",
+        "最新",
+        "直播",
+        "更新",
+        "社区",
+        "有趣",
+        "有趣",
+        "英皇体育",
+        "全中文AV在线",
+        "澳门皇冠赌场",
+        "哥哥快来",
+        "美女荷官",
+        "裸聊",
+        "新片首发",
+        "UUE29"
+      ]
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "renrenmi",
+    "duoduozy",
+    "bilibili",
+    "m1905",
+    "seven",
+    "m78",
+    "mtv",
+    "sjs",
+    "dbs",
+    "yds",
+    "HNB",
+    "JL4K"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "43.248.128.138",
+    "static-mozai.4gtv.tv",
+    "s3t3d2y8.afcdn.net",
+    "mozai.4gtv.tv",
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    "s23.cnzz.com",
+    "z3.cnzz.com",
+    "c.cnzz.com",
+    "stj.v1vo.top",
+    "z12.cnzz.com",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "s9.cnzz.com",
+    "z6.cnzz.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "z5.cnzz.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "z1.cnzz.com",
+    "s13.cnzz.com",
+    "xg.huataisangao.cn",
+    "z7.cnzz.com",
+    "xg.huataisangao.cn",
+    "z2.cnzz.com",
+    "s96.cnzz.com",
+    "q11.cnzz.com",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "s19.cnzz.com",
+    "z8.cnzz.com",
+    "s4.cnzz.com",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com"
+  ],
+  "wallpaper": "https://pic.850930.xyz/",
+  "warningText": "",
+  "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/168xx/xianlu/main/tvbox/jar/雷蒙影视.jar"
+}

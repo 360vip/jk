@@ -1,0 +1,771 @@
+{
+  "sites": [
+    {
+      "key": "Douban",
+      "name": "🔥豆瓣推荐",
+      "type": 3,
+      "api": "csp_DoubanAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0
+    },
+    {
+      "key": "SeedHub",
+      "name": "☁SeedHub|4K",
+      "type": 3,
+      "api": "csp_SeedHubAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Guazi",
+      "name": "⭐瓜子|秒播",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "filters": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/guazi.json",
+        "sites": ""
+      }
+    },
+    {
+      "key": "Hxq",
+      "name": "⭐韩剧|秒播",
+      "type": 3,
+      "api": "csp_HxqAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "NewGrV2",
+      "name": "⭐夏天|秒播",
+      "type": 3,
+      "api": "csp_NewGrV2Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV7Fz",
+      "name": "📦粉猪|秒播",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV7Xy",
+      "name": "📦咸鱼|秒播",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV7Zjdr",
+      "name": "📦达人|秒播",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV7Xyz",
+      "name": "📦小柚子|秒播",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV7Xnm",
+      "name": "📦小柠檬|秒播",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV7Mtq",
+      "name": "📦蒙太奇|秒播",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV7Llq",
+      "name": "📦零零七|秒播",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV7Xsz",
+      "name": "📦小柿子|秒播",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV7Xhr",
+      "name": "📦小黄人|秒播",
+      "type": 3,
+      "api": "csp_AppV7Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV6Dxs",
+      "name": "📦大师兄|秒播",
+      "type": 3,
+      "api": "csp_AppV6Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AppV6Tg",
+      "name": "📦特狗|秒播",
+      "type": 3,
+      "api": "csp_AppV6Amns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Woshinidie",
+      "name": "🧩橘汁|快速",
+      "type": 3,
+      "api": "csp_Woshinidie",
+      "jar": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/Juzhi_spider.jar;md5;76d835a5c630383e9fd851399579220c",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "host": "",
+        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt"
+      }
+    },
+    {
+      "key": "JPian",
+      "name": "🧩荐片|快速",
+      "type": 3,
+      "api": "csp_JPianAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Rbys",
+      "name": "🧩热播|快速",
+      "type": 3,
+      "api": "csp_RbysAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "YIys",
+      "name": "🧩伊外|快速",
+      "type": 3,
+      "api": "csp_YIysAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Dubk",
+      "name": "🧩杜北|快速",
+      "type": 3,
+      "api": "csp_DubkAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Bidys",
+      "name": "🔗哔嘀|2K",
+      "type": 3,
+      "api": "csp_BidysAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Czzy",
+      "name": "🔗厂长|2K",
+      "type": 3,
+      "api": "csp_CzzyAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "filters": "",
+        "sites": "https://www.czzy89.com,https://www.cz01.org"
+      }
+    },
+    {
+      "key": "Libvio",
+      "name": "🔗LBV|2K",
+      "type": 3,
+      "api": "csp_LibvioAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "filters": "",
+        "sites": "https://www.libvio.run,https://www.libvio.mov,https://www.libvios.com,https://www.libhd.com,https://www.libvio.life"
+      }
+    },
+    {
+      "key": "Bttwo",
+      "name": "🔗俩BT|2K",
+      "type": 3,
+      "api": "csp_BttwoAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "filters": "",
+        "sites": "https://www.bttwo.me,https://www.bttwo.org,https://www.bttwoo.com,https://www.bttwo.net"
+      }
+    },
+    {
+      "key": "AowuDm",
+      "name": "🐱嗷嗚|动漫",
+      "type": 3,
+      "api": "csp_AowuDmAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "MjHggg",
+      "name": "嗷嗚|漫剧",
+      "type": 3,
+      "api": "csp_HgggAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "AiGua",
+      "name": "🌍爱瓜|墙外",
+      "type": 3,
+      "api": "csp_AiGuaAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Ysp",
+      "name": "🌍U视|墙外",
+      "type": 3,
+      "api": "csp_YspAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Olyy",
+      "name": "🌍欧乐|墙外",
+      "type": 3,
+      "api": "csp_OlyyAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "Aiyf",
+      "name": "🌍壹帆|墙外",
+      "type": 3,
+      "api": "csp_AiyfAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "HuyaLive",
+      "name": "📡虎牙|Live",
+      "type": 3,
+      "api": "csp_HuyaLiveAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "KsLive",
+      "name": "📡快手|Live",
+      "type": 3,
+      "api": "csp_KsLiveAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "KuGou",
+      "name": "🎸酷狗|音乐",
+      "type": 3,
+      "api": "csp_KuGouAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "MyLocal",
+      "name": "📁本地|播放",
+      "type": 3,
+      "api": "csp_MyLocalAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0
+    },
+    {
+      "key": "GitHub",
+      "name": "🐙GHub|商店",
+      "type": 3,
+      "api": "csp_GitHubAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0
+    },
+    {
+      "key": "PSfish",
+      "name": "🔍fish|盘搜",
+      "type": 3,
+      "api": "csp_PSfishAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 0
+    },
+    {
+      "key": "PSrb",
+      "name": "🔍RB|盘搜",
+      "type": 3,
+      "api": "csp_PSrbAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 0
+    },
+    {
+      "key": "push_agent",
+      "name": "🛴推送|播放",
+      "type": 3,
+      "api": "csp_PushAmns",
+      "searchable": 0,
+      "changeable": 0,
+      "filterable": 0
+    }
+  ],
+  "version": [
+    {
+      "number": "1.0.0",
+      "url": "",
+      "type": 0,
+      "text": "自动更新于 2026-05-29 04:01:21"
+    }
+  ],
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://zb.hao123.qzz.io/lv/migutv.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "聚合1",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "聚合0",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "ikun",
+      "type": 0,
+      "url": "https://jx.hls.one/?url="
+    },
+    {
+      "name": "77",
+      "type": 0,
+      "url": "https://jx.77flv.cc/?url="
+    },
+    {
+      "name": "A6",
+      "type": 0,
+      "url": "https://pl.a6club.com/player/analysis.php?v="
+    },
+    {
+      "name": "8090",
+      "type": 0,
+      "url": "https://www.8090g.cn/?url="
+    },
+    {
+      "name": "M3u8TV",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "CK",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    },
+    {
+      "name": "冰豆",
+      "type": 0,
+      "url": "https://bd.jx.cn/?url="
+    },
+    {
+      "name": "XY",
+      "type": 0,
+      "url": "https://jx.xymp4.cc/?url="
+    },
+    {
+      "name": "推荐",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/gouzi.php?url=94b07e0b2c0e8244&url="
+    },
+    {
+      "name": "臻享",
+      "type": 1,
+      "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="
+    },
+    {
+      "name": "优选",
+      "type": 1,
+      "url": "http://1.94.221.189:88/algorithm.php?url="
+    }
+  ],
+  "rules": [
+    {
+      "host": "magnet",
+      "rule": [
+        "最 新",
+        "直 播",
+        "更 新"
+      ]
+    },
+    {
+      "host": "huoshan.com",
+      "rule": [
+        "item_id="
+      ]
+    },
+    {
+      "host": "douyin.com",
+      "rule": [
+        "is_play_url="
+      ]
+    },
+    {
+      "host": "toutiaovod.com",
+      "rule": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "host": "api.52wyb.com",
+      "rule": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "host": "yeslivetv.com",
+      "rule": [
+        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+      ]
+    },
+    {
+      "host": "www.maolvys.com",
+      "rule": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    },
+    {
+      "host": "10086.cn",
+      "rule": [
+        "/storageWeb/servlet/downloadServlet"
+      ]
+    },
+    {
+      "host": "bytetos.com",
+      "rule": [
+        "/tos-cn"
+      ]
+    },
+    {
+      "host": "byteimg.com",
+      "rule": [
+        "/tos-cn"
+      ]
+    },
+    {
+      "host": "bytednsdoc.com",
+      "rule": [
+        "/tos-cn"
+      ]
+    },
+    {
+      "host": "pstatp.com",
+      "rule": [
+        "/tos-cn"
+      ]
+    },
+    {
+      "host": "bdys10.com",
+      "rule": [
+        "/obj/"
+      ]
+    }
+  ],
+  "flags": [],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "mozai.4gtv.tv"
+  ],
+  "wallpaper": "",
+  "warningText": "",
+  "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/168xx/xianlu/main/tvbox/jar/嗷呜.jar"
+}
