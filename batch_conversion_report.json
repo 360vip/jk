@@ -1,17 +1,20 @@
 {
-  "conversion_time": "2026-05-30T03:12:41.990110",
+  "conversion_time": "2026-05-30T03:25:28.966863",
   "description": "批量转换 xl 目录下的所有 JSON/txt 文件到 mybox 目录（站点不限制）",
   "input_directory": "xl",
   "output_directory": "mybox",
   "statistics": {
     "total_files": 9,
-    "success_count": 7,
-    "fail_count": 2,
+    "success_count": 4,
+    "fail_count": 5,
     "failed_files": [
+      "马里奥.txt",
       "潇洒改版.txt",
+      "雷蒙影视.txt",
+      "嗷呜.txt",
       "alantang.txt"
     ],
-    "total_sites_retained": 479,
+    "total_sites_retained": 213,
     "total_sites_filtered": 0
   },
   "config": {
