@@ -10,7 +10,7 @@
       "filterable": 0,
       "indexs": 1,
       "api": "csp_DoubanAmns",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/douban.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/douban.json"
     },
     {
       "key": "SeedHub",
@@ -33,7 +33,7 @@
       "filterable": 1,
       "api": "csp_GuaziAmns",
       "ext": {
-        "filters": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/guazi.json",
+        "filters": "https://cdn.akaere.online/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/guazi.json",
         "sites": ""
       }
     },
@@ -188,7 +188,7 @@
       "changeable": 0,
       "filterable": 1,
       "api": "csp_Woshinidie",
-      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/Juzhi_spider.jar;md5;76d835a5c630383e9fd851399579220c",
+      "jar": "https://cdn.akaere.online/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/Juzhi_spider.jar;md5;76d835a5c630383e9fd851399579220c",
       "ext": {
         "host": "",
         "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
@@ -208,7 +208,7 @@
       "changeable": 0,
       "filterable": 1,
       "api": "csp_JPianAmns",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/jpian.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/jpian.json"
     },
     {
       "key": "Rbys",
@@ -240,7 +240,7 @@
       "changeable": 0,
       "filterable": 1,
       "api": "csp_DubkAmns",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/dubk.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/dubk.json"
     },
     {
       "key": "AowuDm",
@@ -326,7 +326,7 @@
       "changeable": 0,
       "filterable": 1,
       "api": "csp_KsLiveAmns",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/kuaishou.json",
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/kuaishou.json",
       "style": {
         "type": "rect",
         "ratio": 1.433
@@ -362,27 +362,7 @@
       "changeable": 0,
       "filterable": 0,
       "api": "csp_GitHubAmns",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/github.json"
-    },
-    {
-      "key": "PSfish",
-      "name": "fish",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "filterable": 0,
-      "api": "csp_PSfishAmns"
-    },
-    {
-      "key": "PSrb",
-      "name": "RB",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "filterable": 0,
-      "api": "csp_PSrbAmns"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/json/github.json"
     },
     {
       "key": "push_agent",
@@ -399,7 +379,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:04:58"
+      "text": "自动更新于 2026-05-30 05:10:31"
     }
   ],
   "lives": [
@@ -762,5 +742,5 @@
   ],
   "wallpaper": "",
   "warningText": "",
-  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/嗷呜.jar"
+  "spider": "https://cdn.akaere.online/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/嗷呜.jar"
 }

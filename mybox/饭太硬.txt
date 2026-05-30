@@ -48,19 +48,6 @@
       }
     },
     {
-      "key": "ZPan",
-      "name": "🎈聚盘搜四盘",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "api": "csp_S_zpsGuard",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "云播",
       "name": "⛅云播无搜索",
       "type": 3,
@@ -390,15 +377,6 @@
       "api": "csp_MIPanSoGuard"
     },
     {
-      "key": "YpanSo",
-      "name": "盘她夸父",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "api": "csp_YpanSoGuard"
-    },
-    {
       "key": "push_agent",
       "name": "手机推送",
       "type": 3,
@@ -508,7 +486,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:04:58"
+      "text": "自动更新于 2026-05-30 05:10:31"
     }
   ],
   "lives": [

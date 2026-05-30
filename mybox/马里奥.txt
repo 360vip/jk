@@ -25,7 +25,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/maliao0517/-/main/农民影视.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/maliao0517/-/main/农民影视.json"
     },
     {
       "key": "蝴蝶",
@@ -148,7 +148,7 @@
       "changeable": 1,
       "filterable": 1,
       "playerType": 2,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/maliao0517/-/main/猎手影视.py"
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/maliao0517/-/main/猎手影视.py"
     },
     {
       "key": "晴天",
@@ -193,7 +193,7 @@
       "type": 3,
       "playerType": 2,
       "api": "csp_qiao2",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/maliao0517/-/main/cksp.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/maliao0517/-/main/cksp.json"
     },
     {
       "key": "ext_live_protocol",
@@ -218,7 +218,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:04:58"
+      "text": "自动更新于 2026-05-30 05:10:31"
     }
   ],
   "lives": [
@@ -234,7 +234,7 @@
     {
       "name": "音乐MTV",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
       "playerType": 2,
       "ua": "okhttp/5.0.0-alpha.14",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
@@ -566,5 +566,5 @@
   ],
   "wallpaper": "https://wp.upx8.com/api.php",
   "warningText": "",
-  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/马里奥.jar"
+  "spider": "https://cdn.akaere.online/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/马里奥.jar"
 }

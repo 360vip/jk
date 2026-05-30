@@ -13,36 +13,36 @@
       "key": "drpy_js_豆瓣",
       "name": "豆瓣[js]",
       "type": 3,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/drpy.js"
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/drpy.js"
     },
     {
       "key": "drpy_js_奇珍异兽",
       "name": "奇珍异兽[js]",
       "type": 3,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/奇珍异兽.js"
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/奇珍异兽.js"
     },
     {
       "key": "drpy_js_优酷",
       "name": "优酷[js]",
       "type": 3,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/优酷.js"
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/优酷.js"
     },
     {
       "key": "drpy_js_腾云驾雾",
       "name": "腾云驾雾[js]",
       "type": 3,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/腾云驾雾.js"
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/腾云驾雾.js"
     },
     {
       "key": "drpy_js_百忙无果",
       "name": "百忙无果[js]",
       "type": 3,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/百忙无果.js"
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/百忙无果.js"
     },
     {
       "key": "push_agent",
@@ -193,7 +193,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/哔嘀影视.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/哔嘀影视.json"
     },
     {
       "key": "csp_Ddys",
@@ -241,7 +241,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/酷奇MV.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/酷奇MV.json"
     },
     {
       "key": "csp_XYQHiker_兔小贝",
@@ -251,7 +251,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/兔小贝.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/兔小贝.json"
     },
     {
       "key": "csp_XYQHiker_兔小贝2",
@@ -261,7 +261,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/兔小贝2.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/兔小贝2.json"
     },
     {
       "key": "csp_XYQHiker_播视童趣",
@@ -271,7 +271,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/播视童趣.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/播视童趣.json"
     },
     {
       "key": "csp_XYQHiker_风车动漫",
@@ -281,7 +281,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/风车动漫.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/风车动漫.json"
     },
     {
       "key": "csp_XYQHiker_风铃动漫",
@@ -291,7 +291,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/风铃动漫.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/风铃动漫.json"
     },
     {
       "key": "csp_XYQHiker_樱花动漫",
@@ -301,7 +301,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/樱花动漫.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/樱花动漫.json"
     },
     {
       "key": "csp_XYQHiker_去看吧动漫",
@@ -311,7 +311,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/去看吧动漫.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/去看吧动漫.json"
     },
     {
       "key": "csp_XYQHiker_嗷呜动漫",
@@ -321,7 +321,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/嗷呜动漫.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/嗷呜动漫.json"
     },
     {
       "key": "csp_XYQHiker_动漫巴士",
@@ -331,7 +331,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/动漫巴士.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/动漫巴士.json"
     },
     {
       "key": "csp_XYQHiker_路漫漫",
@@ -341,7 +341,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/路漫漫.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/路漫漫.json"
     },
     {
       "key": "csp_XYQHiker_番茶动漫",
@@ -351,7 +351,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/番茶动漫.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/番茶动漫.json"
     },
     {
       "key": "csp_XYQHiker_age动漫",
@@ -361,7 +361,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/age动漫.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/age动漫.json"
     },
     {
       "key": "csp_XYQHiker_农民影视",
@@ -371,7 +371,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/农民影视.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/农民影视.json"
     },
     {
       "key": "csp_XYQHiker_剧圈圈",
@@ -381,7 +381,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/剧圈圈.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/剧圈圈.json"
     },
     {
       "key": "csp_XYQHiker_骚火电影VIP",
@@ -391,7 +391,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/骚火电影VIP.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/骚火电影VIP.json"
     },
     {
       "key": "csp_XYQHiker_爱看影视",
@@ -401,7 +401,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/爱看影视.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/爱看影视.json"
     },
     {
       "key": "csp_XYQHiker_爱看电影",
@@ -411,7 +411,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/爱看电影.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/爱看电影.json"
     },
     {
       "key": "csp_XYQHiker_低端影视",
@@ -421,7 +421,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/低端影视.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/低端影视.json"
     },
     {
       "key": "csp_XYQHiker_看影网",
@@ -431,7 +431,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/看影网.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/看影网.json"
     },
     {
       "key": "csp_XYQHiker_好影快看",
@@ -441,7 +441,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/好影快看.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/好影快看.json"
     },
     {
       "key": "csp_XYQHiker_来看点播",
@@ -451,7 +451,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/来看点播.json"
+      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/来看点播.json"
     },
     {
       "key": "csp_Yj1211",
@@ -478,7 +478,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:04:58"
+      "text": "自动更新于 2026-05-30 05:10:31"
     }
   ],
   "lives": [
@@ -511,7 +511,7 @@
       "name": "Tianmu",
       "type": "0",
       "pass": true,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt",
       "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
       "logo": "https://epg.v1.mk/logo/{name}.png"
     }
@@ -777,5 +777,5 @@
   ],
   "wallpaper": "https://wp.upx8.com/api.php",
   "warningText": "",
-  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/香情线路.jar"
+  "spider": "https://cdn.akaere.online/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/香情线路.jar"
 }

@@ -6,14 +6,14 @@
       "type": 3,
       "timeout": 15,
       "api": "csp_App3Q",
-      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/main/jar/CatVodSpider.jar"
+      "jar": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/main/jar/CatVodSpider.jar"
     },
     {
       "key": "麦田",
       "name": "🌾麦田剧影视",
       "type": 3,
       "api": "csp_AppV6",
-      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/main/jar/CatVodSpider.jar",
+      "jar": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/main/jar/CatVodSpider.jar",
       "ext": "http://172.247.227.203:25321/mtys.php"
     },
     {
@@ -24,7 +24,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "filterable": 0,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/main/py/心跳.py"
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/main/py/心跳.py"
     },
     {
       "key": "七味",
@@ -34,7 +34,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "filterable": 0,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/main/py/七味.py"
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/main/py/七味.py"
     },
     {
       "key": "袋鼠影视(JS)",
@@ -43,7 +43,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/main/js/袋鼠影视.js",
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/main/js/袋鼠影视.js",
       "switchable": 1
     },
     {
@@ -53,7 +53,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/main/js/永乐影视.js",
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/main/js/永乐影视.js",
       "switchable": 1
     },
     {
@@ -72,7 +72,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/main/py/枫叶影院.py",
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/main/py/枫叶影院.py",
       "switchable": 1
     },
     {
@@ -82,7 +82,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/main/py/达达龟影院.py",
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/main/py/达达龟影院.py",
       "switchable": 1
     },
     {
@@ -92,7 +92,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/main/js/247看.js",
+      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/main/js/247看.js",
       "switchable": 1
     },
     {
@@ -494,18 +494,6 @@
       "api": "csp_WebDAVGuard"
     },
     {
-      "key": "MyQuark",
-      "name": "我的夸克",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "api": "csp_MyQuarkGuard",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "MyBaiDu",
       "name": "我的百度",
       "type": 3,
@@ -623,7 +611,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:04:58"
+      "text": "自动更新于 2026-05-30 05:10:31"
     }
   ],
   "lives": [
@@ -639,20 +627,20 @@
     {
       "name": "🦸┃tangTV「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/JunTV/refs/heads/main/output/result.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/JunTV/refs/heads/main/output/result.m3u",
       "playerType": 1
     },
     {
       "name": "🛬┃iptv_api直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/iptv_api/refs/heads/main/output/live_ipv4.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/iptv_api/refs/heads/main/output/live_ipv4.m3u",
       "playerType": 1
     },
     {
       "name": "🐍┃易发港🇭🇰澳「直播」",
       "type": 0,
       "ua": "okhttp/3.15",
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
     },
     {
       "name": "🖨️┃港湾「直播」",
@@ -663,7 +651,7 @@
     {
       "name": "🧊┃全球揾定「華哥TV」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/swhtv/1/refs/heads/main/swtvlive",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/swhtv/1/refs/heads/main/swtvlive",
       "playerType": 1
     },
     {
@@ -754,7 +742,7 @@
       "name": "🐬┃各大源合集「直播」",
       "type": 0,
       "ua": "okhttp/5.3.2",
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/807080747/zv/refs/heads/main/sese.txt"
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/807080747/zv/refs/heads/main/sese.txt"
     },
     {
       "name": "🐬┃综合「直播」",
@@ -766,14 +754,14 @@
     {
       "name": "🐬┃锋哥xTV「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源",
       "playerType": 1
     },
     {
       "name": "🐬┃综合「直播」",
       "type": 0,
       "playerType": 2,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/电视家.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/电视家.m3u",
       "ua": "okhttp"
     },
     {
@@ -836,7 +824,7 @@
     {
       "name": "🔫️┃拾光「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/xmbjm/IPTV/master/output/user_result.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/xmbjm/IPTV/master/output/user_result.m3u",
       "playerType": 1
     },
     {
@@ -854,7 +842,7 @@
     {
       "name": "🔫️┃念心「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/nianxinmj/nxpz/refs/heads/main/lib/live.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/nianxinmj/nxpz/refs/heads/main/lib/live.txt",
       "playerType": 1
     },
     {
@@ -866,7 +854,7 @@
     {
       "name": "🔫️┃月下「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt",
       "playerType": 1
     },
     {
@@ -887,7 +875,7 @@
     {
       "name": "🐻┃Live「直播」",
       "type": 3,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/tvboxlive/main/tv/pllive.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/tvboxlive/main/tv/pllive.txt",
       "ua": "",
       "timeout": 10,
       "playerType": 2
@@ -896,7 +884,7 @@
       "name": "🐍┃港🇭🇰澳「直播」",
       "type": 0,
       "ua": "okhttp",
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u"
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u"
     },
     {
       "name": "🪼┃AnboxTV「直播」",
@@ -925,7 +913,7 @@
     {
       "name": "🪓┃jtv收集「网络直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/网络收集.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/网络收集.txt",
       "playerType": 1
     },
     {
@@ -943,7 +931,7 @@
     {
       "name": "👠┃zilong7728「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u",
       "playerType": 1
     },
     {
@@ -1097,31 +1085,31 @@
     {
       "name": "📟┃小众「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt",
       "playerType": 1
     },
     {
       "name": "🐷┃小众「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/fhtv.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/fhtv.txt",
       "playerType": 1
     },
     {
       "name": "🏯️️┃小众「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/gat.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/gat.txt",
       "playerType": 1
     },
     {
       "name": "🥔┃小众「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/jdlb+.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/jdlb+.txt",
       "playerType": 1
     },
     {
       "name": "🃏️┃小众「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/ycds.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/ycds.txt",
       "playerType": 1
     },
     {
@@ -1129,14 +1117,14 @@
       "type": 0,
       "pass": true,
       "ua": "Goiptv/8.8.8",
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/judy-gotv/iptv/main/logo-smart.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/judy-gotv/iptv/main/logo-smart.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "🎅┃judy-4gtv「梯直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/4gtv.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/4gtv.m3u",
       "ua": "Goiptv/8.8.8",
       "timeout": 10,
       "playerType": 1
@@ -1144,7 +1132,7 @@
     {
       "name": "🪁┃judy-ofiii「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/judy-gotv/iptv/main/ofiii.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/judy-gotv/iptv/main/ofiii.m3u",
       "ua": "Goiptv/8.8.8",
       "timeout": 10,
       "playerType": 1
@@ -1152,7 +1140,7 @@
     {
       "name": "🛥️️┃judy-beesports「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/judy-gotv/iptv/main/beesports.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/judy-gotv/iptv/main/beesports.m3u",
       "ua": "Goiptv/8.8.8",
       "timeout": 10,
       "playerType": 1
@@ -1160,7 +1148,7 @@
     {
       "name": "🔒┃judy-MytvSuper「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/MytvSuper.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/MytvSuper.m3u",
       "ua": "Goiptv/8.8.8",
       "timeout": 10,
       "playerType": 1
@@ -1182,24 +1170,24 @@
     {
       "name": "🀄️┃itv秒播「頻道」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/mzky/checklist/refs/heads/master/itvlist.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/mzky/checklist/refs/heads/master/itvlist.m3u",
       "playerType": 1
     },
     {
       "name": "📠┃咪咕LITV「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/main/my.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/main/my.txt",
       "playerType": 1
     },
     {
       "name": "🐳┃全国咪咕IPTV「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
       "playerType": 1
     },
     {
       "name": "⛴️️┃全国咪咕IPTV「直播」",
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "header": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
         "Referer": "",
@@ -1210,7 +1198,7 @@
     },
     {
       "name": "🚤️️┃Wirili「直播」",
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
       "header": {
         "User-Agent": ""
       }
@@ -1218,7 +1206,7 @@
     {
       "name": "🥋┃中国IPTV直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/mytv-android/myMIGU/refs/heads/main/migu.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/mytv-android/myMIGU/refs/heads/main/migu.m3u",
       "playerType": 1
     },
     {
@@ -1238,55 +1226,55 @@
     {
       "name": "🍬┃jtv采集「自家」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/综合源.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/综合源.txt",
       "playerType": 1
     },
     {
       "name": "🥚┃tang收集「自家」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/1626907/miguevent/refs/heads/main/migu.php",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/1626907/miguevent/refs/heads/main/migu.php",
       "playerType": 1
     },
     {
       "name": "🦀️┃TVsmile「自家」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/TVsmile/refs/heads/main/组播优选.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/TVsmile/refs/heads/main/组播优选.txt",
       "playerType": 1
     },
     {
       "name": "🍈️┃TVsmile「自家」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/TVsmile/refs/heads/main/网络收集.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/TVsmile/refs/heads/main/网络收集.txt",
       "playerType": 1
     },
     {
       "name": "🏀┃cluntop「自家」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/cluntop/refs/heads/main/lib/iptv.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/cluntop/refs/heads/main/lib/iptv.m3u",
       "playerType": 1
     },
     {
       "name": "💻┃极简TV「自家」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/aiyakuaile/easy_tv_live/refs/heads/main/temp",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/aiyakuaile/easy_tv_live/refs/heads/main/temp",
       "playerType": 1
     },
     {
       "name": "🥮┃aTV直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/aTV/refs/heads/master/output/result.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/aTV/refs/heads/master/output/result.m3u",
       "playerType": 1
     },
     {
       "name": "🎲┃xTV直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/refs/heads/main/live/live_ipv4.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/refs/heads/main/live/live_ipv4.m3u",
       "playerType": 1
     },
     {
       "name": "🐬┃TVtime直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/jun-iptv/refs/heads/main/output/result.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/jun-iptv/refs/heads/main/output/result.m3u",
       "playerType": 1
     },
     {
@@ -1322,7 +1310,7 @@
     {
       "name": "🀄️┃Mursor「肥羊直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/aLIVE/refs/heads/main/iptv.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/aLIVE/refs/heads/main/iptv.m3u",
       "ua": "okHttp/Mursor-1.0.0",
       "timeout": 10,
       "playerType": 1
@@ -1390,7 +1378,7 @@
       "type": 0,
       "url": "https://gitee.com/tushaoyong/live/raw/master/接口/电信IPTV.json",
       "ua": "hequan",
-      "epg": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/mytv-android/iptv-api/refs/heads/master/output/epg/epg.gz",
+      "epg": "https://cdn.akaere.online/https://raw.githubusercontent.com/mytv-android/iptv-api/refs/heads/master/output/epg/epg.gz",
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
     {
@@ -1398,13 +1386,13 @@
       "type": 0,
       "url": "https://gitee.com/tushaoyong/live/raw/master/接口/移动IPTV.json",
       "ua": "hequan",
-      "epg": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/mytv-android/iptv-api/refs/heads/master/output/epg/epg.gz",
+      "epg": "https://cdn.akaere.online/https://raw.githubusercontent.com/mytv-android/iptv-api/refs/heads/master/output/epg/epg.gz",
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
     {
       "name": "💰┃ranli直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ranli2023/live/refs/heads/main/live2.json",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/ranli2023/live/refs/heads/main/live2.json",
       "playerType": 1
     },
     {
@@ -1417,7 +1405,7 @@
     {
       "name": "🚎┃Mytv直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/tushen6/xxooo/refs/heads/main/fyzb/ipv6.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/tushen6/xxooo/refs/heads/main/fyzb/ipv6.m3u",
       "playerType": 1
     },
     {
@@ -1429,31 +1417,31 @@
     {
       "name": "🦑┃中央卫视直播3",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/TV_live/refs/heads/main/live.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/TV_live/refs/heads/main/live.txt",
       "playerType": 1
     },
     {
       "name": "🏐┃lxxcp直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/lxxcp/live/refs/heads/main/webview.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/lxxcp/live/refs/heads/main/webview.txt",
       "playerType": 1
     },
     {
       "name": "🥅️️️┃Hotel「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/Hotel_iptv/refs/heads/main/itvlist.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/Hotel_iptv/refs/heads/main/itvlist.txt",
       "playerType": 1
     },
     {
       "name": "🎫┃Hotel「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/Hotel_iptv/refs/heads/main/speed_results.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/Hotel_iptv/refs/heads/main/speed_results.txt",
       "playerType": 1
     },
     {
       "name": "🃏┃酷狗tv",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/fuxinyi0505/Ku9-IPTV-source/refs/heads/main/Ku9-IPTV-source.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/fuxinyi0505/Ku9-IPTV-source/refs/heads/main/Ku9-IPTV-source.txt",
       "playerType": 1
     },
     {
@@ -1471,74 +1459,74 @@
     {
       "name": "🛣️┃IPTV_SuperA直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/IPTV_SuperA/refs/heads/main/output/result.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/IPTV_SuperA/refs/heads/main/output/result.m3u",
       "playerType": 1
     },
     {
       "name": "🍐️️┃IPTV_SuperB直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/IPTV_SuperB/refs/heads/main/output/live_ipv4.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/IPTV_SuperB/refs/heads/main/output/live_ipv4.m3u",
       "playerType": 1
     },
     {
       "name": "🥎┃IPTV_SuperD直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/iptv_SuperD/refs/heads/dist/live.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/iptv_SuperD/refs/heads/dist/live.m3u",
       "playerType": 1
     },
     {
       "name": "🍗️┃Part直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com//alantang1977/Part_1/refs/heads/main/output/live.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com//alantang1977/Part_1/refs/heads/main/output/live.m3u",
       "playerType": 1
     },
     {
       "name": "🐍┃girlTV直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/girl/refs/heads/master/tv/iptv4.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/girl/refs/heads/master/tv/iptv4.m3u",
       "playerType": 1
     },
     {
       "name": "🗻┃time直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/time/refs/heads/main/output/user_result.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/time/refs/heads/main/output/user_result.txt",
       "playerType": 1
     },
     {
       "name": "🥬┃kimwang1978直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx.m3u",
       "playerType": 1
     },
     {
       "name": "🌽️┃A自家源直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/Collect-IPTV/refs/heads/main/mylive.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/Collect-IPTV/refs/heads/main/mylive.m3u",
       "playerType": 1
     },
     {
       "name": "🔗┃Yuanz港·澳·台直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/yuanzl77/refs/heads/main/live.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/yuanzl77/refs/heads/main/live.m3u",
       "playerType": 1
     },
     {
       "name": "🚈┃小众直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/X/refs/heads/main/live/go.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/X/refs/heads/main/live/go.txt",
       "playerType": 1,
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
       "name": "🎮┃IPTV_auto直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/IPTV/main/live_ipv4.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/IPTV/main/live_ipv4.m3u",
       "playerType": 1
     },
     {
       "name": "🧩┃PG直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/pg/refs/heads/main/live.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/pg/refs/heads/main/live.m3u",
       "playerType": 1,
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
@@ -1563,13 +1551,13 @@
     {
       "name": "📞┃vbskycn直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
       "playerType": 1
     },
     {
       "name": "🌳┃Supprise直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
       "playerType": 1
     },
     {
@@ -1581,7 +1569,7 @@
     {
       "name": "🍔┃hostemail直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/hostemail/cdn/main/live/tv.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/hostemail/cdn/main/live/tv.txt",
       "ua": "okhttp/3.15",
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
@@ -1589,31 +1577,31 @@
     {
       "name": "🌱️┃Rivens7頻道",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Rivens7/Livelist/refs/heads/main/IPTV.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Rivens7/Livelist/refs/heads/main/IPTV.m3u",
       "playerType": 1
     },
     {
       "name": "🎱┃pxiptv直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/pxiptv/live/main/iptv.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/pxiptv/live/main/iptv.m3u",
       "playerType": 1
     },
     {
       "name": "🏓┃lalifeier-IPTV直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/lalifeier/IPTV/main/m3u/IPTV.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/lalifeier/IPTV/main/m3u/IPTV.m3u",
       "playerType": 1
     },
     {
       "name": "👑┃big直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
       "playerType": 1
     },
     {
       "name": "⌚┃hipy直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt",
       "playerType": 1
     },
     {
@@ -1626,7 +1614,7 @@
     {
       "name": "🐤┃Guovin直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -1634,31 +1622,31 @@
     {
       "name": "🛸┃CCSH直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u",
       "playerType": 1
     },
     {
       "name": "🌋️┃IPTV-CCSH直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/alantang1977/IPTV-CCSH/refs/heads/main/live.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/alantang1977/IPTV-CCSH/refs/heads/main/live.m3u",
       "playerType": 1
     },
     {
       "name": "🛢️┃ssili126「直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
       "playerType": 1
     },
     {
       "name": "🐮┃ssili126「speed直播」",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ssili126/tv/main/speed_results.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/ssili126/tv/main/speed_results.txt",
       "playerType": 1
     },
     {
       "name": "🎂┃suxuang直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
       "playerType": 1
     },
     {
@@ -1670,13 +1658,13 @@
     {
       "name": "🀄️┃zbefine直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u",
       "playerType": 1
     },
     {
       "name": "🃏️️┃vamoschuck直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/vamoschuck/TV/main/M3U",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/vamoschuck/TV/main/M3U",
       "playerType": 1
     },
     {
@@ -1688,25 +1676,25 @@
     {
       "name": "🥈️┃Free-TV直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
       "playerType": 1
     },
     {
       "name": "🌻┃wwb521粤港澳",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
       "playerType": 1
     },
     {
       "name": "🍡┃Desmond-Dong直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Desmond-Dong/IPTV/refs/heads/main/result.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Desmond-Dong/IPTV/refs/heads/main/result.m3u",
       "playerType": 1
     },
     {
       "name": "🍟┃Kimentanm直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 1
     },
     {
@@ -1722,19 +1710,19 @@
     {
       "name": "🍇️️┃butterfly直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/butterfly202400/dsy/refs/heads/main/ln2403.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/butterfly202400/dsy/refs/heads/main/ln2403.m3u",
       "playerType": 1
     },
     {
       "name": "🧰┃全面直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/Collect.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/Collect.m3u",
       "playerType": 1
     },
     {
       "name": "🚧️️┃全球直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
       "playerType": 1
     },
     {
@@ -1746,19 +1734,19 @@
     {
       "name": "🌷┃fanmingming直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
       "playerType": 1
     },
     {
       "name": "🔋┃范明直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
       "playerType": 1
     },
     {
       "name": "✍️┃qingwen07直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt",
       "playerType": 1
     },
     {
@@ -1816,7 +1804,7 @@
     {
       "name": "🔐┃gshtwy直播",
       "type": 0,
-      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/gshtwy/MyTv/refs/heads/main/MyTv.m3u",
+      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/gshtwy/MyTv/refs/heads/main/MyTv.m3u",
       "playerType": 1
     }
   ],
@@ -2077,5 +2065,5 @@
   ],
   "wallpaper": "https://imgs.catvod.com",
   "warningText": "",
-  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/alantang.jar"
+  "spider": "https://cdn.akaere.online/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/alantang.jar"
 }

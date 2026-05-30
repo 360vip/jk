@@ -497,42 +497,6 @@
       }
     },
     {
-      "key": "夸克",
-      "name": "夸克",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 60,
-      "api": "csp_PanWebShareKK",
-      "ext": {
-        "site": [
-          "https://www.quarktv.cc"
-        ]
-      }
-    },
-    {
-      "key": "夸父",
-      "name": "夸父",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "timeout": 60,
-      "api": "csp_PanWebShareKF",
-      "ext": {
-        "site": [
-          "https://www.kfzys.net"
-        ],
-        "cookie": "bbs_sid=p5mugcm9r147o1d3qpi0su1ucm; bbs_token=gDMAOehNUQetTJv9Lnet0J_2FGJmgdvnx90iTZqzU_2FnO0_3D"
-      },
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      }
-    },
-    {
       "key": "盘它",
       "name": "盘它",
       "type": 3,
@@ -831,16 +795,6 @@
       "api": "csp_DyGod"
     },
     {
-      "key": "盘搜",
-      "name": "盘搜",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "timeout": 60,
-      "api": "csp_PanSou"
-    },
-    {
       "key": "糖果",
       "name": "糖果",
       "type": 3,
@@ -1117,7 +1071,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:04:58"
+      "text": "自动更新于 2026-05-30 05:10:31"
     }
   ],
   "lives": [
@@ -1484,5 +1438,5 @@
   ],
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "warningText": "",
-  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/潇洒改版.jar"
+  "spider": "https://cdn.akaere.online/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/潇洒改版.jar"
 }
