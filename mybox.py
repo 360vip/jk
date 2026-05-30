@@ -224,7 +224,6 @@ class BbtvConverter:
         """增强版：从混乱的JSON中提取完整的sites数组"""
         try:
             # 首先尝试直接匹配sites数组
-            # 使用更宽松的正则
             sites_match = re.search(r'"sites"\s*:\s*\[', content, re.DOTALL)
             if not sites_match:
                 return None
@@ -309,7 +308,6 @@ class BbtvConverter:
                             except:
                                 # 尝试更激进的修复
                                 try:
-                                    # 修复缺少引号的键
                                     obj_str_fixed = re.sub(r'([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', obj_str)
                                     site_obj = json.loads(obj_str_fixed)
                                     if site_obj:
@@ -334,15 +332,12 @@ class BbtvConverter:
                            'headers', 'notice', 'version']
             
             for field in other_fields:
-                # 使用更灵活的正则匹配
                 pattern = r'"' + re.escape(field) + r'"\s*:\s*'
                 field_match = re.search(pattern, content, re.DOTALL)
                 if field_match:
                     field_start = field_match.end()
                     
-                    # 确定值的结束位置
                     if content[field_start] == '"':
-                        # 字符串值
                         end_pos = field_start + 1
                         while end_pos < len(content):
                             if content[end_pos] == '"' and content[end_pos-1] != '\\':
@@ -350,14 +345,12 @@ class BbtvConverter:
                             end_pos += 1
                         field_value = content[field_start:end_pos+1]
                         try:
-                            # 清理字符串值
                             if field_value.startswith('"'):
                                 field_value = field_value[1:-1]
                             result[field] = field_value
                         except:
                             pass
-                    elif content[field_start] == '[' or content[field_start] == '{':
-                        # 数组或对象
+                    elif content[field_start] in ['[', '{']:
                         bracket_count = 1
                         end_pos = field_start + 1
                         bracket_char = content[field_start]
@@ -387,14 +380,46 @@ class BbtvConverter:
             return None
     
     def _normalize_value(self, value):
-        """标准化字段值"""
+        """标准化字段值 - 修复版本，安全处理各种类型"""
+        if value is None:
+            return None
+            
+        # 已经是数字类型，直接返回
+        if isinstance(value, (int, float, bool)):
+            return value
+        
+        # 字符串类型，尝试转换
         if isinstance(value, str):
+            # 空字符串
+            if not value:
+                return None
+            
+            # 尝试转换为整数
             if value.isdigit():
                 return int(value)
-            elif value.replace('.', '').replace('-', '').isdigit() and value.count('.') == 1:
-                return float(value)
+            
+            # 尝试转换为浮点数（必须是有效的数字格式）
+            try:
+                # 检查是否是有效的浮点数格式（只包含数字、小数点、负号）
+                # 排除像 '0-0-4.1' 这样的格式
+                cleaned = value.strip()
+                # 浮点数应该只包含数字、一个小数点、一个可选的负号
+                if cleaned.count('.') <= 1:
+                    # 移除负号后检查是否全是数字和小数点
+                    test_str = cleaned.lstrip('-')
+                    if test_str.replace('.', '').isdigit():
+                        return float(cleaned)
+            except (ValueError, TypeError):
+                pass
+            
+            # 处理 "0" 和 "1" 作为数字（已经处理过了，但保留）
             if value in ['0', '1']:
                 return int(value)
+            
+            # 无法转换，返回原字符串
+            return value
+        
+        # 其他类型，直接返回
         return value
     
     def _is_blacklisted(self, site_name, site_key):
@@ -536,6 +561,7 @@ class BbtvConverter:
             
         site_count = 0
         filtered_sites = []
+        error_count = 0
         total_sites = len(self.source_data["sites"])
         
         print(f"\n🔍 开始处理站点（共{total_sites}个，黑名单关键词{len(self.name_blacklist)}个）...")
@@ -549,6 +575,7 @@ class BbtvConverter:
                 if hasattr(site, '__dict__'):
                     site = site.__dict__
                 else:
+                    error_count += 1
                     continue
             
             site_key = site.get("key", "")
@@ -561,12 +588,14 @@ class BbtvConverter:
                 site_name = site_name.replace('\n', '').replace('\r', '').strip()
             
             if not site_key and not site_name:
+                error_count += 1
                 continue
             
             # 黑名单过滤
             if self._is_blacklisted(site_name, site_key):
                 self.filtered_count += 1
-                filtered_sites.append(f"{site_name} [{site_key}]")
+                if len(filtered_sites) < 10:
+                    filtered_sites.append(f"{site_name} [{site_key}]")
                 continue
             
             cleaned_site = self._clean_site_config(site)
@@ -590,16 +619,19 @@ class BbtvConverter:
                     print(f"    ... 等共 {site_count} 个")
         
         if filtered_sites:
-            print(f"\n  🚫 已过滤黑名单站点 ({len(filtered_sites)}个)")
+            print(f"\n  🚫 已过滤黑名单站点 ({self.filtered_count}个)")
             for i, site in enumerate(filtered_sites[:10], 1):
                 print(f"     {i}. {site[:60]}")
-            if len(filtered_sites) > 10:
-                print(f"     ... 等共 {len(filtered_sites)} 个")
+            if self.filtered_count > 10:
+                print(f"     ... 等共 {self.filtered_count} 个")
+        
+        if error_count > 0:
+            print(f"\n  ⚠️ 跳过 {error_count} 个无效站点")
                 
         print(f"✅ 站点处理完成: 添加{site_count}个，过滤{self.filtered_count}个")
     
     def _clean_site_config(self, site):
-        """清理站点配置"""
+        """清理站点配置 - 修复版本，安全处理字段值"""
         if "key" not in site:
             return None
         
@@ -615,13 +647,15 @@ class BbtvConverter:
             "type": self._normalize_value(site.get("type", 3))
         }
         
-        # 数字字段
+        # 数字字段 - 安全处理
         numeric_fields = ["searchable", "quickSearch", "changeable", "filterable", 
                          "timeout", "playerType", "indexs", "gridview"]
         
         for field in numeric_fields:
             if field in site and site[field] is not None:
-                cleaned[field] = self._normalize_value(site[field])
+                normalized = self._normalize_value(site[field])
+                if normalized is not None:
+                    cleaned[field] = normalized
         
         # 字符串字段
         string_fields = ["api", "jar", "genre", "playurl"]
@@ -661,6 +695,10 @@ class BbtvConverter:
         # 处理 switchable
         if "switchable" in site:
             cleaned["switchable"] = self._normalize_value(site["switchable"])
+        
+        # 处理 gridview（可能是字符串如 "0-0-4.1"）
+        if "gridview" in site and site["gridview"]:
+            cleaned["gridview"] = site["gridview"]
         
         return cleaned
     
