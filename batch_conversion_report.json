@@ -1,5 +1,5 @@
 {
-  "conversion_time": "2026-05-30T03:02:44.799269",
+  "conversion_time": "2026-05-30T03:12:41.990110",
   "description": "批量转换 xl 目录下的所有 JSON/txt 文件到 mybox 目录（站点不限制）",
   "input_directory": "xl",
   "output_directory": "mybox",
