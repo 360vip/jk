@@ -133,9 +133,6 @@ https://gh.noki.icu
 https://github.chenc.dev
 1152 ms
 选择此节点
-https://cdn.akaere.online
-1293 ms
-选择此节点
 https://github-proxy.memory-echoes.cn
 1321 ms
 选择此节点
