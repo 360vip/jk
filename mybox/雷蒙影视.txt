@@ -7,8 +7,8 @@
       "searchable": 0,
       "changeable": 0,
       "api": "csp_Market",
-      "jar": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/market.jar",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/market.json"
+      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/market.jar",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/market.json"
     },
     {
       "key": "csp_FirstAidGuard",
@@ -29,7 +29,7 @@
       "type": 3,
       "searchable": 0,
       "api": "csp_Douban",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/douban.json"
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/douban.json"
     },
     {
       "key": "csp_DouDouGuard",
@@ -45,8 +45,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/豆瓣[官].js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/豆瓣[官].js"
     },
     {
       "key": "csp_YGPGuard",
@@ -83,8 +83,8 @@
       "key": "drjs_荐片",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/荐片.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/荐片.js"
     },
     {
       "key": "csp_Gz360_FM",
@@ -97,8 +97,8 @@
       "key": "drjs_瓜子",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/瓜子影视.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/瓜子影视.js"
     },
     {
       "key": "csp_IkanBot",
@@ -113,8 +113,8 @@
       "key": "drjs_爱看机器人",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/ikanbot2.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/ikanbot2.js"
     },
     {
       "key": "csp_T4Guard_光影",
@@ -893,7 +893,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_CandyMuj_freeok",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/freeok.json"
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/freeok.json"
     },
     {
       "key": "csp_CandyMuj_hjtv",
@@ -912,7 +912,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_CandyMuj_netflixgc",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/netflixgc.json"
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/netflixgc.json"
     },
     {
       "key": "csp_CandyMuj_dyls",
@@ -922,7 +922,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_CandyMuj_dyls",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/dyls.json"
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/dyls.json"
     },
     {
       "key": "csp_CandyMuj_haokongbu",
@@ -991,29 +991,29 @@
       "key": "drjs_优酷[官]",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/优酷[官].js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/优酷[官].js"
     },
     {
       "key": "drjs_百忙无果[官]",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/百忙无果[官].js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/百忙无果[官].js"
     },
     {
       "key": "drjs_奇珍异兽[官]",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/奇珍异兽[官].js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/奇珍异兽[官].js"
     },
     {
       "key": "drjs_腾云驾雾[官]",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/腾云驾雾[官].js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/js/腾云驾雾[官].js"
     },
     {
       "key": "push_agent",
@@ -1023,7 +1023,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "api": "csp_PushGuard",
-      "jar": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/pg.jar",
+      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/pg.jar",
       "ext": "http://127.0.0.1:9978/file/ctv/pg.json"
     },
     {
@@ -1034,7 +1034,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "api": "csp_Push",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/t.txt"
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/t.txt"
     },
     {
       "key": "csp_AList",
@@ -1042,7 +1042,7 @@
       "type": 3,
       "searchable": 1,
       "api": "csp_AList",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/a.json"
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/T/a.json"
     },
     {
       "key": "py_火花_APP",
@@ -1051,7 +1051,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "ext": {
         "host": "http://huohua.itcxo.cn",
         "ver": "2"
@@ -1064,7 +1064,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "ext": {
         "host": "http://nico.oiio.fun",
         "ver": "2"
@@ -1077,7 +1077,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "ext": {
         "host": "http://103.117.137.33:2443",
         "ver": "2"
@@ -1090,7 +1090,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "ext": {
         "host": "http://app.hktvyb.cc",
         "ver": "2"
@@ -1103,7 +1103,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "ext": {
         "host": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/yzysapp.json",
         "ver": "2"
@@ -1116,7 +1116,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/appfox.py",
       "ext": {
         "host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/fox.json",
         "ver": "2"
@@ -1129,7 +1129,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "ext": {
         "host": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/600.txt"
       }
@@ -1141,7 +1141,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "ext": {
         "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q18.txt"
       }
@@ -1153,7 +1153,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "ext": {
         "host": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt"
       }
@@ -1165,7 +1165,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "ext": {
         "host": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt"
       }
@@ -1177,7 +1177,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/qijiapp.py",
       "ext": {
         "host": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt"
       }
@@ -1189,7 +1189,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://cmm.jindou11.top"
       }
@@ -1201,7 +1201,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://444421.xyz"
       }
@@ -1213,7 +1213,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://cms140.yhg.one/"
       }
@@ -1225,7 +1225,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://yd4kcms.yd4k.top"
       }
@@ -1237,7 +1237,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt"
       }
@@ -1249,7 +1249,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://app.95112475.xyz"
       }
@@ -1261,7 +1261,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://mk1080.top/get.txt"
       }
@@ -1273,7 +1273,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt"
       }
@@ -1285,7 +1285,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://bind.315999.xyz/89.txt"
       }
@@ -1297,7 +1297,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt"
       }
@@ -1309,7 +1309,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://fyys9.fytd.top/1.txt"
       }
@@ -1321,7 +1321,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://99.jl8.top/1.txt"
       }
@@ -1333,7 +1333,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://wsapi.dafenqi.mom/yuming.txt"
       }
@@ -1345,7 +1345,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://uutu.efjhl.cn"
       }
@@ -1357,7 +1357,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "http://app1-0-0.87333.cc"
       }
@@ -1369,7 +1369,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "http://www.zjcvod.com"
       }
@@ -1381,7 +1381,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "http://tv.yy-fun.cc"
       }
@@ -1393,7 +1393,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://www.yunwuee.icu"
       }
@@ -1405,7 +1405,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://www.cyfz.vip"
       }
@@ -1417,7 +1417,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://new.app.bytegooty.com"
       }
@@ -1429,7 +1429,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://app.omofun1.top"
       }
@@ -1441,7 +1441,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/getapp.py",
       "ext": {
         "host": "https://www.gugu3.com"
       }
@@ -1450,355 +1450,355 @@
       "key": "py_CliCli",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/CliCli动漫APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/CliCli动漫APP.py"
     },
     {
       "key": "py_HiTV",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/hitvAPP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/hitvAPP.py"
     },
     {
       "key": "py_MiFun",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/MiFunAPP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/MiFunAPP.py"
     },
     {
       "key": "py_热播",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/热播APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/热播APP.py"
     },
     {
       "key": "py_海马",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/海马影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/海马影视APP.py"
     },
     {
       "key": "py_奇迹",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/奇迹APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/奇迹APP.py"
     },
     {
       "key": "py_零度",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/零度影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/零度影视APP.py"
     },
     {
       "key": "py_外剧",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/国外剧APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/国外剧APP.py"
     },
     {
       "key": "py_爱瓜",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/爱瓜TVAPP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/爱瓜TVAPP.py"
     },
     {
       "key": "py_边缘",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/边缘影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/边缘影视APP.py"
     },
     {
       "key": "py_光速",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/光速APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/光速APP.py"
     },
     {
       "key": "py_火车",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/火车太顺APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/火车太顺APP.py"
     },
     {
       "key": "py_剧多",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/剧多短剧APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/剧多短剧APP.py"
     },
     {
       "key": "py_恋鱼",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/恋鱼影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/恋鱼影视APP.py"
     },
     {
       "key": "py_美帕",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/美帕APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/美帕APP.py"
     },
     {
       "key": "py_魔方",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/魔方影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/魔方影视APP.py"
     },
     {
       "key": "py_胖虎",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/胖虎APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/胖虎APP.py"
     },
     {
       "key": "py_皮虾",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/皮皮虾APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/皮皮虾APP.py"
     },
     {
       "key": "py_若惜",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/若惜追剧APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/若惜追剧APP.py"
     },
     {
       "key": "py_三号",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/三号动漫APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/三号动漫APP.py"
     },
     {
       "key": "py_视觉",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/视觉APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/视觉APP.py"
     },
     {
       "key": "py_哇哇",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/哇哇APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/哇哇APP.py"
     },
     {
       "key": "py_苹果",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/小苹果APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/小苹果APP.py"
     },
     {
       "key": "py_悠悠",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/悠悠APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/悠悠APP.py"
     },
     {
       "key": "py_云端",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云端APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云端APP.py"
     },
     {
       "key": "py_云速",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云速影视APP.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/app/云速影视APP.py"
     },
     {
       "key": "py_爱听音乐",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱听音乐.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱听音乐.py"
     },
     {
       "key": "py_飞快TV",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/飞快TV.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/飞快TV.py"
     },
     {
       "key": "py_redflix",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/redflix.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/redflix.py"
     },
     {
       "key": "py_456movie",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/456movie.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/456movie.py"
     },
     {
       "key": "py_LREEOK",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LREEOK.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LREEOK.py"
     },
     {
       "key": "py_4KAV",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/4KAV.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/4KAV.py"
     },
     {
       "key": "py_NUNFLIX",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/NUNFLIX.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/NUNFLIX.py"
     },
     {
       "key": "py_荐片",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/荐片.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/荐片.py"
     },
     {
       "key": "py_厂长",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/厂长资源.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/厂长资源.py"
     },
     {
       "key": "py_明月",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/明月影院.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/明月影院.py"
     },
     {
       "key": "py_壹帆",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱壹帆.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱壹帆.py"
     },
     {
       "key": "py_泥视",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/泥视频.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/泥视频.py"
     },
     {
       "key": "py_想看",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/想看影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/想看影视.py"
     },
     {
       "key": "py_追星",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/追星影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/追星影视.py"
     },
     {
       "key": "py_猎手",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/电影猎手.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/电影猎手.py"
     },
     {
       "key": "py_柯南",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/柯南影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/柯南影视.py"
     },
     {
       "key": "py_骚火",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/骚火电影.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/骚火电影.py"
     },
     {
       "key": "py_剧粑",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧粑粑.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧粑粑.py"
     },
     {
       "key": "py_小红",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/小红影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/小红影视.py"
     },
     {
       "key": "py_旺旺",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/旺旺.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/旺旺.py"
     },
     {
       "key": "py_绝对",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/绝对影视.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/绝对影视.py"
     },
     {
       "key": "py_星芽",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/星芽短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/星芽短剧.py"
     },
     {
       "key": "py_剧王",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧王短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/剧王短剧.py"
     },
     {
       "key": "py_爱看",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱看短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/爱看短剧.py"
     },
     {
       "key": "py_锦鲤",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/锦鲤短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/锦鲤短剧.py"
     },
     {
       "key": "py_河马",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/河马短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/河马短剧.py"
     },
     {
       "key": "py_偷乐",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/偷乐短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/偷乐短剧.py"
     },
     {
       "key": "py_好帅",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/好帅短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/好帅短剧.py"
     },
     {
       "key": "py_红果",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/红果网页.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/红果网页.py"
     },
     {
       "key": "py_甜圈",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/甜圈短剧.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/甜圈短剧.py"
     },
     {
       "key": "py_嗷呜",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/嗷呜动漫.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/嗷呜动漫.py"
     },
     {
       "key": "py_柠檬",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LIVES.py"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/PY/html/LIVES.py"
     },
     {
       "key": "js_火猫",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
       "ext": {
         "host": "https://jp5.ggtvb.cc",
         "package": "cc.xzsc.user"
@@ -1808,7 +1808,7 @@
       "key": "js_星影",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
       "ext": {
         "host": "http://110.81.153.7:8081",
         "package": "com.asxkkc.jbz"
@@ -1818,7 +1818,7 @@
       "key": "js_回响",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/appnox.min.js",
       "ext": {
         "host": "http://110.42.37.69:8080",
         "package": "com.recall.app"
@@ -2385,7 +2385,7 @@
       "filterable": 1,
       "timeout": 60,
       "api": "csp_Guazi",
-      "jar": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/pg.jar"
+      "jar": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/N3RD/J/pg.jar"
     },
     {
       "key": "csp_Mp4Mov_XYQ",
@@ -2533,15 +2533,15 @@
       "key": "drjs_6V新版[磁]",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/6V新版[磁].js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/6V新版[磁].js"
     },
     {
       "key": "drjs_磁力熊[磁]",
       "name": "雷蒙影视",
       "type": 3,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/磁力熊[磁].js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/磁力熊[磁].js"
     },
     {
       "key": "drjs_dygang_PG",
@@ -2551,8 +2551,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/dygang.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/dygang.js"
     },
     {
       "key": "drjs_mp4us_PG",
@@ -2562,8 +2562,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/mp4us.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/mp4us.js"
     },
     {
       "key": "drjs_kuba_PG",
@@ -2573,8 +2573,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/kuba.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/kuba.js"
     },
     {
       "key": "drjs_jiyingw_PG",
@@ -2584,8 +2584,8 @@
       "quickSearch": 0,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/jiyingw.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/jiyingw.js"
     },
     {
       "key": "drjs_4khdr_PG",
@@ -2595,8 +2595,8 @@
       "quickSearch": 0,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/4khdr.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/4khdr.js"
     },
     {
       "key": "drjs_meijumi_PG",
@@ -2606,8 +2606,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/meijumi.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/meijumi.js"
     },
     {
       "key": "drjs_xzys_PG",
@@ -2617,8 +2617,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/xzys.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/xzys.js"
     },
     {
       "key": "drjs_dydhhy_PG",
@@ -2628,8 +2628,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/dydhhy.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/dydhhy.js"
     },
     {
       "key": "drjs_yyets_PG",
@@ -2639,8 +2639,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/yyets.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/yyets.js"
     },
     {
       "key": "drjs_libvio_PG",
@@ -2650,8 +2650,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/libvio.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/libvio.js"
     },
     {
       "key": "drjs_ddyspg_PG",
@@ -2661,8 +2661,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/ddyspg.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/ddyspg.js"
     },
     {
       "key": "drjs_97tvs_PG",
@@ -2672,8 +2672,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/97tvs.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/97tvs.js"
     },
     {
       "key": "drjs_meow_PG",
@@ -2683,8 +2683,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/meow.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/meow.js"
     },
     {
       "key": "drjs_qimiao_PG",
@@ -2694,8 +2694,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/qimiao.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/qimiao.js"
     },
     {
       "key": "drjs_rrdyw_PG",
@@ -2705,8 +2705,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "playerType": 1,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/rrdyw.js"
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/JS/rrdyw.js"
     }
   ],
   "version": [
@@ -2714,7 +2714,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:10:31"
+      "text": "自动更新于 2026-05-30 05:22:37"
     }
   ],
   "lives": [
@@ -2730,20 +2730,20 @@
     {
       "name": "雷蒙影视宣传片",
       "type": 0,
-      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt",
       "ua": "okhttp/3.15",
-      "logo": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png"
+      "logo": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/ICON1.png"
     },
     {
       "name": "直播",
       "type": 0,
-      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 2
     },
     {
       "name": "咪咕",
       "type": 0,
-      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2758,7 +2758,7 @@
     {
       "name": "雷蒙影视电视直播",
       "type": 0,
-      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2766,7 +2766,7 @@
     {
       "name": "雷蒙影视轻量直播",
       "type": 0,
-      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2774,7 +2774,7 @@
     {
       "name": "WEB直播",
       "type": 0,
-      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/LIVE/web.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/refs/heads/master/JN/EXT/LIVE/web.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2814,7 +2814,7 @@
     {
       "name": "YOUTUBE直播",
       "type": 0,
-      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTTV.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTTV.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -3120,5 +3120,5 @@
   ],
   "wallpaper": "https://pic.850930.xyz/",
   "warningText": "",
-  "spider": "https://cdn.akaere.online/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/雷蒙影视.jar"
+  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/雷蒙影视.jar"
 }

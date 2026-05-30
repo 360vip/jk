@@ -162,7 +162,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XYQHiker",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/农民影视.json"
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/农民影视.json"
     },
     {
       "key": "片吧",
@@ -504,7 +504,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:10:31"
+      "text": "自动更新于 2026-05-30 05:22:38"
     }
   ],
   "lives": [
@@ -944,5 +944,5 @@
   ],
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "warningText": "",
-  "spider": "https://cdn.akaere.online/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/南风线路.jar"
+  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/南风线路.jar"
 }

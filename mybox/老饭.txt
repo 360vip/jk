@@ -391,8 +391,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "api": "https://cdn.akaere.online/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/api/drpy2.min.js",
-      "ext": "https://cdn.akaere.online/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/js/兔小贝.js",
+      "api": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/api/drpy2.min.js",
+      "ext": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/js/兔小贝.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -486,7 +486,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:10:31"
+      "text": "自动更新于 2026-05-30 05:22:37"
     }
   ],
   "lives": [
@@ -502,7 +502,7 @@
     {
       "name": "develop202",
       "type": 0,
-      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -510,7 +510,7 @@
     {
       "name": "Kimentanm",
       "type": 0,
-      "url": "https://cdn.akaere.online/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "url": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 2
     },
     {
@@ -751,5 +751,5 @@
   "ads": [],
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "warningText": "",
-  "spider": "https://cdn.akaere.online/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/老饭.jar"
+  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/老饭.jar"
 }

@@ -1071,7 +1071,7 @@
       "number": "1.0.0",
       "url": "",
       "type": 0,
-      "text": "自动更新于 2026-05-30 05:10:31"
+      "text": "自动更新于 2026-05-30 05:22:37"
     }
   ],
   "lives": [
@@ -1438,5 +1438,5 @@
   ],
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "warningText": "",
-  "spider": "https://cdn.akaere.online/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/潇洒改版.jar"
+  "spider": "https://ghp.arslantu.xyz/https://raw.githubusercontent.com/360vip/jk/main/tvbox/jar/潇洒改版.jar"
 }
