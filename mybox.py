@@ -657,24 +657,19 @@ class BbtvConverter:
                 if normalized is not None:
                     cleaned[field] = normalized
         
-        # 字符串字段（包括 api 字段）
+        # 字符串字段
         string_fields = ["api", "jar", "genre", "playurl"]
         for field in string_fields:
             if field in site and site[field] is not None:
                 val = site[field]
                 if isinstance(val, str):
                     val = val.replace('\n', '').replace('\r', '').strip()
-                    # 替换 GitHub 原始链接为代理链接
-                    val = self._replace_github_raw_url(val)
                 cleaned[field] = val
         
         # 处理 ext 字段
         if "ext" in site and site["ext"] is not None:
             cleaned_ext = self._clean_ext_config(site["ext"])
             if cleaned_ext:
-                # 如果是字符串，也替换 GitHub 链接
-                if isinstance(cleaned_ext, str):
-                    cleaned_ext = self._replace_github_raw_url(cleaned_ext)
                 cleaned["ext"] = cleaned_ext
         
         # 处理 style 字段
@@ -707,34 +702,17 @@ class BbtvConverter:
         
         return cleaned
     
-    def _replace_github_raw_url(self, url):
-        """替换 GitHub raw 链接为代理链接"""
-        if not isinstance(url, str):
-            return url
-        
-        # 匹配 GitHub raw 链接
-        raw_pattern = r'https?://raw\.githubusercontent\.com/([^"\'\s]+)'
-        
-        def replace_with_proxy(match):
-            original_path = match.group(1)
-            # 使用 gh.jasonzeng.dev 代理
-            return f"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/{original_path}"
-        
-        return re.sub(raw_pattern, replace_with_proxy, url)
-    
     def _clean_site_name(self, name, site_key):
-        """清理站点名称 - 保留原始名称，只移除换行符和多余空格"""
+        """清理站点名称 - 保留原始名称中的所有内容，只移除换行符和多余空格"""
         if not isinstance(name, str):
             return site_key
         
         # 只移除换行符、回车符和多余空格，完全保留原始内容
+        # 包括表情符号、装饰字符、分隔符等全部保留
         name = name.replace('\n', ' ').replace('\r', ' ').strip()
         
-        # 合并多个空格为一个空格
+        # 合并多个空格为一个空格（但保留其他所有字符）
         name = re.sub(r'\s+', ' ', name)
-        
-        # 完全移除所有分隔符处理逻辑，保留完整的原始名称
-        # 包括 |、【】、┃ 等所有字符都保留
         
         # 如果清理后为空，使用站点key作为备选
         if not name or len(name.strip()) == 0:
@@ -775,11 +753,7 @@ class BbtvConverter:
             
             for field in allowed_fields:
                 if field in ext and ext[field] is not None:
-                    # 如果是字符串 URL，也替换 GitHub 链接
-                    value = ext[field]
-                    if isinstance(value, str):
-                        value = self._replace_github_raw_url(value)
-                    cleaned_ext[field] = value
+                    cleaned_ext[field] = ext[field]
             
             return cleaned_ext if cleaned_ext else None
         
