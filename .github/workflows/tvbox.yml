@@ -77,15 +77,15 @@ jobs:
         rm -rf /tmp/private-repo
         echo "私有仓库文件复制完成"
         
-    - name: 运行 tvbox_tools.py
+    - name: 更新 tvbox 接口
       run: |
         python tvbox_tools.py
         
-    - name: 运行 dl.py (proxy updater)
+    - name: 检测代理失效
       run: |
         python dl.py
         
-    - name: 运行 mybox.py
+    - name: 运行 接口格式标准化转换
       run: |
         python mybox.py
         
