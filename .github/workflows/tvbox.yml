@@ -28,7 +28,6 @@ jobs:
         mkdir -p data
         mkdir -p proxy
         mkdir -p tvbox/jar
-        mkdir -p jk
         mkdir -p xl
         echo "目录创建完成"
         
@@ -129,44 +128,44 @@ jobs:
         cd /
         rm -rf /tmp/push-repo
         
-    - name: 推送 jk 目录到私有仓库
+    - name: 推送 xl 目录到私有仓库
       run: |
-        if [ ! -d "jk" ]; then
-          echo "警告: jk 目录不存在，跳过推送"
+        if [ ! -d "xl" ]; then
+          echo "警告: xl 目录不存在，跳过推送"
           exit 0
         fi
         
-        echo "开始推送 jk 目录到私有仓库..."
+        echo "开始推送xl 目录到私有仓库..."
         
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-jk
         
         # 确保目标目录存在
-        mkdir -p /tmp/push-repo-jk/jk
+        mkdir -p /tmp/push-repo-jk/xl
         
         # 复制 jk 目录内容
-        cp -r jk/* /tmp/push-repo-jk/jk/ 2>/dev/null || echo "jk 目录为空"
+        cp -r xl/* /tmp/push-repo-jk/xl/ 2>/dev/null || echo "xl 目录为空"
         
-        cd /tmp/push-repo-jk
+        cd /tmp/push-repo-xl
         
         # 配置 git 用户信息
         git config user.name "github-actions"
         git config user.email "github-actions@users.noreply.github.com"
         
         # 添加文件
-        git add jk/
+        git add xl/
         
         # 检查变更并提交
         if git diff --cached --quiet; then
-          echo "jk 目录没有变更需要提交"
+          echo "xl 目录没有变更需要提交"
         else
           git commit -m "自动更新 jk 目录 - $(date '+%Y-%m-%d %H:%M:%S')"
           git push origin main
-          echo "jk 目录已成功推送到私有仓库"
+          echo "xl 目录已成功推送到私有仓库"
         fi
         
         cd /
-        rm -rf /tmp/push-repo-jk
+        rm -rf /tmp/push-repo-xl
         
     - name: 本地推送 tvbox/jar 目录
       run: |
