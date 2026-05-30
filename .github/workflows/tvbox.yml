@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - 'data/url.txt'
 
 jobs:
   update:
@@ -32,6 +29,7 @@ jobs:
         mkdir -p proxy
         mkdir -p tvbox/jar
         mkdir -p jk
+        mkdir -p xl
         echo "目录创建完成"
         
     - name: 从私有仓库克隆并复制文件
