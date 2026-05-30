@@ -640,7 +640,7 @@ class BbtvConverter:
         if isinstance(site_name, str):
             site_name = site_name.replace('\n', '').replace('\r', '').strip()
         
-        # 基础字段
+        # 基础字段（不再清理表情符号和装饰字符）
         cleaned = {
             "key": site_key,
             "name": self._clean_site_name(site_name, site_key),
@@ -703,37 +703,17 @@ class BbtvConverter:
         return cleaned
     
     def _clean_site_name(self, name, site_key):
-        """清理站点名称"""
+        """清理站点名称 - 仅移除换行符和基本空白，保留表情符号和装饰字符"""
         if not isinstance(name, str):
             return site_key
         
-        # 移除表情符号和装饰字符
-        patterns = [
-            r'[🐮🐷🐸🐙🐨🐒🐑🐘🐪🦒🦘🦙🦚🦜🦢🦩🦔🐿️🦫🦡]',
-            r'[🐡🐠🐟🐬🐳🐋🦈🦭🐊🐅🐆🦓🦍🦧🦣🐘🦛🦏🐫]',
-            r'[🌈🔥⭐✨🌟💫💥💢💤💦💧💨💩]',
-            r'[🎨🎯🎲🎳🎴🎵🎶🎷🎸🎹🎺🎻]',
-            r'[📱📲📺📻📷📸📹🎥]',
-            r'[🔫🔪💣🧨🪓🚗🚕🚙🚌🚎🏎️🚓🚑🚒🚐🚚🚛🚜]',
-            r'[🏍️🛵🛺🚲✈️🚀🛸🚁🛶⛵🚤🛥️🛳️⚓🔱]',
-            r'[💝💖💗💓💞💕💟❣️💔]',
-            r'[🐲❤🛸🥷🧸💥🎇🎎🅱️🦸🧸🐼🐧🎃🍋🦌🚀☀⚽🎬🎭📺]',
-            r'[☁️⭐📦🧩🔗🎬🌍📡🎉🔍🛴🐙🔥⚙️🧩]',
-            r'[⬇️🆙🔝💪👈👉👆👇]',
-            r'[🐱🎸🛸🐙]',
-            r'┃', r'【.*?】', r'\|.*?\|', r'\-.*?\-', r'公众号.*?',
-            r'限自用测试勿传播贩卖', r'🚀┃|🐼┃|🐷┃|🍄┃|🐧┃|👽┃|🌉┃|🐶┃',
-            r'┃$', r'^国内-|^海外-',
-        ]
+        # 只移除换行符、回车符和多余空格
+        name = name.replace('\n', ' ').replace('\r', ' ').strip()
         
-        for pattern in patterns:
-            name = re.sub(pattern, '', name)
-        
-        # 移除多余空格
+        # 移除多余空格（多个空格合并为一个）
         name = re.sub(r'\s+', ' ', name)
-        name = name.replace('｜', '|').strip()
         
-        # 处理分隔符
+        # 处理分隔符（但保留原字符，不删除表情符号）
         if '|' in name:
             parts = name.split('|')
             for part in parts:
@@ -752,7 +732,7 @@ class BbtvConverter:
                 name = site_key
         
         # 限制长度
-        name = name.strip()[:50]
+        name = name.strip()[:100]  # 增加长度限制，保留更多原始字符
         
         # 确保非空
         if not name:
