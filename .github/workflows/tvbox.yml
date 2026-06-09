@@ -1,6 +1,6 @@
 name: TVBox Config Update
 
-于:
+on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
@@ -88,7 +88,7 @@ jobs:
       run: |
         python tvbox_tools.py
         
-    - name: 检测代理
+    - name: 代理检测速度
       run: |
         python dl.py
         
