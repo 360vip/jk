@@ -116,7 +116,7 @@ jobs:
       run: |
         python mybox.py
         
-    - name: 运行 jkmz.py
+    - name: 运行接口名字修改
       run: |
         if [ -f "jkmz.py" ]; then
           python jkmz.py
