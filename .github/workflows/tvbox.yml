@@ -33,6 +33,7 @@ jobs:
         mkdir -p datamz
         mkdir -p myjk
         mkdir -p bbjk
+        mkdir -p mybox
         echo "目录创建完成"
         
     - name: 从私有仓库克隆并复制文件
@@ -100,6 +101,14 @@ jobs:
           echo "警告: datamz 目录不存在"
         fi
 
+        # 复制 mybox 目录所有文件
+        if [ -d "/tmp/private-repo/mybox" ]; then
+          cp -r /tmp/private-repo/mybox/* ./mybox/ 2>/dev/null || echo "mybox 目录为空"
+          echo "mybox 目录文件已复制"
+        else
+          echo "警告: mybox 目录不存在"
+        fi
+
         # 清理临时目录
         rm -rf /tmp/private-repo
         echo "私有仓库文件复制完成"
@@ -116,11 +125,11 @@ jobs:
       run: |
         python mybox.py
         
-    - name: 运行接口名字修改
+    - name: 运行 修改接口名字
       run: |
         if [ -f "jkmz.py" ]; then
           python jkmz.py
-          echo "jkmz.py 运行完成"
+          echo "修改接口名字运行完成"
         else
           echo "警告: jkmz.py 不存在，跳过运行"
         fi
