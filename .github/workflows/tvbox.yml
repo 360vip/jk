@@ -101,22 +101,6 @@ jobs:
           echo "警告: datamz 目录不存在"
         fi
 
-        # 复制 mybox 目录所有文件
-        if [ -d "/tmp/private-repo/mybox" ]; then
-          cp -r /tmp/private-repo/mybox/* ./mybox/ 2>/dev/null || echo "mybox 目录为空"
-          echo "mybox 目录文件已复制"
-        else
-          echo "警告: mybox 目录不存在"
-        fi
-
-        # 复制 jiemi 目录所有文件到 mybox 目录
-        if [ -d "/tmp/private-repo/jiemi" ]; then
-          cp -r /tmp/private-repo/jiemi/* ./mybox/ 2>/dev/null || echo "jiemi 目录为空"
-          echo "jiemi 目录文件已复制到 mybox 目录"
-        else
-          echo "警告: jiemi 目录不存在"
-        fi
-
         # 清理临时目录
         rm -rf /tmp/private-repo
         echo "私有仓库文件复制完成"
