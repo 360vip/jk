@@ -138,8 +138,13 @@ jobs:
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo
         
-        # 确保目标目录存在
-        mkdir -p /tmp/push-repo/mybox
+        # 清空目标目录
+        if [ -d "/tmp/push-repo/mybox" ]; then
+          rm -rf /tmp/push-repo/mybox/*
+          echo "已清空 /tmp/push-repo/mybox 目录"
+        else
+          mkdir -p /tmp/push-repo/mybox
+        fi
         
         # 复制 mybox 目录内容
         cp -r mybox/* /tmp/push-repo/mybox/ 2>/dev/null || echo "mybox 目录为空"
@@ -177,8 +182,13 @@ jobs:
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-xl
         
-        # 确保目标目录存在
-        mkdir -p /tmp/push-repo-xl/xl
+        # 清空目标目录
+        if [ -d "/tmp/push-repo-xl/xl" ]; then
+          rm -rf /tmp/push-repo-xl/xl/*
+          echo "已清空 /tmp/push-repo-xl/xl 目录"
+        else
+          mkdir -p /tmp/push-repo-xl/xl
+        fi
         
         # 复制 xl 目录内容
         cp -r xl/* /tmp/push-repo-xl/xl/ 2>/dev/null || echo "xl 目录为空"
@@ -216,8 +226,13 @@ jobs:
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-jiemi
         
-        # 确保目标目录存在
-        mkdir -p /tmp/push-repo-jiemi/jiemi
+        # 清空目标目录
+        if [ -d "/tmp/push-repo-jiemi/jiemi" ]; then
+          rm -rf /tmp/push-repo-jiemi/jiemi/*
+          echo "已清空 /tmp/push-repo-jiemi/jiemi 目录"
+        else
+          mkdir -p /tmp/push-repo-jiemi/jiemi
+        fi
         
         # 复制 jiemi 目录内容
         cp -r jiemi/* /tmp/push-repo-jiemi/jiemi/ 2>/dev/null || echo "jiemi 目录为空"
@@ -255,8 +270,13 @@ jobs:
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-myjk
         
-        # 确保目标目录存在
-        mkdir -p /tmp/push-repo-myjk/myjk
+        # 清空目标目录
+        if [ -d "/tmp/push-repo-myjk/myjk" ]; then
+          rm -rf /tmp/push-repo-myjk/myjk/*
+          echo "已清空 /tmp/push-repo-myjk/myjk 目录"
+        else
+          mkdir -p /tmp/push-repo-myjk/myjk
+        fi
         
         # 复制 myjk 目录内容
         cp -r myjk/* /tmp/push-repo-myjk/myjk/ 2>/dev/null || echo "myjk 目录为空"
@@ -294,8 +314,13 @@ jobs:
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-bbjk
         
-        # 确保目标目录存在
-        mkdir -p /tmp/push-repo-bbjk/bbjk
+        # 清空目标目录
+        if [ -d "/tmp/push-repo-bbjk/bbjk" ]; then
+          rm -rf /tmp/push-repo-bbjk/bbjk/*
+          echo "已清空 /tmp/push-repo-bbjk/bbjk 目录"
+        else
+          mkdir -p /tmp/push-repo-bbjk/bbjk
+        fi
         
         # 复制 bbjk 目录内容
         cp -r bbjk/* /tmp/push-repo-bbjk/bbjk/ 2>/dev/null || echo "bbjk 目录为空"
