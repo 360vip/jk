@@ -133,11 +133,11 @@ jobs:
       run: |
         python mybox.py
         
-    - name: 运行 jkmz.py
+    - name: 运行 接口名字修改
       run: |
         if [ -f "jkmz.py" ]; then
           python jkmz.py
-          echo "jkmz.py 运行完成"
+          echo "接口名字修改 运行完成"
         else
           echo "警告: jkmz.py 不存在，跳过运行"
         fi
