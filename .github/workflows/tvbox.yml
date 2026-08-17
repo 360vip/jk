@@ -30,6 +30,9 @@ jobs:
         mkdir -p tvbox/jar
         mkdir -p xl
         mkdir -p jiemi
+        mkdir -p datamz
+        mkdir -p myjk
+        mkdir -p bbjk
         echo "目录创建完成"
         
     - name: 从私有仓库克隆并复制文件
@@ -59,6 +62,14 @@ jobs:
           echo "警告: dl.py 不存在"
         fi
         
+        # 复制 jkmz.py 脚本
+        if [ -f "/tmp/private-repo/toolspy/jkmz.py" ]; then
+          cp /tmp/private-repo/toolspy/jkmz.py .
+          echo "jkmz.py 已复制"
+        else
+          echo "警告: toolspy/jkmz.py 不存在"
+        fi
+        
         # 复制数据文件
         if [ -f "/tmp/private-repo/data/url.txt" ]; then
           cp /tmp/private-repo/data/url.txt ./data/
@@ -81,6 +92,14 @@ jobs:
           echo "警告: data/hmd.txt 不存在"
         fi
 
+        # 复制 datamz 目录所有文件
+        if [ -d "/tmp/private-repo/datamz" ]; then
+          cp -r /tmp/private-repo/datamz/* ./datamz/ 2>/dev/null || echo "datamz 目录为空"
+          echo "datamz 目录文件已复制"
+        else
+          echo "警告: datamz 目录不存在"
+        fi
+
         # 清理临时目录
         rm -rf /tmp/private-repo
         echo "私有仓库文件复制完成"
@@ -96,6 +115,15 @@ jobs:
     - name: 运行 接口格式标准化转换
       run: |
         python mybox.py
+        
+    - name: 运行 jkmz.py
+      run: |
+        if [ -f "jkmz.py" ]; then
+          python jkmz.py
+          echo "jkmz.py 运行完成"
+        else
+          echo "警告: jkmz.py 不存在，跳过运行"
+        fi
         
     - name: 推送 mybox 目录到私有仓库
       run: |
@@ -213,6 +241,84 @@ jobs:
         
         cd /
         rm -rf /tmp/push-repo-jiemi
+
+    - name: 推送 myjk 目录到私有仓库
+      run: |
+        if [ ! -d "myjk" ]; then
+          echo "警告: myjk 目录不存在，跳过推送"
+          exit 0
+        fi
+        
+        echo "开始推送 myjk 目录到私有仓库..."
+        
+        # 克隆私有仓库
+        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-myjk
+        
+        # 确保目标目录存在
+        mkdir -p /tmp/push-repo-myjk/myjk
+        
+        # 复制 myjk 目录内容
+        cp -r myjk/* /tmp/push-repo-myjk/myjk/ 2>/dev/null || echo "myjk 目录为空"
+        
+        cd /tmp/push-repo-myjk
+        
+        # 配置 git 用户信息
+        git config user.name "github-actions"
+        git config user.email "github-actions@users.noreply.github.com"
+        
+        # 添加文件
+        git add myjk/
+        
+        # 检查变更并提交
+        if git diff --cached --quiet; then
+          echo "myjk 目录没有变更需要提交"
+        else
+          git commit -m "自动更新 myjk 目录 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin main
+          echo "myjk 目录已成功推送到私有仓库"
+        fi
+        
+        cd /
+        rm -rf /tmp/push-repo-myjk
+
+    - name: 推送 bbjk 目录到私有仓库
+      run: |
+        if [ ! -d "bbjk" ]; then
+          echo "警告: bbjk 目录不存在，跳过推送"
+          exit 0
+        fi
+        
+        echo "开始推送 bbjk 目录到私有仓库..."
+        
+        # 克隆私有仓库
+        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-bbjk
+        
+        # 确保目标目录存在
+        mkdir -p /tmp/push-repo-bbjk/bbjk
+        
+        # 复制 bbjk 目录内容
+        cp -r bbjk/* /tmp/push-repo-bbjk/bbjk/ 2>/dev/null || echo "bbjk 目录为空"
+        
+        cd /tmp/push-repo-bbjk
+        
+        # 配置 git 用户信息
+        git config user.name "github-actions"
+        git config user.email "github-actions@users.noreply.github.com"
+        
+        # 添加文件
+        git add bbjk/
+        
+        # 检查变更并提交
+        if git diff --cached --quiet; then
+          echo "bbjk 目录没有变更需要提交"
+        else
+          git commit -m "自动更新 bbjk 目录 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin main
+          echo "bbjk 目录已成功推送到私有仓库"
+        fi
+        
+        cd /
+        rm -rf /tmp/push-repo-bbjk
         
     - name: 本地推送 tvbox/jar 目录
       run: |
