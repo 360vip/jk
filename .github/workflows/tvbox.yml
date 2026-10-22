@@ -7,7 +7,7 @@ on:
 
 jobs:
   update:
-    # 锁定到 Ubuntu 24.04，避免 ubuntu-latest 迁移到 Ubuntu 26 带来的不确定性
+    # 锁定到 Ubuntu 24.04，避免 ubuntu-latest 迁移到 Ubuntu 26 带来的环境不确定性
     runs-on: ubuntu-24.04
 
     steps:
@@ -41,8 +41,8 @@ jobs:
 
     - name: 从私有仓库克隆并复制文件
       run: |
-        # 克隆私有仓库
-        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/private-repo
+        # 使用 x-access-token:TOKEN 标准认证格式克隆私有仓库，避免非交互环境用户名提示错误
+        git clone https://x-access-token:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/private-repo
 
         # 复制 Python 脚本文件
         if [ -f "/tmp/private-repo/toolspy/tvbox_tools.py" ]; then
@@ -138,8 +138,8 @@ jobs:
 
         echo "开始推送 mybox 目录到私有仓库..."
 
-        # 克隆私有仓库
-        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo
+        # 使用标准认证格式克隆私有仓库
+        git clone https://x-access-token:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo
 
         # 清空目标目录
         if [ -d "/tmp/push-repo/mybox" ]; then
@@ -182,8 +182,8 @@ jobs:
 
         echo "开始推送 xl 目录到私有仓库..."
 
-        # 克隆私有仓库
-        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-xl
+        # 使用标准认证格式克隆私有仓库
+        git clone https://x-access-token:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-xl
 
         # 清空目标目录
         if [ -d "/tmp/push-repo-xl/xl" ]; then
@@ -226,8 +226,8 @@ jobs:
 
         echo "开始推送 jiemi 目录到私有仓库..."
 
-        # 克隆私有仓库
-        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-jiemi
+        # 使用标准认证格式克隆私有仓库
+        git clone https://x-access-token:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-jiemi
 
         # 清空目标目录
         if [ -d "/tmp/push-repo-jiemi/jiemi" ]; then
@@ -270,8 +270,8 @@ jobs:
 
         echo "开始推送 myjk 目录到私有仓库..."
 
-        # 克隆私有仓库
-        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-myjk
+        # 使用标准认证格式克隆私有仓库
+        git clone https://x-access-token:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-myjk
 
         # 清空目标目录
         if [ -d "/tmp/push-repo-myjk/myjk" ]; then
@@ -314,8 +314,8 @@ jobs:
 
         echo "开始推送 bbjk 目录到私有仓库..."
 
-        # 克隆私有仓库
-        git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-bbjk
+        # 使用标准认证格式克隆私有仓库
+        git clone https://x-access-token:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-bbjk
 
         # 清空目标目录
         if [ -d "/tmp/push-repo-bbjk/bbjk" ]; then
