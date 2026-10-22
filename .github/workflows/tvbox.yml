@@ -7,22 +7,25 @@ on:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
-    
+    # 锁定到 Ubuntu 24.04，避免 ubuntu-latest 迁移到 Ubuntu 26 带来的不确定性
+    runs-on: ubuntu-24.04
+
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
-      
+      # 升级到支持 Node.js 24 的版本，避免 Node.js 20 弃用警告
+      uses: actions/checkout@v5
+
     - name: Set up Python
-      uses: actions/setup-python@v4
+      # 升级到支持 Node.js 24 的版本，避免 Node.js 20 弃用警告
+      uses: actions/setup-python@v6
       with:
         python-version: '3.9'
-        
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests gitpython beautifulsoup4 html5lib chardet pycryptodome
-        
+
     - name: 创建必要目录
       run: |
         mkdir -p data
@@ -35,12 +38,12 @@ jobs:
         mkdir -p bbjk
         mkdir -p mybox
         echo "目录创建完成"
-        
+
     - name: 从私有仓库克隆并复制文件
       run: |
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/private-repo
-        
+
         # 复制 Python 脚本文件
         if [ -f "/tmp/private-repo/toolspy/tvbox_tools.py" ]; then
           cp /tmp/private-repo/toolspy/tvbox_tools.py .
@@ -48,21 +51,21 @@ jobs:
         else
           echo "警告: tvbox_tools.py 不存在"
         fi
-        
+
         if [ -f "/tmp/private-repo/toolspy/mybox.py" ]; then
           cp /tmp/private-repo/toolspy/mybox.py .
           echo "mybox.py 已复制"
         else
           echo "警告: mybox.py 不存在"
         fi
-        
+
         if [ -f "/tmp/private-repo/proxy/dl.py" ]; then
           cp /tmp/private-repo/proxy/dl.py .
           echo "dl.py 已复制"
         else
           echo "警告: dl.py 不存在"
         fi
-        
+
         # 复制 jkmz.py 脚本
         if [ -f "/tmp/private-repo/toolspy/jkmz.py" ]; then
           cp /tmp/private-repo/toolspy/jkmz.py .
@@ -70,7 +73,7 @@ jobs:
         else
           echo "警告: toolspy/jkmz.py 不存在"
         fi
-        
+
         # 复制数据文件
         if [ -f "/tmp/private-repo/data/url.txt" ]; then
           cp /tmp/private-repo/data/url.txt ./data/
@@ -78,14 +81,14 @@ jobs:
         else
           echo "警告: data/url.txt 不存在"
         fi
-        
+
         if [ -f "/tmp/private-repo/proxy/url.txt" ]; then
           cp /tmp/private-repo/proxy/url.txt ./proxy/
           echo "url.txt 已复制到 proxy 目录"
         else
           echo "警告: proxy/url.txt 不存在"
         fi
-        
+
         if [ -f "/tmp/private-repo/data/hmd.txt" ]; then
           cp /tmp/private-repo/data/hmd.txt ./data/
           echo "hmd.txt 已复制到 data 目录"
@@ -104,19 +107,19 @@ jobs:
         # 清理临时目录
         rm -rf /tmp/private-repo
         echo "私有仓库文件复制完成"
-        
+
     - name: 更新 tvbox 接口
       run: |
         python tvbox_tools.py
-        
+
     - name: 代理检测速度
       run: |
         python dl.py
-        
+
     - name: 运行 接口格式标准化转换
       run: |
         python mybox.py
-        
+
     - name: 运行 接口名字修改
       run: |
         if [ -f "jkmz.py" ]; then
@@ -125,19 +128,19 @@ jobs:
         else
           echo "警告: jkmz.py 不存在，跳过运行"
         fi
-        
+
     - name: 推送 mybox 目录到私有仓库
       run: |
         if [ ! -d "mybox" ]; then
           echo "警告: mybox 目录不存在，跳过推送"
           exit 0
         fi
-        
+
         echo "开始推送 mybox 目录到私有仓库..."
-        
+
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo
-        
+
         # 清空目标目录
         if [ -d "/tmp/push-repo/mybox" ]; then
           rm -rf /tmp/push-repo/mybox/*
@@ -145,19 +148,19 @@ jobs:
         else
           mkdir -p /tmp/push-repo/mybox
         fi
-        
+
         # 复制 mybox 目录内容
         cp -r mybox/* /tmp/push-repo/mybox/ 2>/dev/null || echo "mybox 目录为空"
-        
+
         cd /tmp/push-repo
-        
+
         # 配置 git 用户信息
         git config user.name "github-actions"
         git config user.email "github-actions@users.noreply.github.com"
-        
+
         # 添加文件
         git add mybox/
-        
+
         # 检查变更并提交
         if git diff --cached --quiet; then
           echo "mybox 目录没有变更需要提交"
@@ -166,22 +169,22 @@ jobs:
           git push origin main
           echo "mybox 目录已成功推送到私有仓库"
         fi
-        
+
         cd /
         rm -rf /tmp/push-repo
-        
+
     - name: 推送 xl 目录到私有仓库
       run: |
         if [ ! -d "xl" ]; then
           echo "警告: xl 目录不存在，跳过推送"
           exit 0
         fi
-        
+
         echo "开始推送 xl 目录到私有仓库..."
-        
+
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-xl
-        
+
         # 清空目标目录
         if [ -d "/tmp/push-repo-xl/xl" ]; then
           rm -rf /tmp/push-repo-xl/xl/*
@@ -189,19 +192,19 @@ jobs:
         else
           mkdir -p /tmp/push-repo-xl/xl
         fi
-        
+
         # 复制 xl 目录内容
         cp -r xl/* /tmp/push-repo-xl/xl/ 2>/dev/null || echo "xl 目录为空"
-        
+
         cd /tmp/push-repo-xl
-        
+
         # 配置 git 用户信息
         git config user.name "github-actions"
         git config user.email "github-actions@users.noreply.github.com"
-        
+
         # 添加文件
         git add xl/
-        
+
         # 检查变更并提交
         if git diff --cached --quiet; then
           echo "xl 目录没有变更需要提交"
@@ -210,7 +213,7 @@ jobs:
           git push origin main
           echo "xl 目录已成功推送到私有仓库"
         fi
-        
+
         cd /
         rm -rf /tmp/push-repo-xl
 
@@ -220,12 +223,12 @@ jobs:
           echo "警告: jiemi 目录不存在，跳过推送"
           exit 0
         fi
-        
+
         echo "开始推送 jiemi 目录到私有仓库..."
-        
+
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-jiemi
-        
+
         # 清空目标目录
         if [ -d "/tmp/push-repo-jiemi/jiemi" ]; then
           rm -rf /tmp/push-repo-jiemi/jiemi/*
@@ -233,19 +236,19 @@ jobs:
         else
           mkdir -p /tmp/push-repo-jiemi/jiemi
         fi
-        
+
         # 复制 jiemi 目录内容
         cp -r jiemi/* /tmp/push-repo-jiemi/jiemi/ 2>/dev/null || echo "jiemi 目录为空"
-        
+
         cd /tmp/push-repo-jiemi
-        
+
         # 配置 git 用户信息
         git config user.name "github-actions"
         git config user.email "github-actions@users.noreply.github.com"
-        
+
         # 添加文件
         git add jiemi/
-        
+
         # 检查变更并提交
         if git diff --cached --quiet; then
           echo "jiemi 目录没有变更需要提交"
@@ -254,7 +257,7 @@ jobs:
           git push origin main
           echo "jiemi 目录已成功推送到私有仓库"
         fi
-        
+
         cd /
         rm -rf /tmp/push-repo-jiemi
 
@@ -264,12 +267,12 @@ jobs:
           echo "警告: myjk 目录不存在，跳过推送"
           exit 0
         fi
-        
+
         echo "开始推送 myjk 目录到私有仓库..."
-        
+
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-myjk
-        
+
         # 清空目标目录
         if [ -d "/tmp/push-repo-myjk/myjk" ]; then
           rm -rf /tmp/push-repo-myjk/myjk/*
@@ -277,19 +280,19 @@ jobs:
         else
           mkdir -p /tmp/push-repo-myjk/myjk
         fi
-        
+
         # 复制 myjk 目录内容
         cp -r myjk/* /tmp/push-repo-myjk/myjk/ 2>/dev/null || echo "myjk 目录为空"
-        
+
         cd /tmp/push-repo-myjk
-        
+
         # 配置 git 用户信息
         git config user.name "github-actions"
         git config user.email "github-actions@users.noreply.github.com"
-        
+
         # 添加文件
         git add myjk/
-        
+
         # 检查变更并提交
         if git diff --cached --quiet; then
           echo "myjk 目录没有变更需要提交"
@@ -298,7 +301,7 @@ jobs:
           git push origin main
           echo "myjk 目录已成功推送到私有仓库"
         fi
-        
+
         cd /
         rm -rf /tmp/push-repo-myjk
 
@@ -308,12 +311,12 @@ jobs:
           echo "警告: bbjk 目录不存在，跳过推送"
           exit 0
         fi
-        
+
         echo "开始推送 bbjk 目录到私有仓库..."
-        
+
         # 克隆私有仓库
         git clone https://${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/360vip/my.git /tmp/push-repo-bbjk
-        
+
         # 清空目标目录
         if [ -d "/tmp/push-repo-bbjk/bbjk" ]; then
           rm -rf /tmp/push-repo-bbjk/bbjk/*
@@ -321,19 +324,19 @@ jobs:
         else
           mkdir -p /tmp/push-repo-bbjk/bbjk
         fi
-        
+
         # 复制 bbjk 目录内容
         cp -r bbjk/* /tmp/push-repo-bbjk/bbjk/ 2>/dev/null || echo "bbjk 目录为空"
-        
+
         cd /tmp/push-repo-bbjk
-        
+
         # 配置 git 用户信息
         git config user.name "github-actions"
         git config user.email "github-actions@users.noreply.github.com"
-        
+
         # 添加文件
         git add bbjk/
-        
+
         # 检查变更并提交
         if git diff --cached --quiet; then
           echo "bbjk 目录没有变更需要提交"
@@ -342,24 +345,24 @@ jobs:
           git push origin main
           echo "bbjk 目录已成功推送到私有仓库"
         fi
-        
+
         cd /
         rm -rf /tmp/push-repo-bbjk
-        
+
     - name: 本地推送 tvbox/jar 目录
       run: |
         if [ ! -d "tvbox/jar" ]; then
           echo "警告: tvbox/jar 目录不存在，跳过推送"
           exit 0
         fi
-        
+
         # 配置 git
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        
+
         # 只添加 tvbox/jar 目录
         git add tvbox/jar/
-        
+
         # 检查是否有变更
         if git diff --cached --quiet; then
           echo "tvbox/jar 目录没有变更需要提交"
